@@ -1,11 +1,4 @@
-Year,"Odd/
-Even",Branch,Sem,"Responce
-Count","Term
-Start","Term
-End","Subject
-Code","Subject
-ShortFrom",Subject FullName,"Faculty
-Initial",Faculty Name,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12
+Year,"Odd_Even",Branch,Sem,"Responce_Count","Term_Start","Term_End","Subject_Code","Subject_ShortForm",Subject_FullName,"Faculty_Initial",Faculty_Name,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12
 2023,Odd,EC,5,5,27/07/23,16/12/23,4300021,E&S,Entrepreneurship and Start-ups,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
 2023,Odd,EC,5,5,27/07/23,16/12/23,4300021,E&S,Entrepreneurship and Start-ups,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
 2023,Odd,EC,5,5,27/07/23,16/12/23,4300021,E&S,Entrepreneurship and Start-ups,SPJ,Mr. S P Joshiara,5,5,5,5,4,5,5,4,5,5,5,5
@@ -135,7 +128,7 @@ Initial",Faculty Name,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,1,1,4,3,3,4,3,4,5,5,5,4
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
-2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,,4,4,5,5,5,4,4,4,4,4,5
+2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,4,4,4,5,5,5,4,4,4,4,4,5
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333204,DBMS,Database Management System,MKP,Ms. M K Pedhadiya,2,1,3,4,5,3,4,5,5,4,4,5
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333205,OSA,Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
 2023,Odd,ICT,3,14,10/08/23,30/12/23,1333205,OSA,Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
