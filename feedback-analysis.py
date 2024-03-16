@@ -1,5 +1,6 @@
 import csv
 from collections import defaultdict
+from datetime import datetime
 
 def calculate_average(scores):
     return sum(scores) / len(scores)
@@ -79,40 +80,64 @@ def analyze_feedback(file_path):
 
 def generate_markdown_report(analysis_result, data, output_file):
     with open(output_file, 'w') as file:
-        for category, category_data in analysis_result.items():
-            file.write(f"## {category}\n\n")
-            if isinstance(category_data, dict):
-                for item, item_data in category_data.items():
-                    file.write(f"### {item}\n\n")
-                    if isinstance(item_data, dict):
-                        for metric, value in item_data.items():
-                            if isinstance(value, list):
-                                file.write(f"- {metric}: {', '.join(map(lambda x: f'{x:.2f}', value))}\n")
-                            elif isinstance(value, float):
-                                file.write(f"- {metric}: {value:.2f}\n")
-                    else:
-                        file.write(f"{item_data}\n\n")
-            else:
-                file.write(f"{category_data}\n\n")
+        file.write("# Student Feedback Analysis Report\n\n")
+        file.write("## EC Dept, Government Polytechnic Palanpur\n\n")
 
-        file.write("## Branch Rating Details\n\n")
+        current_date = datetime.now().strftime("%B %d, %Y")
+        file.write(f"*Generated on: {current_date}*\n\n")
+
+        file.write("\n### Analysis Tables\n\n")
+
+        file.write("#### Branch Analysis\n\n")
+        file.write("| Branch | Overall Average |\n")
+        file.write("|--------|----------------|\n")
+        for branch, branch_data in analysis_result['Branch Analysis'].items():
+            file.write(f"| {branch} | {branch_data['Overall average']:.2f} |\n")
+
+        file.write("\n#### Semester Analysis\n\n")
+        file.write("| Semester | Branch | Overall Average |\n")
+        file.write("|----------|--------|----------------|\n")
+        for semester, semester_data in analysis_result['Semester Analysis'].items():
+            branch = semester.split('(')[1].split(')')[0]
+            file.write(f"| {semester} | {branch} | {semester_data['Overall average']:.2f} |\n")
+
+        file.write("\n#### Subject Analysis\n\n")
+        file.write("| Subject | Overall Average |\n")
+        file.write("|---------|----------------|\n")
+        for subject, subject_data in analysis_result['Subject Analysis'].items():
+            file.write(f"| {subject} | {subject_data['Overall average']:.2f} |\n")
+
+        file.write("\n#### Faculty Analysis\n\n")
+        file.write("| Faculty | Overall Average |\n")
+        file.write("|---------|----------------|\n")
+        for faculty, faculty_data in analysis_result['Faculty Analysis'].items():
+            file.write(f"| {faculty} | {faculty_data['Overall average']:.2f} |\n")
+
+        file.write("\n#### Faculty-Subject Analysis\n\n")
+        file.write("| Faculty | Subject | Average |\n")
+        file.write("|---------|---------|--------|\n")
+        for faculty, faculty_data in analysis_result['Faculty Analysis'].items():
+            for subject, rating in faculty_data['Subjects'].items():
+                file.write(f"| {faculty} | {subject} | {rating:.2f} |\n")
+
+        file.write("### Branch Rating Details\n\n")
         for term in data:
             for branch in data[term]:
-                file.write(f"{branch}: {analysis_result['Branch Analysis'][branch]['Overall average']:.2f}\n")
-                file.write(f"- {term} Term: {analysis_result['Branch Analysis'][branch]['Overall average']:.2f}\n")
+                file.write(f"- {branch}: {analysis_result['Branch Analysis'][branch]['Overall average']:.2f}\n")
+                file.write(f"  - {term} Term: {analysis_result['Branch Analysis'][branch]['Overall average']:.2f}\n")
                 for semester in data[term][branch]:
-                    file.write(f"  - Sem{semester} ({branch}): {analysis_result['Semester Analysis'][f'Sem {semester} ({branch})']['Overall average']:.2f}\n")
+                    file.write(f"    - Sem{semester} ({branch}): {analysis_result['Semester Analysis'][f'Sem {semester} ({branch})']['Overall average']:.2f}\n")
                     for subject in data[term][branch][semester]:
-                        file.write(f"    - {subject}: {analysis_result['Subject Analysis'][subject]['Overall average']:.2f}\n")
+                        file.write(f"      - {subject}: {analysis_result['Subject Analysis'][subject]['Overall average']:.2f}\n")
                         for faculty in data[term][branch][semester][subject]:
                             scores = data[term][branch][semester][subject][faculty]
-                            file.write(f"      - {faculty}: {calculate_average([s for sub_scores in scores for s in sub_scores]):.2f}\n")
+                            file.write(f"        - {faculty}: {calculate_average([s for sub_scores in scores for s in sub_scores]):.2f}\n")
 
-        file.write("\n## Faculty Rating Details\n\n")
+        file.write("\n### Faculty Rating Details\n\n")
         for faculty, faculty_data in analysis_result['Faculty Analysis'].items():
-            file.write(f"{faculty}: {faculty_data['Overall average']:.2f}\n")
+            file.write(f"- {faculty}: {faculty_data['Overall average']:.2f}\n")
             for subject, rating in faculty_data['Subjects'].items():
-                file.write(f"- {subject}: {rating:.2f}\n")
+                file.write(f"  - {subject}: {rating:.2f}\n")
 
 # Usage
 file_path = 'Odd_2023.csv'
