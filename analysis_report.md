@@ -139,6 +139,9 @@
 | ICT | 3.73 |
 | IT | 4.19 |
 
+![Branch Analysis](branch_analysis.png)
+
+
 #### Semester Analysis
 
 | Semester | Branch | Overall Average |
@@ -149,6 +152,9 @@
 | Sem 3 (ICT) | ICT | 4.30 |
 | Sem 1 (ICT) | ICT | 3.56 |
 | Sem 1 (IT) | IT | 4.19 |
+
+![Semester Analysis](semester_analysis.png)
+
 
 #### Subject Analysis
 
@@ -182,6 +188,9 @@
 | SWD (4311603) | 4.36 |
 | IIS (4311602) | 4.02 |
 
+![Subject Analysis](subject_analysis.png)
+
+
 #### Faculty Analysis
 
 | Faculty | Overall Average |
@@ -195,6 +204,9 @@
 | Mr. S J Chauhan | 4.28 |
 | Mr. N J Chauhan | 4.08 |
 | Mr. M J Vadhwania | 3.15 |
+
+![Faculty Analysis](faculty_analysis.png)
+
 
 #### Faculty-Subject Analysis
 
@@ -304,6 +316,9 @@
 | ICT | 3.73 | 3.63 | 3.74 | 3.76 | 3.72 | 3.74 | 3.75 | 3.72 | 3.73 | 3.71 | 3.73 | 3.78 |
 | IT | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
 
+![Parameter-wise Branch Analysis](parameter_branch_analysis.png)
+
+
 #### Parameter-wise Semester Analysis
 
 | Semester | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
@@ -314,6 +329,9 @@
 | Sem 3 (ICT) | 4.13 | 3.97 | 4.26 | 4.37 | 4.39 | 4.23 | 4.36 | 4.31 | 4.34 | 4.40 | 4.36 | 4.47 |
 | Sem 1 (ICT) | 3.61 | 3.53 | 3.59 | 3.58 | 3.53 | 3.60 | 3.57 | 3.55 | 3.55 | 3.51 | 3.55 | 3.57 |
 | Sem 1 (IT) | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
+
+![Parameter-wise Semester Analysis](parameter_semester_analysis.png)
+
 
 #### Parameter-wise Subject Analysis
 
@@ -347,6 +365,9 @@
 | SWD (4311603) | 4.30 | 4.30 | 4.52 | 4.43 | 4.17 | 4.52 | 4.43 | 4.35 | 4.35 | 4.22 | 4.39 | 4.35 |
 | IIS (4311602) | 4.12 | 4.01 | 3.99 | 4.07 | 4.00 | 4.14 | 4.09 | 4.06 | 3.99 | 3.94 | 3.93 | 3.94 |
 
+![Parameter-wise Subject Analysis](parameter_subject_analysis.png)
+
+
 #### Parameter-wise Faculty Analysis
 
 | Faculty | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
@@ -360,3 +381,6 @@
 | Mr. S J Chauhan | 4.32 | 3.77 | 4.23 | 4.41 | 4.41 | 4.32 | 4.36 | 4.32 | 4.18 | 4.27 | 4.32 | 4.45 |
 | Mr. N J Chauhan | 4.08 | 4.04 | 3.99 | 4.07 | 4.08 | 4.09 | 4.19 | 4.15 | 4.09 | 4.08 | 4.00 | 4.08 |
 | Mr. M J Vadhwania | 3.66 | 3.28 | 3.21 | 3.14 | 3.10 | 3.24 | 3.21 | 3.21 | 2.93 | 3.03 | 2.86 | 2.90 |
+
+![Parameter-wise Faculty Analysis](parameter_faculty_analysis.png)
+
