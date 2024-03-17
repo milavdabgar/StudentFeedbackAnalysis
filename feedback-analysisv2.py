@@ -120,7 +120,8 @@ def generate_charts(analysis_result, output_dir):
             plt.tight_layout()
             plt.savefig(os.path.join(output_dir, f'parameter_{category.lower()}_{param}.png'))
             plt.close()
-
+            
+            
 def generate_markdown_report(analysis_result, output_file, chart_dir):
     with open(output_file, 'w') as file:
         file.write("# Student Feedback Analysis Report\n\n")
@@ -128,6 +129,27 @@ def generate_markdown_report(analysis_result, output_file, chart_dir):
 
         current_date = datetime.now().strftime("%B %d, %Y")
         file.write(f"*Generated on: {current_date}*\n\n")
+
+        file.write("### Rating Scale\n\n")
+        file.write("- **1 - Very Poor**\n")
+        file.write("- **2 - Poor**\n")
+        file.write("- **3 - Average**\n")
+        file.write("- **4 - Good**\n")
+        file.write("- **5 - Very Good**\n\n")
+
+        file.write("### Assessment Parameters\n\n")
+        file.write("- **Q1 Syllabus Coverage:** Has the Teacher covered entire Syllabus as prescribed by University/ College/ Board?  (શિક્ષક યુનિવર્સિટી/કૉલેજ / બોર્ડ દ્વારા સૂચિત અભ્યાસક્રમ સંપૂર્ણ આવરી લે છે ?)\n")
+        file.write("- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus (શું શિક્ષક અભ્યાસક્રમ સુસંગત બહારના વિષયો આવરી લે છે?)\n")
+        file.write("- **Q3 Pace of Teaching:** Pace on which contents were covered ( કોર્સ આવરી લેવાની ગતિ)\n")
+        file.write("- **Q4 Practical Demo:** Support for the development of Students' skill (વિદ્યાર્થીઓના કૌશલ્યના વિકાસ માટે સપોર્ટ) Practical demonstration (પ્રેક્ટીકલ નિદર્શન)\n")
+        file.write("- **Q5 Hands-on Training:** Support for the development of Students' skill (વિદ્યાર્થીઓના કૌશલ્યના વિકાસ માટે સપોર્ટ) Hands-on training\n")
+        file.write("- **Q6 Technical Skills of Teacher:** Effectiveness of Teacher in terms of: Technical content/course content (ટેકનિકલ સામગ્રી / કોર્સ સામગ્રી)\n")
+        file.write("- **Q7 Communication Skills of Teacher:** Effectiveness of Teacher in terms of: Communication skills (પ્રત્યાયન કૌશલ્ય)\n")
+        file.write("- **Q8 Doubt Clarification:** Clarity of expectations of students (વિદ્યાર્થીઓની અપેક્ષાઓની સ્પષ્ટતા)\n")
+        file.write("- **Q9 Use of Teaching Tools:** Effectiveness of Teacher in terms of: Use of teaching aids (શિક્ષણ માટે સહાયક સાધનોનો ઉપયોગ)\n")
+        file.write("- **Q10 Motivation:** Motivation and inspiration for students to learn (વિદ્યાર્થીઓને શીખવા માટે પ્રોત્સાહન અને પ્રેરણા)\n")
+        file.write("- **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students (વિદ્યાર્થીઓને મદદ અને સલાહ આપવા માટેની ઇચ્છા.)\n")
+        file.write("- **Q12 Student Progress Feedback:** Feedback provided on Students' progress (વિદ્યાર્થીઓની પ્રગતિ પર પ્રતિભાવ આપ્યો છે)\n\n")            
 
         file.write("### Year-Term Analysis\n\n")
         for year_term, data in analysis_result['Year-Term Analysis'].items():
