@@ -4,162 +4,33 @@
 
 *Generated on: March 17, 2024*
 
-### Branch Rating Details
+### Year-Term Analysis
 
-- EC: 4.56
-  - Odd Term: 4.56
-    - Sem5 (EC): 4.99
-      - E&S (4300021): 4.97
-        - Mr. S P Joshiara: 4.97
-      - ES (4351102): 5.00
-        - Ms. M K Pedhadiya: 5.00
-      - MWR (4351103): 4.98
-        - Mr. R C Parmar: 4.98
-      - M&WC (4351104): 5.00
-        - Mr. L K Patel: 5.00
-      - SP (4351105): 5.00
-        - Mr. R N Patel: 5.00
-      - OPP (4351108): 5.00
-        - Mr. L K Patel: 5.00
-      - PR1 (4351107): 5.00
-        - Mr. M J Dabgar: 5.00
-    - Sem3 (EC): 4.26
-      - ECN (4331101): 4.52
-        - Mr. R N Patel: 4.52
-      - EMI (4331102): 3.78
-        - Mr. S P Joshiara: 3.78
-      - IE (4331103): 4.19
-        - Mr. R C Parmar: 4.19
-      - PEC (4331104): 4.61
-        - Mr. S J Chauhan: 4.61
-      - PC (4331105): 4.19
-        - Ms. M K Pedhadiya: 4.19
-    - Sem1 (EC): 4.35
-      - FE (4311102): 4.92
-        - Mr. L K Patel: 4.92
-      - FEE (4311101): 4.94
-        - Mr. N J Chauhan: 4.94
-      - BICT (4300010): 3.93
-        - Mr. R N Patel: 4.67
-        - Mr. M J Vadhwania: 3.19
-      - S&Y (4300015): 4.29
-        - Mr. M J Vadhwania: 4.03
-- ICT: 3.73
-  - Odd Term: 3.73
-    - Sem3 (ICT): 4.30
-      - CE (1333201): 4.09
-        - Mr. S J Chauhan: 4.09
-      - MPMC (1333202): 4.15
-        - Mr. N J Chauhan: 4.15
-      - DSA (1333203): 4.33
-        - Mr. M J Dabgar: 4.33
-      - DBMS (1333204): 4.35
-        - Ms. M K Pedhadiya: 4.35
-      - OSA (1333205): 4.58
-        - Mr. L K Patel: 4.58
-    - Sem1 (ICT): 3.56
-      - EEE (1313202): 3.94
-        - Mr. R N Patel: 3.94
-      - WDP (1313203): 3.64
-        - Ms. M K Pedhadiya: 3.82
-        - Mr. R C Parmar: 3.47
-      - FICT (1313201): 3.40
-        - Mr. S P Joshiara: 3.14
-        - Mr. R N Patel: 3.65
-      - S&Y (4300015): 4.29
-        - Mr. N J Chauhan: 3.75
-        - Mr. S P Joshiara: 3.16
-- IT: 4.19
-  - Odd Term: 4.19
-    - Sem1 (IT): 4.19
-      - PP (4311601): 4.43
-        - Mr. M J Dabgar: 4.43
-      - SWD (4311603): 4.36
-        - Mr. R C Parmar: 4.36
-      - IIS (4311602): 4.02
-        - Mr. L K Patel: 4.63
-        - Mr. M J Vadhwania: 3.03
-        - Mr. N J Chauhan: 4.41
-      - S&Y (4300015): 4.29
-        - Mr. S P Joshiara: 4.29
+#### Odd - 2023
 
-### Faculty Rating Details
+| Branch - Semester | Average Score |
+|-------------------|---------------|
+| EC - Sem 5 | 5.00 |
+| EC - Sem 3 | 4.19 |
+| EC - Sem 1 | 4.03 |
+| ICT - Sem 3 | 4.58 |
+| ICT - Sem 1 | 3.16 |
+| IT - Sem 1 | 4.29 |
 
-- Mr. S P Joshiara: 3.54
-  - E&S (4300021): 4.97
-  - EMI (4331102): 3.78
-  - FICT (1313201): 3.14
-  - S&Y (4300015): 4.29
-- Ms. M K Pedhadiya: 4.08
-  - ES (4351102): 5.00
-  - PC (4331105): 4.19
-  - DBMS (1333204): 4.35
-  - WDP (1313203): 3.82
-- Mr. R C Parmar: 3.95
-  - MWR (4351103): 4.98
-  - IE (4331103): 4.19
-  - WDP (1313203): 3.47
-  - SWD (4311603): 4.36
-- Mr. L K Patel: 4.71
-  - M&WC (4351104): 5.00
-  - OPP (4351108): 5.00
-  - FE (4311102): 4.92
-  - OSA (1333205): 4.58
-  - IIS (4311602): 4.63
-- Mr. R N Patel: 3.97
-  - SP (4351105): 5.00
-  - ECN (4331101): 4.52
-  - BICT (4300010): 4.67
-  - EEE (1313202): 3.94
-  - FICT (1313201): 3.65
-- Mr. M J Dabgar: 4.46
-  - PR1 (4351107): 5.00
-  - DSA (1333203): 4.33
-  - PP (4311601): 4.43
-- Mr. S J Chauhan: 4.28
-  - PEC (4331104): 4.61
-  - CE (1333201): 4.09
-- Mr. N J Chauhan: 4.08
-  - FEE (4311101): 4.94
-  - MPMC (1333202): 4.15
-  - S&Y (4300015): 3.75
-  - IIS (4311602): 4.41
-- Mr. M J Vadhwania: 3.15
-  - BICT (4300010): 3.19
-  - S&Y (4300015): 4.03
-  - IIS (4311602): 3.03
+### Branch Analysis
 
-### Analysis Tables
+| Branch | Overall Average | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
+|--------|-----------------|----|----|----|----|----|----|----|----|----|----|-----|-----|
+| EC | 4.56 | 4.63 | 4.44 | 4.48 | 4.52 | 4.53 | 4.64 | 4.59 | 4.60 | 4.54 | 4.49 | 4.59 | 4.64 |
+| ICT | 3.73 | 3.73 | 3.63 | 3.74 | 3.76 | 3.72 | 3.74 | 3.75 | 3.72 | 3.73 | 3.71 | 3.73 | 3.78 |
+| IT | 4.19 | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
 
-#### Branch Analysis
+![Branch Analysis](assets/imgs/charts/branch_analysis.png)
 
-| Branch | Overall Average |
-|--------|----------------|
-| EC | 4.56 |
-| ICT | 3.73 |
-| IT | 4.19 |
-
-![Branch Analysis](branch_analysis.png)
-
-
-#### Semester Analysis
-
-| Semester | Branch | Overall Average |
-|----------|--------|----------------|
-| Sem 5 (EC) | EC | 4.99 |
-| Sem 3 (EC) | EC | 4.26 |
-| Sem 1 (EC) | EC | 4.35 |
-| Sem 3 (ICT) | ICT | 4.30 |
-| Sem 1 (ICT) | ICT | 3.56 |
-| Sem 1 (IT) | IT | 4.19 |
-
-![Semester Analysis](semester_analysis.png)
-
-
-#### Subject Analysis
+### Subject Analysis
 
 | Subject | Overall Average |
-|---------|----------------|
+|---------|------------------|
 | E&S (4300021) | 4.97 |
 | ES (4351102) | 5.00 |
 | MWR (4351103) | 4.98 |
@@ -188,155 +59,138 @@
 | SWD (4311603) | 4.36 |
 | IIS (4311602) | 4.02 |
 
-![Subject Analysis](subject_analysis.png)
+![Subject Analysis](assets/imgs/charts/subject_analysis.png)
 
+### Faculty Analysis
 
-#### Faculty Analysis
+#### Mr. S P Joshiara
 
-| Faculty | Overall Average |
-|---------|----------------|
-| Mr. S P Joshiara | 3.54 |
-| Ms. M K Pedhadiya | 4.08 |
-| Mr. R C Parmar | 3.95 |
-| Mr. L K Patel | 4.71 |
-| Mr. R N Patel | 3.97 |
-| Mr. M J Dabgar | 4.46 |
-| Mr. S J Chauhan | 4.28 |
-| Mr. N J Chauhan | 4.08 |
-| Mr. M J Vadhwania | 3.15 |
+- Overall Average: 3.54
+| Subject | Average Score |
+|---------|---------------|
+| E&S (4300021) | 4.97 |
+| EMI (4331102) | 3.78 |
+| FICT (1313201) | 3.14 |
+| S&Y (4300015) | 4.29 |
 
-![Faculty Analysis](faculty_analysis.png)
+#### Ms. M K Pedhadiya
 
-
-#### Faculty-Subject Analysis
-
-| Faculty | Subject | Average |
-|---------|---------|--------|
-| Mr. S P Joshiara | E&S (4300021) | 4.97 |
-| Mr. S P Joshiara | EMI (4331102) | 3.78 |
-| Mr. S P Joshiara | FICT (1313201) | 3.14 |
-| Mr. S P Joshiara | S&Y (4300015) | 4.29 |
-| Ms. M K Pedhadiya | ES (4351102) | 5.00 |
-| Ms. M K Pedhadiya | PC (4331105) | 4.19 |
-| Ms. M K Pedhadiya | DBMS (1333204) | 4.35 |
-| Ms. M K Pedhadiya | WDP (1313203) | 3.82 |
-| Mr. R C Parmar | MWR (4351103) | 4.98 |
-| Mr. R C Parmar | IE (4331103) | 4.19 |
-| Mr. R C Parmar | WDP (1313203) | 3.47 |
-| Mr. R C Parmar | SWD (4311603) | 4.36 |
-| Mr. L K Patel | M&WC (4351104) | 5.00 |
-| Mr. L K Patel | OPP (4351108) | 5.00 |
-| Mr. L K Patel | FE (4311102) | 4.92 |
-| Mr. L K Patel | OSA (1333205) | 4.58 |
-| Mr. L K Patel | IIS (4311602) | 4.63 |
-| Mr. R N Patel | SP (4351105) | 5.00 |
-| Mr. R N Patel | ECN (4331101) | 4.52 |
-| Mr. R N Patel | BICT (4300010) | 4.67 |
-| Mr. R N Patel | EEE (1313202) | 3.94 |
-| Mr. R N Patel | FICT (1313201) | 3.65 |
-| Mr. M J Dabgar | PR1 (4351107) | 5.00 |
-| Mr. M J Dabgar | DSA (1333203) | 4.33 |
-| Mr. M J Dabgar | PP (4311601) | 4.43 |
-| Mr. S J Chauhan | PEC (4331104) | 4.61 |
-| Mr. S J Chauhan | CE (1333201) | 4.09 |
-| Mr. N J Chauhan | FEE (4311101) | 4.94 |
-| Mr. N J Chauhan | MPMC (1333202) | 4.15 |
-| Mr. N J Chauhan | S&Y (4300015) | 3.75 |
-| Mr. N J Chauhan | IIS (4311602) | 4.41 |
-| Mr. M J Vadhwania | BICT (4300010) | 3.19 |
-| Mr. M J Vadhwania | S&Y (4300015) | 4.03 |
-| Mr. M J Vadhwania | IIS (4311602) | 3.03 |
-
-#### Response Count Analysis
-
-| Subject | Faculty | Response Count |
-|---------|---------|---------------|
-| E&S (4300021) | Mr. S P Joshiara | 25 |
-| ES (4351102) | Ms. M K Pedhadiya | 25 |
-| MWR (4351103) | Mr. R C Parmar | 25 |
-| M&WC (4351104) | Mr. L K Patel | 25 |
-| SP (4351105) | Mr. R N Patel | 25 |
-| OPP (4351108) | Mr. L K Patel | 25 |
-| PR1 (4351107) | Mr. M J Dabgar | 25 |
-| ECN (4331101) | Mr. R N Patel | 64 |
-| EMI (4331102) | Mr. S P Joshiara | 64 |
-| IE (4331103) | Mr. R C Parmar | 64 |
-| PEC (4331104) | Mr. S J Chauhan | 64 |
-| PC (4331105) | Ms. M K Pedhadiya | 64 |
-| FE (4311102) | Mr. L K Patel | 9 |
-| FEE (4311101) | Mr. N J Chauhan | 9 |
-| BICT (4300010) | Mr. R N Patel | 9 |
-| BICT (4300010) | Mr. M J Vadhwania | 9 |
-| S&Y (4300015) | Mr. M J Vadhwania | 9 |
-| S&Y (4300015) | Mr. N J Chauhan | 1156 |
-| S&Y (4300015) | Mr. S P Joshiara | 529 |
-| CE (1333201) | Mr. S J Chauhan | 196 |
-| MPMC (1333202) | Mr. N J Chauhan | 196 |
-| DSA (1333203) | Mr. M J Dabgar | 196 |
-| DBMS (1333204) | Ms. M K Pedhadiya | 196 |
-| OSA (1333205) | Mr. L K Patel | 196 |
-| EEE (1313202) | Mr. R N Patel | 1156 |
-| WDP (1313203) | Ms. M K Pedhadiya | 1156 |
-| WDP (1313203) | Mr. R C Parmar | 1156 |
-| FICT (1313201) | Mr. S P Joshiara | 1156 |
-| FICT (1313201) | Mr. R N Patel | 1156 |
-| PP (4311601) | Mr. M J Dabgar | 529 |
-| SWD (4311603) | Mr. R C Parmar | 529 |
-| IIS (4311602) | Mr. L K Patel | 529 |
-| IIS (4311602) | Mr. M J Vadhwania | 529 |
-| IIS (4311602) | Mr. N J Chauhan | 529 |
-
-#### Top Subjects
-
-| Subject | Overall Average |
-|---------|----------------|
+- Overall Average: 4.08
+| Subject | Average Score |
+|---------|---------------|
 | ES (4351102) | 5.00 |
+| PC (4331105) | 4.19 |
+| DBMS (1333204) | 4.35 |
+| WDP (1313203) | 3.82 |
+
+#### Mr. R C Parmar
+
+- Overall Average: 3.95
+| Subject | Average Score |
+|---------|---------------|
+| MWR (4351103) | 4.98 |
+| IE (4331103) | 4.19 |
+| WDP (1313203) | 3.47 |
+| SWD (4311603) | 4.36 |
+
+#### Mr. L K Patel
+
+- Overall Average: 4.71
+| Subject | Average Score |
+|---------|---------------|
 | M&WC (4351104) | 5.00 |
-| SP (4351105) | 5.00 |
 | OPP (4351108) | 5.00 |
+| FE (4311102) | 4.92 |
+| OSA (1333205) | 4.58 |
+| IIS (4311602) | 4.63 |
+
+#### Mr. R N Patel
+
+- Overall Average: 3.97
+| Subject | Average Score |
+|---------|---------------|
+| SP (4351105) | 5.00 |
+| ECN (4331101) | 4.52 |
+| BICT (4300010) | 4.67 |
+| EEE (1313202) | 3.94 |
+| FICT (1313201) | 3.65 |
+
+#### Mr. M J Dabgar
+
+- Overall Average: 4.46
+| Subject | Average Score |
+|---------|---------------|
 | PR1 (4351107) | 5.00 |
+| DSA (1333203) | 4.33 |
+| PP (4311601) | 4.43 |
 
-#### Top Faculty
+#### Mr. S J Chauhan
 
-| Faculty | Overall Average |
-|---------|----------------|
-| Mr. L K Patel | 4.71 |
-| Mr. M J Dabgar | 4.46 |
-| Mr. S J Chauhan | 4.28 |
-| Ms. M K Pedhadiya | 4.08 |
-| Mr. N J Chauhan | 4.08 |
+- Overall Average: 4.28
+| Subject | Average Score |
+|---------|---------------|
+| PEC (4331104) | 4.61 |
+| CE (1333201) | 4.09 |
+
+#### Mr. N J Chauhan
+
+- Overall Average: 4.08
+| Subject | Average Score |
+|---------|---------------|
+| FEE (4311101) | 4.94 |
+| MPMC (1333202) | 4.15 |
+| S&Y (4300015) | 3.75 |
+| IIS (4311602) | 4.41 |
+
+#### Mr. M J Vadhwania
+
+- Overall Average: 3.15
+| Subject | Average Score |
+|---------|---------------|
+| BICT (4300010) | 3.19 |
+| S&Y (4300015) | 4.03 |
+| IIS (4311602) | 3.03 |
+
+![Faculty Analysis](assets/imgs/charts/faculty_analysis.png)
 
 ### Parameter-wise Analysis
 
 #### Parameter-wise Branch Analysis
 
 | Branch | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|----------|----|----|----|----|----|----|----|----|----|-----|-----|-----|
 | EC | 4.63 | 4.44 | 4.48 | 4.52 | 4.53 | 4.64 | 4.59 | 4.60 | 4.54 | 4.49 | 4.59 | 4.64 |
 | ICT | 3.73 | 3.63 | 3.74 | 3.76 | 3.72 | 3.74 | 3.75 | 3.72 | 3.73 | 3.71 | 3.73 | 3.78 |
 | IT | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
 
-![Parameter-wise Branch Analysis](parameter_branch_analysis.png)
+![Parameter-wise Branch Analysis - Q1](assets/imgs/charts/parameter_branch_Q1.png)
 
+![Parameter-wise Branch Analysis - Q2](assets/imgs/charts/parameter_branch_Q2.png)
 
-#### Parameter-wise Semester Analysis
+![Parameter-wise Branch Analysis - Q3](assets/imgs/charts/parameter_branch_Q3.png)
 
-| Semester | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Sem 5 (EC) | 5.00 | 5.00 | 5.00 | 5.00 | 4.97 | 5.00 | 5.00 | 4.97 | 5.00 | 5.00 | 5.00 | 4.97 |
-| Sem 3 (EC) | 4.40 | 3.95 | 4.17 | 4.20 | 4.20 | 4.42 | 4.35 | 4.33 | 4.22 | 4.08 | 4.35 | 4.42 |
-| Sem 1 (EC) | 4.40 | 4.47 | 4.07 | 4.27 | 4.40 | 4.40 | 4.27 | 4.47 | 4.33 | 4.40 | 4.27 | 4.47 |
-| Sem 3 (ICT) | 4.13 | 3.97 | 4.26 | 4.37 | 4.39 | 4.23 | 4.36 | 4.31 | 4.34 | 4.40 | 4.36 | 4.47 |
-| Sem 1 (ICT) | 3.61 | 3.53 | 3.59 | 3.58 | 3.53 | 3.60 | 3.57 | 3.55 | 3.55 | 3.51 | 3.55 | 3.57 |
-| Sem 1 (IT) | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
+![Parameter-wise Branch Analysis - Q4](assets/imgs/charts/parameter_branch_Q4.png)
 
-![Parameter-wise Semester Analysis](parameter_semester_analysis.png)
+![Parameter-wise Branch Analysis - Q5](assets/imgs/charts/parameter_branch_Q5.png)
 
+![Parameter-wise Branch Analysis - Q6](assets/imgs/charts/parameter_branch_Q6.png)
+
+![Parameter-wise Branch Analysis - Q7](assets/imgs/charts/parameter_branch_Q7.png)
+
+![Parameter-wise Branch Analysis - Q8](assets/imgs/charts/parameter_branch_Q8.png)
+
+![Parameter-wise Branch Analysis - Q9](assets/imgs/charts/parameter_branch_Q9.png)
+
+![Parameter-wise Branch Analysis - Q10](assets/imgs/charts/parameter_branch_Q10.png)
+
+![Parameter-wise Branch Analysis - Q11](assets/imgs/charts/parameter_branch_Q11.png)
+
+![Parameter-wise Branch Analysis - Q12](assets/imgs/charts/parameter_branch_Q12.png)
 
 #### Parameter-wise Subject Analysis
 
 | Subject | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|----------|----|----|----|----|----|----|----|----|----|-----|-----|-----|
 | E&S (4300021) | 5.00 | 5.00 | 5.00 | 5.00 | 4.80 | 5.00 | 5.00 | 4.80 | 5.00 | 5.00 | 5.00 | 5.00 |
 | ES (4351102) | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 |
 | MWR (4351103) | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 5.00 | 4.80 |
@@ -365,13 +219,34 @@
 | SWD (4311603) | 4.30 | 4.30 | 4.52 | 4.43 | 4.17 | 4.52 | 4.43 | 4.35 | 4.35 | 4.22 | 4.39 | 4.35 |
 | IIS (4311602) | 4.12 | 4.01 | 3.99 | 4.07 | 4.00 | 4.14 | 4.09 | 4.06 | 3.99 | 3.94 | 3.93 | 3.94 |
 
-![Parameter-wise Subject Analysis](parameter_subject_analysis.png)
+![Parameter-wise Subject Analysis - Q1](assets/imgs/charts/parameter_subject_Q1.png)
 
+![Parameter-wise Subject Analysis - Q2](assets/imgs/charts/parameter_subject_Q2.png)
+
+![Parameter-wise Subject Analysis - Q3](assets/imgs/charts/parameter_subject_Q3.png)
+
+![Parameter-wise Subject Analysis - Q4](assets/imgs/charts/parameter_subject_Q4.png)
+
+![Parameter-wise Subject Analysis - Q5](assets/imgs/charts/parameter_subject_Q5.png)
+
+![Parameter-wise Subject Analysis - Q6](assets/imgs/charts/parameter_subject_Q6.png)
+
+![Parameter-wise Subject Analysis - Q7](assets/imgs/charts/parameter_subject_Q7.png)
+
+![Parameter-wise Subject Analysis - Q8](assets/imgs/charts/parameter_subject_Q8.png)
+
+![Parameter-wise Subject Analysis - Q9](assets/imgs/charts/parameter_subject_Q9.png)
+
+![Parameter-wise Subject Analysis - Q10](assets/imgs/charts/parameter_subject_Q10.png)
+
+![Parameter-wise Subject Analysis - Q11](assets/imgs/charts/parameter_subject_Q11.png)
+
+![Parameter-wise Subject Analysis - Q12](assets/imgs/charts/parameter_subject_Q12.png)
 
 #### Parameter-wise Faculty Analysis
 
 | Faculty | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|----------|----|----|----|----|----|----|----|----|----|-----|-----|-----|
 | Mr. S P Joshiara | 3.59 | 3.48 | 3.54 | 3.51 | 3.49 | 3.58 | 3.58 | 3.55 | 3.52 | 3.50 | 3.56 | 3.57 |
 | Ms. M K Pedhadiya | 4.07 | 3.85 | 4.11 | 4.10 | 4.00 | 4.08 | 4.05 | 4.08 | 4.08 | 4.18 | 4.20 | 4.21 |
 | Mr. R C Parmar | 3.93 | 3.94 | 4.00 | 3.99 | 3.90 | 4.11 | 3.93 | 4.00 | 3.91 | 3.79 | 3.97 | 3.97 |
@@ -382,5 +257,27 @@
 | Mr. N J Chauhan | 4.08 | 4.04 | 3.99 | 4.07 | 4.08 | 4.09 | 4.19 | 4.15 | 4.09 | 4.08 | 4.00 | 4.08 |
 | Mr. M J Vadhwania | 3.66 | 3.28 | 3.21 | 3.14 | 3.10 | 3.24 | 3.21 | 3.21 | 2.93 | 3.03 | 2.86 | 2.90 |
 
-![Parameter-wise Faculty Analysis](parameter_faculty_analysis.png)
+![Parameter-wise Faculty Analysis - Q1](assets/imgs/charts/parameter_faculty_Q1.png)
+
+![Parameter-wise Faculty Analysis - Q2](assets/imgs/charts/parameter_faculty_Q2.png)
+
+![Parameter-wise Faculty Analysis - Q3](assets/imgs/charts/parameter_faculty_Q3.png)
+
+![Parameter-wise Faculty Analysis - Q4](assets/imgs/charts/parameter_faculty_Q4.png)
+
+![Parameter-wise Faculty Analysis - Q5](assets/imgs/charts/parameter_faculty_Q5.png)
+
+![Parameter-wise Faculty Analysis - Q6](assets/imgs/charts/parameter_faculty_Q6.png)
+
+![Parameter-wise Faculty Analysis - Q7](assets/imgs/charts/parameter_faculty_Q7.png)
+
+![Parameter-wise Faculty Analysis - Q8](assets/imgs/charts/parameter_faculty_Q8.png)
+
+![Parameter-wise Faculty Analysis - Q9](assets/imgs/charts/parameter_faculty_Q9.png)
+
+![Parameter-wise Faculty Analysis - Q10](assets/imgs/charts/parameter_faculty_Q10.png)
+
+![Parameter-wise Faculty Analysis - Q11](assets/imgs/charts/parameter_faculty_Q11.png)
+
+![Parameter-wise Faculty Analysis - Q12](assets/imgs/charts/parameter_faculty_Q12.png)
 
