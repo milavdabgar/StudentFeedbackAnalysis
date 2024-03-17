@@ -3,9 +3,9 @@
 {% block content %}
 <div class="container">
   <h1>Feedback Analysis Report</h1>
+  <p><a href="{{ url_for('download_pdf_latex') }}" class="btn btn-success">Download PDF Report (Latex)</a></p>
   <p><a href="{{ url_for('download_pdf') }}" class="btn btn-danger">Download PDF Report (Webkit)</a></p>
-  <p><a href="{{ url_for('download_pdf_latex') }}" class="btn btn-danger">Download PDF Report (latex)</a></p>
   <p><a href="{{ url_for('download_markdown') }}" class="btn btn-primary">Download Markdown Report</a></p>
-  <p><a href="{{ url_for('download_excel') }}" class="btn btn-success">Download Excel Report</a></p>
+  <p><a href="{{ url_for('download_excel') }}" class="btn btn-info">Download Excel Report</a></p>
 </div>
 {% endblock %}

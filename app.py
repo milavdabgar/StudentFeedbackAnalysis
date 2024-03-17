@@ -9,17 +9,15 @@ import zipfile
 import os
 import subprocess
 from feedback_analysis import analyze_feedback, generate_charts, generate_markdown_report, export_to_excel
-import pdfkit
 
 def generate_pdf(markdown_file):
     pdf_filename = 'feedback_report.pdf'
-    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=wkhtmltopdf', '--pdf-engine-opt=--enable-local-file-access', '--css=github.css'])
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=wkhtmltopdf', '--pdf-engine-opt=--enable-local-file-access', '--css=github.css', '--shift-heading-level-by=-1'])
     return pdf_filename
 
 def generate_pdf_latex(markdown_file):
     pdf_filename = 'feedback_report_latex.pdf'
-    # subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N', '--shift-heading-level-by=1'])
-    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N'])
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N', '--shift-heading-level-by=-1'])
     return pdf_filename
 
 def generate_zip(markdown_file, charts_dir):
