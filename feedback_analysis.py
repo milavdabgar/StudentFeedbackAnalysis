@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 from io import StringIO 
+import zipfile
+import subprocess
 
 def calculate_average(scores):
     return sum(scores) / len(scores)
@@ -256,17 +258,37 @@ def export_to_excel(analysis_result, output_file, original_data):
             df.to_excel(writer, sheet_name=sheet_name)
 
     writer._save()
+
+def generate_pdf(markdown_file):
+    pdf_filename = 'feedback_report.pdf'
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=wkhtmltopdf', '--pdf-engine-opt=--enable-local-file-access', '--css=github.css', '--shift-heading-level-by=-1'])
+    return pdf_filename
+
+def generate_pdf_latex(markdown_file):
+    pdf_filename = 'feedback_report_latex.pdf'
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N', '--shift-heading-level-by=-1'])
+    return pdf_filename
+
+def generate_zip(markdown_file, charts_dir):
+    zip_filename = 'feedback_report.zip'
+    with zipfile.ZipFile(zip_filename, 'w') as zip_file:
+        zip_file.write(markdown_file)
+        for root, dirs, files in os.walk(charts_dir):
+            for file in files:
+                zip_file.write(os.path.join(root, file))
+    return zip_filename
+
     
-# Usage
-file_path = 'Odd_2023.csv'
-markdown_file = 'analysis_report.md'
-excel_file = 'analysis_report.xlsx'
-chart_dir = 'assets/imgs/charts'
+# # # Usage
+# file_path = 'Odd_2023.csv'
+# markdown_file = 'analysis_report.md'
+# excel_file = 'analysis_report.xlsx'
+# chart_dir = 'assets/imgs/charts'
 
-with open(file_path, 'r') as file:
-    file_content = file.read()
+# with open(file_path, 'r') as file:
+#     file_content = file.read()
 
-analysis_result = analyze_feedback(file_content)
-generate_charts(analysis_result, chart_dir)
-generate_markdown_report(analysis_result, markdown_file, chart_dir)
-export_to_excel(analysis_result, excel_file, file_content)
+# analysis_result = analyze_feedback(file_content)
+# generate_charts(analysis_result, chart_dir)
+# generate_markdown_report(analysis_result, markdown_file, chart_dir)
+# export_to_excel(analysis_result, excel_file, file_content)

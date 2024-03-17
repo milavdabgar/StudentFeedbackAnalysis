@@ -4,30 +4,8 @@ from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileRequired, FileAllowed
 from wtforms import SubmitField
 from io import BytesIO
-import pandas as pd
-import zipfile
-import os
-import subprocess
 from feedback_analysis import analyze_feedback, generate_charts, generate_markdown_report, export_to_excel
-
-def generate_pdf(markdown_file):
-    pdf_filename = 'feedback_report.pdf'
-    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=wkhtmltopdf', '--pdf-engine-opt=--enable-local-file-access', '--css=github.css', '--shift-heading-level-by=-1'])
-    return pdf_filename
-
-def generate_pdf_latex(markdown_file):
-    pdf_filename = 'feedback_report_latex.pdf'
-    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N', '--shift-heading-level-by=-1'])
-    return pdf_filename
-
-def generate_zip(markdown_file, charts_dir):
-    zip_filename = 'feedback_report.zip'
-    with zipfile.ZipFile(zip_filename, 'w') as zip_file:
-        zip_file.write(markdown_file)
-        for root, dirs, files in os.walk(charts_dir):
-            for file in files:
-                zip_file.write(os.path.join(root, file))
-    return zip_filename
+from feedback_analysis import generate_pdf, generate_pdf_latex, generate_zip
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
