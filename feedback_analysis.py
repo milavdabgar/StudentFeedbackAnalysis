@@ -126,19 +126,16 @@ def generate_charts(analysis_result, output_dir):
             
 def generate_markdown_report(analysis_result, output_file, chart_dir):
     with open(output_file, 'w') as file:
+        file.write("---\n")
+        file.write("title: Student Feedback Analysis Report\n")
+        file.write("subtitle: EC Dept, Government Polytechnic Palanpur\n")
+        file.write("geometry: 'left=2.5cm,right=2.5cm,top=2cm,bottom=2cm'\n")
+        file.write("toc: True\n")
+        file.write("---\n")
+        
         file.write("# Student Feedback Analysis Report\n\n")
-        file.write("## EC Dept, Government Polytechnic Palanpur\n\n")
-
-        current_date = datetime.now().strftime("%B %d, %Y")
-        file.write(f"*Generated on: {current_date}*\n\n")
-
-        file.write("### Rating Scale\n\n")
-        file.write("- **1 - Very Poor**\n")
-        file.write("- **2 - Poor**\n")
-        file.write("- **3 - Average**\n")
-        file.write("- **4 - Good**\n")
-        file.write("- **5 - Very Good**\n\n")
-
+        
+        file.write("## Assessment Parameters & Rating Scale\n\n")
         file.write("### Assessment Parameters\n\n")
         file.write("- **Q1 Syllabus Coverage:** Has the Teacher covered entire Syllabus as prescribed by University/ College/ Board?  (શિક્ષક યુનિવર્સિટી/કૉલેજ / બોર્ડ દ્વારા સૂચિત અભ્યાસક્રમ સંપૂર્ણ આવરી લે છે ?)\n")
         file.write("- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus (શું શિક્ષક અભ્યાસક્રમ સુસંગત બહારના વિષયો આવરી લે છે?)\n")
@@ -151,8 +148,16 @@ def generate_markdown_report(analysis_result, output_file, chart_dir):
         file.write("- **Q9 Use of Teaching Tools:** Effectiveness of Teacher in terms of: Use of teaching aids (શિક્ષણ માટે સહાયક સાધનોનો ઉપયોગ)\n")
         file.write("- **Q10 Motivation:** Motivation and inspiration for students to learn (વિદ્યાર્થીઓને શીખવા માટે પ્રોત્સાહન અને પ્રેરણા)\n")
         file.write("- **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students (વિદ્યાર્થીઓને મદદ અને સલાહ આપવા માટેની ઇચ્છા.)\n")
-        file.write("- **Q12 Student Progress Feedback:** Feedback provided on Students' progress (વિદ્યાર્થીઓની પ્રગતિ પર પ્રતિભાવ આપ્યો છે)\n\n")            
+        file.write("- **Q12 Student Progress Feedback:** Feedback provided on Students' progress (વિદ્યાર્થીઓની પ્રગતિ પર પ્રતિભાવ આપ્યો છે)\n\n")
+        
+        file.write("### Rating Scale\n\n")
+        file.write("- **1 - Very Poor**\n")
+        file.write("- **2 - Poor**\n")
+        file.write("- **3 - Average**\n")
+        file.write("- **4 - Good**\n")
+        file.write("- **5 - Very Good**\n\n")      
 
+        file.write("## Feedback Analysis\n\n")
         file.write("### Year-Term Analysis\n\n")
         for year_term, data in analysis_result['Year-Term Analysis'].items():
             file.write(f"#### {year_term}\n\n")
@@ -186,7 +191,7 @@ def generate_markdown_report(analysis_result, output_file, chart_dir):
         file.write("### Faculty Analysis\n\n")
         for faculty, data in analysis_result['Faculty Analysis'].items():
             file.write(f"#### {faculty}\n\n")
-            file.write(f"- Overall Average: {data['Overall average']:.2f}\n")
+            file.write(f"- Overall Average: {data['Overall average']:.2f}\n\n")
             file.write("| Subject | Average Score |\n")
             file.write("|---------|---------------|\n")
             for subject, average in data['Subjects'].items():
@@ -231,7 +236,7 @@ def export_to_excel(analysis_result, output_file, original_data):
             df.to_excel(writer, sheet_name=sheet_name)
 
     writer._save()
-
+    
 # Usage
 file_path = 'Odd_2023.csv'
 markdown_file = 'analysis_report.md'

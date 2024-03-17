@@ -1,16 +1,12 @@
+---
+title: Student Feedback Analysis Report
+subtitle: EC Dept, Government Polytechnic Palanpur
+geometry: 'left=2.5cm,right=2.5cm,top=2cm,bottom=2cm'
+toc: True
+---
 # Student Feedback Analysis Report
 
-## EC Dept, Government Polytechnic Palanpur
-
-*Generated on: March 17, 2024*
-
-### Rating Scale
-
-- **1 - Very Poor**
-- **2 - Poor**
-- **3 - Average**
-- **4 - Good**
-- **5 - Very Good**
+## Assessment Parameters & Rating Scale
 
 ### Assessment Parameters
 
@@ -26,6 +22,16 @@
 - **Q10 Motivation:** Motivation and inspiration for students to learn (વિદ્યાર્થીઓને શીખવા માટે પ્રોત્સાહન અને પ્રેરણા)
 - **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students (વિદ્યાર્થીઓને મદદ અને સલાહ આપવા માટેની ઇચ્છા.)
 - **Q12 Student Progress Feedback:** Feedback provided on Students' progress (વિદ્યાર્થીઓની પ્રગતિ પર પ્રતિભાવ આપ્યો છે)
+
+### Rating Scale
+
+- **1 - Very Poor**
+- **2 - Poor**
+- **3 - Average**
+- **4 - Good**
+- **5 - Very Good**
+
+## Feedback Analysis
 
 ### Year-Term Analysis
 
@@ -89,6 +95,7 @@
 #### Mr. S P Joshiara
 
 - Overall Average: 3.54
+
 | Subject | Average Score |
 |---------|---------------|
 | E&S (4300021) | 4.97 |
@@ -99,6 +106,7 @@
 #### Ms. M K Pedhadiya
 
 - Overall Average: 4.08
+
 | Subject | Average Score |
 |---------|---------------|
 | ES (4351102) | 5.00 |
@@ -109,6 +117,7 @@
 #### Mr. R C Parmar
 
 - Overall Average: 3.95
+
 | Subject | Average Score |
 |---------|---------------|
 | MWR (4351103) | 4.98 |
@@ -119,6 +128,7 @@
 #### Mr. L K Patel
 
 - Overall Average: 4.71
+
 | Subject | Average Score |
 |---------|---------------|
 | M&WC (4351104) | 5.00 |
@@ -130,6 +140,7 @@
 #### Mr. R N Patel
 
 - Overall Average: 3.97
+
 | Subject | Average Score |
 |---------|---------------|
 | SP (4351105) | 5.00 |
@@ -141,6 +152,7 @@
 #### Mr. M J Dabgar
 
 - Overall Average: 4.46
+
 | Subject | Average Score |
 |---------|---------------|
 | PR1 (4351107) | 5.00 |
@@ -150,6 +162,7 @@
 #### Mr. S J Chauhan
 
 - Overall Average: 4.28
+
 | Subject | Average Score |
 |---------|---------------|
 | PEC (4331104) | 4.61 |
@@ -158,6 +171,7 @@
 #### Mr. N J Chauhan
 
 - Overall Average: 4.08
+
 | Subject | Average Score |
 |---------|---------------|
 | FEE (4311101) | 4.94 |
@@ -168,6 +182,7 @@
 #### Mr. M J Vadhwania
 
 - Overall Average: 3.15
+
 | Subject | Average Score |
 |---------|---------------|
 | BICT (4300010) | 3.19 |

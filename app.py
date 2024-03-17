@@ -10,14 +10,16 @@ import os
 import subprocess
 from feedback_analysis import analyze_feedback, generate_charts, generate_markdown_report, export_to_excel
 import pdfkit
-import markdown
 
-def generate_pdf_wkhtml(markdown_file):
-    pdf_filename = 'feedback_report_wkhtml.pdf'
-    with open(markdown_file, 'r') as file:
-        markdown_content = file.read()
-    html_content = markdown.markdown(markdown_content)
-    pdfkit.from_string(html_content, pdf_filename)
+def generate_pdf(markdown_file):
+    pdf_filename = 'feedback_report.pdf'
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=wkhtmltopdf', '--pdf-engine-opt=--enable-local-file-access', '--css=github.css'])
+    return pdf_filename
+
+def generate_pdf_latex(markdown_file):
+    pdf_filename = 'feedback_report_latex.pdf'
+    # subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N', '--shift-heading-level-by=1'])
+    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex', '-N'])
     return pdf_filename
 
 def generate_zip(markdown_file, charts_dir):
@@ -29,15 +31,9 @@ def generate_zip(markdown_file, charts_dir):
                 zip_file.write(os.path.join(root, file))
     return zip_filename
 
-def generate_pdf(markdown_file):
-    pdf_filename = 'feedback_report.pdf'
-    subprocess.run(['pandoc', markdown_file, '-o', pdf_filename, '--pdf-engine=xelatex'])
-    return pdf_filename
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
 Bootstrap(app)
-
 
 
 class UploadForm(FlaskForm):
@@ -51,15 +47,15 @@ def index():
         file = form.file.data
         file_content = file.read().decode('utf-8')
         analysis_result = analyze_feedback(file_content)
-        charts_dir = 'static/charts'
+        charts_dir = './static/charts'
         generate_charts(analysis_result, charts_dir)
         markdown_report = 'feedback_report.md'
         generate_markdown_report(analysis_result, markdown_report, charts_dir)
-        zip_filename = generate_zip(markdown_report, charts_dir)
+        generate_zip(markdown_report, charts_dir)
         excel_report = 'feedback_report.xlsx'
         export_to_excel(analysis_result, excel_report, file_content)
-        pdf_filename = generate_pdf(markdown_report)
-        pdf_filename_wkhtml = generate_pdf_wkhtml(markdown_report)
+        generate_pdf(markdown_report)
+        generate_pdf_latex(markdown_report)
         return redirect(url_for('report'))
     return render_template('index.html', form=form)
 
@@ -78,8 +74,7 @@ def report():
 
 @app.route('/download_markdown')
 def download_markdown():
-    zip_filename = 'feedback_report.zip'
-    return send_file(zip_filename, as_attachment=True)
+    return send_file('feedback_report.zip', as_attachment=True)
 
 @app.route('/download_excel')
 def download_excel():
@@ -87,13 +82,11 @@ def download_excel():
 
 @app.route('/download_pdf')
 def download_pdf():
-    pdf_filename = 'feedback_report.pdf'
-    return send_file(pdf_filename, as_attachment=True)
+    return send_file('feedback_report.pdf', as_attachment=True)
 
-@app.route('/download_pdf_wkhtml')
-def download_pdf_wkhtml():
-    pdf_filename = 'feedback_report_wkhtml.pdf'
-    return send_file(pdf_filename, as_attachment=True)
+@app.route('/download_pdf_latex')
+def download_pdf_latex():
+    return send_file('feedback_report_latex.pdf', as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
