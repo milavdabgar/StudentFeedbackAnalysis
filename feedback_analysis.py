@@ -41,11 +41,11 @@ def analyze_feedback(file_content):
     # Branch Analysis
     analysis['Branch Analysis'] = {
         branch: {
-            'Average scores for Q1-Q12': [calculate_average([s[i] for s in scores]) for i in range(12)],
-            'Overall average': calculate_average([s for sub_scores in scores for s in sub_scores])
+            'Average scores for Q1-Q12': [calculate_average([scores[i] for scores in branch_scores]) for i in range(12)],
+            'Overall average': calculate_average([s for sub_scores in branch_scores for s in sub_scores])
         } for year_term in data for branch in data[year_term] 
-        for scores in [[score for semester in data[year_term][branch] for subject in data[year_term][branch][semester]
-                        for faculty in data[year_term][branch][semester][subject] for score in data[year_term][branch][semester][subject][faculty]]]
+        for branch_scores in [[score for semester in data[year_term][branch] for subject in data[year_term][branch][semester]
+                               for faculty in data[year_term][branch][semester][subject] for score in data[year_term][branch][semester][subject][faculty]]]
     }
     
     # Subject Analysis
@@ -95,7 +95,7 @@ def analyze_feedback(file_content):
                 analysis['Parameter-wise Analysis'][category][key][param] = calculate_average(analysis['Parameter-wise Analysis'][category][key][param])
     
     return analysis
-           
+
 def generate_charts(analysis_result, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
