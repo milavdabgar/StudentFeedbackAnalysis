@@ -1,10 +1,3 @@
----
-title: Student Feedback Analysis Report
-subtitle: EC Dept, Government Polytechnic Palanpur
-geometry: 'left=2.5cm,right=2.5cm,top=2cm,bottom=2cm'
-toc: True
----
-
 # Student Feedback Analysis Report
 
 ## Assessment Parameters & Rating Scale
@@ -12,17 +5,17 @@ toc: True
 ### Assessment Parameters
 
 - **Q1 Syllabus Coverage:** Has the Teacher covered entire Syllabus as prescribed by University/ College/ Board?
-- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus
-- **Q3 Pace of Teaching:** Pace on which contents were covered
-- **Q4 Practical Demo:** Support for the development of Students' skill (Practical demonstration)
-- **Q5 Hands-on Training:** Support for the development of Students' skill (Hands-on training)
-- **Q6 Technical Skills of Teacher:** Effectiveness of Teacher in terms of: Technical content/course content
-- **Q7 Communication Skills of Teacher:** Effectiveness of Teacher in terms of: Communication skills
+- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus?
+- **Q3 Pace of Teaching:** Pace on which contents were covered?
+- **Q4 Practical Demo:** Support for the development of Student's skill (Practical demonstration)
+- **Q5 Hands-on Training:** Support for the development of Student's skill (Hands-on training)
+- **Q6 Technical Skills of Teacher:** Effectiveness of Teacher in terms of: Technical Skills
+- **Q7 Communication Skills of Teacher:** Effectiveness of Teacher in terms of: Communication Skills
 - **Q8 Doubt Clarification:** Clarity of expectations of students
 - **Q9 Use of Teaching Tools:** Effectiveness of Teacher in terms of: Use of teaching aids
 - **Q10 Motivation:** Motivation and inspiration for students to learn
 - **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students
-- **Q12 Student Progress Feedback:** Feedback provided on Students' progress
+- **Q12 Student Progress Feedback:** Feedback provided on Student's progress
 
 ### Rating Scale
 
@@ -38,7 +31,7 @@ Rating | Description
 
 ### Year-Term Analysis
 
-#### Odd - 2023
+### Odd - 2023
 
 | Branch - Semester | Average Score |
 |-------------------|---------------|
@@ -57,7 +50,7 @@ Rating | Description
 | ICT | 3.73 | 3.73 | 3.63 | 3.74 | 3.76 | 3.72 | 3.74 | 3.75 | 3.72 | 3.73 | 3.71 | 3.73 | 3.78 |
 | IT | 4.19 | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
 
-![Branch Analysis](./static/charts/branch_analysis.png)
+![Branch Analysis](static/images/charts/branch_analysis.png)
 
 ### Subject Analysis
 
@@ -91,7 +84,7 @@ Rating | Description
 | SWD (4311603) | 4.36 |
 | IIS (4311602) | 4.02 |
 
-![Subject Analysis](./static/charts/subject_analysis.png)
+![Subject Analysis](static/images/charts/subject_analysis.png)
 
 ### Faculty Analysis
 
@@ -192,7 +185,7 @@ Rating | Description
 | S&Y (4300015) | 4.03 |
 | IIS (4311602) | 3.03 |
 
-![Faculty Analysis](./static/charts/faculty_analysis.png)
+![Faculty Analysis](static/images/charts/faculty_analysis.png)
 
 ### Parameter-wise Analysis
 
@@ -203,30 +196,6 @@ Rating | Description
 | EC | 4.63 | 4.44 | 4.48 | 4.52 | 4.53 | 4.64 | 4.59 | 4.60 | 4.54 | 4.49 | 4.59 | 4.64 |
 | ICT | 3.73 | 3.63 | 3.74 | 3.76 | 3.72 | 3.74 | 3.75 | 3.72 | 3.73 | 3.71 | 3.73 | 3.78 |
 | IT | 4.26 | 4.16 | 4.21 | 4.20 | 4.12 | 4.31 | 4.23 | 4.21 | 4.18 | 4.04 | 4.19 | 4.17 |
-
-![Parameter-wise Branch Analysis - Q1](./static/charts/parameter_branch_Q1.png)
-
-![Parameter-wise Branch Analysis - Q2](./static/charts/parameter_branch_Q2.png)
-
-![Parameter-wise Branch Analysis - Q3](./static/charts/parameter_branch_Q3.png)
-
-![Parameter-wise Branch Analysis - Q4](./static/charts/parameter_branch_Q4.png)
-
-![Parameter-wise Branch Analysis - Q5](./static/charts/parameter_branch_Q5.png)
-
-![Parameter-wise Branch Analysis - Q6](./static/charts/parameter_branch_Q6.png)
-
-![Parameter-wise Branch Analysis - Q7](./static/charts/parameter_branch_Q7.png)
-
-![Parameter-wise Branch Analysis - Q8](./static/charts/parameter_branch_Q8.png)
-
-![Parameter-wise Branch Analysis - Q9](./static/charts/parameter_branch_Q9.png)
-
-![Parameter-wise Branch Analysis - Q10](./static/charts/parameter_branch_Q10.png)
-
-![Parameter-wise Branch Analysis - Q11](./static/charts/parameter_branch_Q11.png)
-
-![Parameter-wise Branch Analysis - Q12](./static/charts/parameter_branch_Q12.png)
 
 #### Parameter-wise Subject Analysis
 
@@ -260,30 +229,6 @@ Rating | Description
 | SWD (4311603) | 4.30 | 4.30 | 4.52 | 4.43 | 4.17 | 4.52 | 4.43 | 4.35 | 4.35 | 4.22 | 4.39 | 4.35 |
 | IIS (4311602) | 4.12 | 4.01 | 3.99 | 4.07 | 4.00 | 4.14 | 4.09 | 4.06 | 3.99 | 3.94 | 3.93 | 3.94 |
 
-![Parameter-wise Subject Analysis - Q1](./static/charts/parameter_subject_Q1.png)
-
-![Parameter-wise Subject Analysis - Q2](./static/charts/parameter_subject_Q2.png)
-
-![Parameter-wise Subject Analysis - Q3](./static/charts/parameter_subject_Q3.png)
-
-![Parameter-wise Subject Analysis - Q4](./static/charts/parameter_subject_Q4.png)
-
-![Parameter-wise Subject Analysis - Q5](./static/charts/parameter_subject_Q5.png)
-
-![Parameter-wise Subject Analysis - Q6](./static/charts/parameter_subject_Q6.png)
-
-![Parameter-wise Subject Analysis - Q7](./static/charts/parameter_subject_Q7.png)
-
-![Parameter-wise Subject Analysis - Q8](./static/charts/parameter_subject_Q8.png)
-
-![Parameter-wise Subject Analysis - Q9](./static/charts/parameter_subject_Q9.png)
-
-![Parameter-wise Subject Analysis - Q10](./static/charts/parameter_subject_Q10.png)
-
-![Parameter-wise Subject Analysis - Q11](./static/charts/parameter_subject_Q11.png)
-
-![Parameter-wise Subject Analysis - Q12](./static/charts/parameter_subject_Q12.png)
-
 #### Parameter-wise Faculty Analysis
 
 | Faculty | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
@@ -297,28 +242,4 @@ Rating | Description
 | Mr. S J Chauhan | 4.32 | 3.77 | 4.23 | 4.41 | 4.41 | 4.32 | 4.36 | 4.32 | 4.18 | 4.27 | 4.32 | 4.45 |
 | Mr. N J Chauhan | 4.08 | 4.04 | 3.99 | 4.07 | 4.08 | 4.09 | 4.19 | 4.15 | 4.09 | 4.08 | 4.00 | 4.08 |
 | Mr. M J Vadhwania | 3.66 | 3.28 | 3.21 | 3.14 | 3.10 | 3.24 | 3.21 | 3.21 | 2.93 | 3.03 | 2.86 | 2.90 |
-
-![Parameter-wise Faculty Analysis - Q1](./static/charts/parameter_faculty_Q1.png)
-
-![Parameter-wise Faculty Analysis - Q2](./static/charts/parameter_faculty_Q2.png)
-
-![Parameter-wise Faculty Analysis - Q3](./static/charts/parameter_faculty_Q3.png)
-
-![Parameter-wise Faculty Analysis - Q4](./static/charts/parameter_faculty_Q4.png)
-
-![Parameter-wise Faculty Analysis - Q5](./static/charts/parameter_faculty_Q5.png)
-
-![Parameter-wise Faculty Analysis - Q6](./static/charts/parameter_faculty_Q6.png)
-
-![Parameter-wise Faculty Analysis - Q7](./static/charts/parameter_faculty_Q7.png)
-
-![Parameter-wise Faculty Analysis - Q8](./static/charts/parameter_faculty_Q8.png)
-
-![Parameter-wise Faculty Analysis - Q9](./static/charts/parameter_faculty_Q9.png)
-
-![Parameter-wise Faculty Analysis - Q10](./static/charts/parameter_faculty_Q10.png)
-
-![Parameter-wise Faculty Analysis - Q11](./static/charts/parameter_faculty_Q11.png)
-
-![Parameter-wise Faculty Analysis - Q12](./static/charts/parameter_faculty_Q12.png)
 

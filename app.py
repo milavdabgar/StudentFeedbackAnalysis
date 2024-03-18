@@ -4,13 +4,11 @@ from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileRequired, FileAllowed
 from wtforms import SubmitField
 from io import BytesIO
-from feedback_analysis import analyze_feedback, generate_charts, generate_markdown_report, export_to_excel
-from feedback_analysis import generate_pdf, generate_pdf_latex, generate_zip
+from feedback_analysis import analyze_feedback, generate_report
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
 Bootstrap(app)
-
 
 class UploadForm(FlaskForm):
     file = FileField('Upload CSV', validators=[FileRequired(), FileAllowed(['csv'], 'CSV files only!')])
@@ -23,18 +21,9 @@ def index():
         file = form.file.data
         file_content = file.read().decode('utf-8')
         analysis_result = analyze_feedback(file_content)
-        charts_dir = './static/charts'
-        generate_charts(analysis_result, charts_dir)
-        markdown_report = 'feedback_report.md'
-        generate_markdown_report(analysis_result, markdown_report, charts_dir)
-        generate_zip(markdown_report, charts_dir)
-        excel_report = 'feedback_report.xlsx'
-        export_to_excel(analysis_result, excel_report, file_content)
-        generate_pdf(markdown_report)
-        generate_pdf_latex(markdown_report)
+        generate_report(analysis_result, file_content)
         return redirect(url_for('report'))
     return render_template('index.html', form=form)
-
 
 @app.route('/download_sample')
 def download_sample():
@@ -48,21 +37,9 @@ def download_sample():
 def report():
     return render_template('report.html')
 
-@app.route('/download_markdown')
-def download_markdown():
+@app.route('/download_report')
+def download_report():
     return send_file('feedback_report.zip', as_attachment=True)
-
-@app.route('/download_excel')
-def download_excel():
-    return send_file('feedback_report.xlsx', as_attachment=True)
-
-@app.route('/download_pdf')
-def download_pdf():
-    return send_file('feedback_report.pdf', as_attachment=True)
-
-@app.route('/download_pdf_latex')
-def download_pdf_latex():
-    return send_file('feedback_report_latex.pdf', as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
