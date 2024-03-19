@@ -65,7 +65,44 @@ def analyze_feedback(file_content):
 
     # Calculate term-year scores
     term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean()
+    
+    # # Create a DataFrame for the correlation matrix
+    # correlation_matrix = subject_scores_faculty.pivot_table(index=['Subject_Code', 'Subject_ShortForm'], columns='Faculty_Name', values='Average_Score', aggfunc='mean')
+    # correlation_matrix['Overall'] = subject_scores_overall['Overall_Average']
+    # correlation_matrix.loc['Overall'] = faculty_scores_overall.set_index('Faculty_Name')['Overall_Average']
 
+    # Create a DataFrame for the correlation matrix
+    correlation_matrix = subject_scores_faculty.pivot_table(index=['Subject_Code', 'Subject_ShortForm'], columns='Faculty_Name', values='Average_Score', aggfunc='mean')
+
+    # Create a dictionary to map faculty names to their initials
+    faculty_initials = {
+        'Mr. L K Patel': 'LKP',
+        'Mr. M J Dabgar': 'MJD',
+        'Mr. M J Vadhwania': 'MJV',
+        'Mr. N J Chauhan': 'NJC',
+        'Mr. R C Parmar': 'RCP',
+        'Mr. R N Patel': 'RNP',
+        'Mr. S J Chauhan': 'SJC',
+        'Mr. S P Joshiara': 'SPJ',
+        'Ms. M K Pedhadiya': 'MKP'
+    }
+
+    # Rename the columns in the correlation matrix with faculty initials
+    correlation_matrix.columns = [faculty_initials.get(col, col) for col in correlation_matrix.columns]
+
+    # Add 'Overall' column to the correlation matrix
+    correlation_matrix['Overall'] = subject_scores_overall.set_index(['Subject_Code', 'Subject_ShortForm'])['Overall_Average']
+
+    # Create a new index for the overall_row with the same index as correlation_matrix
+    new_index = pd.MultiIndex.from_product([['Overall'], correlation_matrix.columns], names=['Subject', 'Faculty'])
+
+    # Add 'Overall' row to the correlation matrix
+    overall_row = pd.Series(faculty_scores_overall.set_index('Faculty_Name')['Overall_Average'], index=new_index)
+    correlation_matrix = pd.concat([correlation_matrix, overall_row.to_frame().T])
+
+    # Fill 'nan' values with '-'
+    correlation_matrix.fillna('-', inplace=True)
+     
     # Prepare the analysis results
     analysis_result = {
         'subject_scores_faculty': subject_scores_faculty,
@@ -74,7 +111,9 @@ def analyze_feedback(file_content):
         'faculty_scores_overall': faculty_scores_overall,
         'semester_scores': semester_scores,
         'branch_scores': branch_scores,
-        'term_year_scores': term_year_scores
+        'term_year_scores': term_year_scores,
+        'correlation_matrix': correlation_matrix, 
+        'faculty_initials': faculty_initials
     }
 
     return analysis_result
@@ -100,6 +139,8 @@ def generate_markdown_report(analysis_result, markdown_file):
     semester_scores = analysis_result['semester_scores']
     branch_scores = analysis_result['branch_scores']
     term_year_scores = analysis_result['term_year_scores']
+    correlation_matrix = analysis_result['correlation_matrix']
+    faculty_initials = analysis_result['faculty_initials']
 
     report = "## Feedback Analysis\n\n"
 
@@ -202,10 +243,117 @@ def generate_markdown_report(analysis_result, markdown_file):
             report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} |\n"
         report += "\n"
 
+    # report += "### Faculty-Subject Correlation Matrix\n\n"
+    # report += "| Subject | " + " | ".join(correlation_matrix.columns) + " |\n"
+    # report += "|---------|" + "--|" * (len(correlation_matrix.columns)) + "\n"
+    # for subject, row in correlation_matrix.iterrows():
+    #     if subject == 'Overall':
+    #         report += "| Overall |"
+    #     else:
+    #         report += f"| {subject[0]} ({subject[1]}) |"
+    #     for score in row:
+    #         report += f" {score} |"
+    #     report += "\n"
+    # report += "\n"
+
+    # report += "Faculty Initials:\n\n"
+    # for name, initial in faculty_initials.items():
+    #     report += f"- {initial}: {name}\n"
+    # report += "\n"
+
+    # # Save the report to a markdown file
+    # with open(markdown_file, 'w') as file:
+    #     file.write(report)
+
+    # report += "### Faculty-Subject Correlation Matrix\n\n"
+    # report += "| Subject | " + " | ".join(correlation_matrix.columns) + " |\n"
+    # report += "|---------|" + "--|" * (len(correlation_matrix.columns)) + "\n"
+    # for subject, row in correlation_matrix.iterrows():
+    #     if subject == 'Overall':
+    #         report += "| Overall |"
+    #     else:
+    #         report += f"| {subject[0]} ({subject[1]}) |"
+    #     for score in row:
+    #         if isinstance(score, (int, float)):
+    #             report += f" {score:.2f} |"
+    #         else:
+    #             report += f" {score} |"
+    #     report += "\n"
+    # report += "\n"
+
+    # report += "Faculty Initials:\n"
+    # for name, initial in faculty_initials.items():
+    #     report += f"- {initial}: {name}\n"
+    # report += "\n"
+
+    # # Save the report to a markdown file
+    # with open(markdown_file, 'w') as file:
+    #     file.write(report)     
+            
+    # report += "### Faculty-Subject Correlation Matrix\n\n"
+    # report += "| Subject | " + " | ".join(correlation_matrix.columns) + " |\n"
+    # report += "|---------|" + "--|" * (len(correlation_matrix.columns)) + "\n"
+    # for subject, row in correlation_matrix.iterrows():
+    #     if subject != 'Overall':  # Skip the 'Overall' row
+    #         report += f"| {subject[0]} ({subject[1]}) |"
+    #         for score in row:
+    #             if isinstance(score, (int, float)):
+    #                 report += f" {score:.2f} |"
+    #             else:
+    #                 report += f" {score} |"
+    #         report += "\n"
+
+    # # Add the faculty overall scores row
+    # report += "| Overall |"
+    # for faculty_initial in correlation_matrix.columns:
+    #     if faculty_initial == 'Overall':
+    #         report += " - |"
+    #     else:
+    #         faculty_name = [name for name, initial in faculty_initials.items() if initial == faculty_initial][0]
+    #         faculty_score = faculty_scores_overall.set_index('Faculty_Name').loc[faculty_name, 'Overall_Average']
+    #         report += f" {faculty_score:.2f} |"
+    # report += "\n"
+
+    # report += "\n"
+    # report += "Faculty Initials:\n"
+    # for name, initial in faculty_initials.items():
+    #     report += f"- {initial}: {name}\n"
+    # report += "\n"
+
+    # # Save the report to a markdown file
+    # with open(markdown_file, 'w') as file:
+    #     file.write(report)
+
+    report += "### Faculty-Subject Correlation Matrix\n\n"
+
+    # Convert column MultiIndex to strings
+    column_strings = [' '.join(str(col_item) for col_item in col) for col in correlation_matrix.columns.values]
+    report += "| Subject | " + " | ".join(column_strings) + " |\n"
+
+    report += "|---------|" + "--|" * (len(correlation_matrix.columns)) + "\n"
+    for subject, row in correlation_matrix.iterrows():
+        if isinstance(subject, tuple):
+            subject_str = ' '.join(str(item) for item in subject)
+            report += f"| {subject_str} |"
+        else:
+            report += f"| {subject} |"
+        for score in row:
+            if isinstance(score, (int, float)):
+                report += f" {score:.2f} |"
+            else:
+                report += f" {score} |"
+        report += "\n"
+
+    report += "\n"
+    report += "Faculty Initials:\n"
+    for name, initial in faculty_initials.items():
+        report += f"- {initial}: {name}\n"
+    report += "\n"
+
     # Save the report to a markdown file
     with open(markdown_file, 'w') as file:
         file.write(report)
- 
+
 def generate_pdf_wkhtml(markdown_file):
     yaml_front_matter = '''---
 title: Student Feedback Analysis Report
@@ -265,8 +413,8 @@ def generate_report(analysis_result, original_data):
     markdown_file = 'feedback_report.md'
     generate_markdown_report(analysis_result, markdown_file)
     
-    excel_file = 'feedback_report.xlsx'
-    generate_excel_report(analysis_result, excel_file, original_data)
+    # excel_file = 'feedback_report.xlsx'
+    # generate_excel_report(analysis_result, excel_file, original_data)
     
     pdf_wkhtml = generate_pdf_wkhtml(markdown_file)
     pdf_latex = generate_pdf_latex(markdown_file)
@@ -274,7 +422,7 @@ def generate_report(analysis_result, original_data):
     zip_filename = 'feedback_report.zip'
     with zipfile.ZipFile(zip_filename, 'w') as zip_file:
         zip_file.write(markdown_file)
-        zip_file.write(excel_file)
+        # zip_file.write(excel_file)
         zip_file.write(pdf_wkhtml)
         zip_file.write(pdf_latex)
         for root, dirs, files in os.walk(output_dir):
