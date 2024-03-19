@@ -31,6 +31,8 @@ Rating | Description
 
 ## Faculty Analysis
 
+![Faculty Analysis](static/images/charts/faculty_analysis.png)
+
 ### Mr. S P Joshiara
 
 - Overall Average: 4.27
@@ -129,6 +131,8 @@ Rating | Description
 | IIS (4311602) | 5.00 |
 
 ## Subject Analysis
+
+![Subject Analysis](static/images/charts/subject_analysis.png)
 
 ### E&S (4300021)
 
@@ -355,6 +359,8 @@ Rating | Description
 
 ## Semester Analysis
 
+![Semester Analysis](static/images/charts/semester_analysis.png)
+
 | Semester | Average Score |
 |----------|---------------|
 | EC - Sem 5 | 4.99 |
@@ -365,6 +371,8 @@ Rating | Description
 | IT - Sem 1 | 4.19 |
 
 ## Branch Analysis
+
+![Branch Analysis](static/images/charts/branch_analysis.png)
 
 | Branch | Average Score |
 |--------|---------------|

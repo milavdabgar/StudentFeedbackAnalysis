@@ -10,3 +10,67 @@ Here in this approach student has to write name of each and everything, which ca
 
 
 For Branch, Semester, Subject Code, Name, Faculty Name and Faculty Subjects, Instead of dummy values, use real values from shared csv file.
+
+
+
+## Feedback Analysis
+
+## Faculty Analysis
+
+### Mr. S P Joshiara
+
+- Overall Average: 4.27
+
+| Subject | Average Score |
+|---------|---------------|
+| E&S (4300021) | 5.00 |
+| EMI (4331102) | 3.25 |
+
+### Mr. M J Vadhwania
+
+- Overall Average: 3.56
+
+| Subject | Average Score |
+|---------|---------------|
+| BICT (4300010) | 1.58 |
+| S&Y (4300015) | 4.08 |
+| IIS (4311602) | 5.00 |
+
+## Subject Analysis
+
+### S&Y (4300015)
+
+- Overall Average: 4.39
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. M J Vadhwania | 4.08 |
+| Mr. N J Chauhan | 4.08 |
+| Mr. S P Joshiara | 5.00 |
+
+### CE (1333201)
+
+- Overall Average: 3.83
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. S J Chauhan | 3.83 |
+
+## Semester Analysis
+
+| Branch - Semester | Average Score |
+|----------|---------------|
+| EC - Sem 5 | 4.99 |
+| EC - Sem 3 | 4.26 |
+| EC - Sem 1 | 4.35 |
+| ICT - Sem 3 | 4.30 |
+| ICT - Sem 1 | 3.56 |
+| IT - Sem 1 | 4.19 |
+
+## Branch Analysis
+
+| Branch | Average Score |
+|--------|---------------|
+| EC | 4.56 |
+| ICT | 3.73 |
+| IT | 4.19 |

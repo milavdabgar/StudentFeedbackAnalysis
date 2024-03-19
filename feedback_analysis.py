@@ -87,32 +87,67 @@ def analyze_feedback(file_content):
         analysis['Branch Analysis'][branch] = calculate_average(analysis['Branch Analysis'][branch])
     
     return analysis
-           
+
 def generate_charts(analysis_result, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-
-    for category in ['Branch', 'Subject', 'Faculty']:
-        if category == 'Faculty':
-            keys = list(analysis_result[f'{category} Analysis'].keys())
-            overall_averages = [data['Overall average'] for data in analysis_result[f'{category} Analysis'].values()]
-        else:
-            keys = list(analysis_result[f'{category} Analysis'].keys())
-            overall_averages = list(analysis_result[f'{category} Analysis'].values())
-
-        # Convert keys to strings
-        keys = [str(key) for key in keys]
-
-        fig, ax = plt.subplots(figsize=(12, 6))
-        ax.bar(keys, overall_averages)
-        ax.set_xlabel(category)
-        ax.set_ylabel('Overall Average')
-        ax.set_title(f'{category} Analysis')
-        plt.xticks(rotation=45, ha='right')
-        plt.tight_layout()
-        plt.savefig(f'{output_dir}/{category.lower()}_analysis.png')
-        plt.close(fig)
-
+    
+    # Faculty Analysis Chart
+    faculty_labels = list(analysis_result['Faculty Analysis'].keys())
+    faculty_averages = [data['Overall average'] for data in analysis_result['Faculty Analysis'].values()]
+    
+    plt.figure(figsize=(10, 6))
+    plt.bar(faculty_labels, faculty_averages)
+    plt.xlabel('Faculty')
+    plt.ylabel('Overall Average Score')
+    plt.title('Faculty Analysis')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, 'faculty_analysis.png'))
+    plt.close()
+    
+    # Subject Analysis Chart
+    subject_labels = list(analysis_result['Subject Analysis'].keys())
+    subject_averages = [data['Overall average'] for data in analysis_result['Subject Analysis'].values()]
+    
+    plt.figure(figsize=(10, 6))
+    plt.bar(subject_labels, subject_averages)
+    plt.xlabel('Subject')
+    plt.ylabel('Overall Average Score')
+    plt.title('Subject Analysis')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, 'subject_analysis.png'))
+    plt.close()
+    
+    # Semester Analysis Chart
+    semester_labels = list(analysis_result['Semester Analysis'].keys())
+    semester_averages = list(analysis_result['Semester Analysis'].values())
+    
+    plt.figure(figsize=(10, 6))
+    plt.bar(semester_labels, semester_averages)
+    plt.xlabel('Semester')
+    plt.ylabel('Average Score')
+    plt.title('Semester Analysis')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, 'semester_analysis.png'))
+    plt.close()
+    
+    # Branch Analysis Chart
+    branch_labels = list(analysis_result['Branch Analysis'].keys())
+    branch_averages = list(analysis_result['Branch Analysis'].values())
+    
+    plt.figure(figsize=(10, 6))
+    plt.bar(branch_labels, branch_averages)
+    plt.xlabel('Branch')
+    plt.ylabel('Average Score')
+    plt.title('Branch Analysis')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, 'branch_analysis.png'))
+    plt.close()
+          
 def generate_excel_report(analysis_result, output_file, original_data):
     writer = pd.ExcelWriter(output_file, engine='xlsxwriter')
     
@@ -166,6 +201,7 @@ def generate_markdown_report(analysis_result, output_file):
         file.write("## Feedback Analysis\n\n")            
         
         file.write("## Faculty Analysis\n\n")
+        file.write("![Faculty Analysis](static/images/charts/faculty_analysis.png)\n\n")        
         for faculty, data in analysis_result['Faculty Analysis'].items():
             file.write(f"### {faculty}\n\n")
             file.write(f"- Overall Average: {data['Overall average']:.2f}\n\n")
@@ -176,6 +212,7 @@ def generate_markdown_report(analysis_result, output_file):
             file.write("\n")
         
         file.write("## Subject Analysis\n\n")
+        file.write("![Subject Analysis](static/images/charts/subject_analysis.png)\n\n")        
         for subject, data in analysis_result['Subject Analysis'].items():
             file.write(f"### {subject}\n\n")
             file.write(f"- Overall Average: {data['Overall average']:.2f}\n\n")
@@ -186,6 +223,7 @@ def generate_markdown_report(analysis_result, output_file):
             file.write("\n")
         
         file.write("## Semester Analysis\n\n")
+        file.write("![Semester Analysis](static/images/charts/semester_analysis.png)\n\n")        
         file.write("| Semester | Average Score |\n")
         file.write("|----------|---------------|\n")
         for semester, average in analysis_result['Semester Analysis'].items():
@@ -193,6 +231,7 @@ def generate_markdown_report(analysis_result, output_file):
         file.write("\n")
         
         file.write("## Branch Analysis\n\n")
+        file.write("![Branch Analysis](static/images/charts/branch_analysis.png)\n\n")        
         file.write("| Branch | Average Score |\n")
         file.write("|--------|---------------|\n")
         for branch, average in analysis_result['Branch Analysis'].items():
@@ -253,7 +292,7 @@ toc: True
 
 def generate_report(analysis_result, original_data):
     output_dir = 'static/images/charts'
-    # generate_charts(analysis_result, output_dir)
+    generate_charts(analysis_result, output_dir)
     
     markdown_file = 'feedback_report.md'
     generate_markdown_report(analysis_result, markdown_file)
