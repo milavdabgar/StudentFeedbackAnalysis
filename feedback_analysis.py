@@ -146,47 +146,39 @@ def generate_markdown_report(analysis_result, markdown_file):
     report += "## Parameter-wise Feedback Analysis\n\n"
 
     report += "### Branch Analysis (Parameter-wise)\n\n"
-    report += "| Branch | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    report += "|--------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    report += "| Branch | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|--------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     for branch, row in branch_scores.iterrows():
-        report += f"| {branch} | {row.mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+        report += f"| {branch} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
     report += "\n"
 
     report += "### Term-Year Analysis (Parameter-wise)\n\n"
-    report += "| Term-Year | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    report += "|-----------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    report += "| Term-Year | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|-----------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     for term_year, row in term_year_scores.iterrows():
-        report += f"| {term_year[0]}-{term_year[1]} | {row.mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+        report += f"| {term_year[0]}-{term_year[1]} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
     report += "\n"
 
     report += "### Semester Analysis (Parameter-wise)\n\n"
-    report += "| Branch - Semester | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    report += "|-------------------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    report += "| Branch - Semester | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|-------------------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     for _, row in semester_scores.iterrows():
-        report += f"| {row['Branch_Semester']} | {row[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+        report += f"| {row['Branch_Semester']} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
     report += "\n"
 
     report += "### Subject Analysis (Parameter-wise)\n\n"
-    report += "| Subject | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    report += "| Subject | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|---------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     for _, row in subject_scores_faculty.drop_duplicates(['Subject_Code', 'Subject_ShortForm']).iterrows():
-        report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+        report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
     report += "\n"
 
-    # report += "### Faculty Analysis (Parameter-wise)\n\n"
-    # report += "| Faculty | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    # report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
-    # for _, row in faculty_scores_subject.drop_duplicates('Faculty_Name').iterrows():
-    #     report += f"| {row['Faculty_Name']} | {row['Average_Score']:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
-    # report += "\n"    
-    
     report += "### Faculty Analysis (Parameter-wise)\n\n"
-    report += "| Faculty | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
-    report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
-    faculty_scores_overall_dict = dict(zip(faculty_scores_overall['Faculty_Name'], faculty_scores_overall['Overall_Average']))
+    report += "| Faculty | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|---------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
     for _, row in faculty_scores_subject.drop_duplicates('Faculty_Name').iterrows():
-        report += f"| {row['Faculty_Name']} | {faculty_scores_overall_dict[row['Faculty_Name']]:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
-    report += "\n"    
+        report += f"| {row['Faculty_Name']} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"
 
     report += "## Misc Feedback Analysis\n\n"
 

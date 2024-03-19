@@ -315,3 +315,5 @@ e.g. while calculating semester scores. make sure that data[year_term][branch] i
 
 
 aren't the problem same for Faculty Analysis (Parameter-wise) & Subject Analysis (Parameter-wise) but for one you suggested change is analyze\\\_feedback() methods and for other in generate\\\_markdown\\\_report(). is there any particular reason?
+
+Okay, it now matches with overall scores, but now tallying it with the average of Q1-Q12 is giving a mismatch. in the case of subject-overall analysis and subject-parameterized analysis, there is now such an issue. can't we use the same logic to target this issue with faculty analysis?
