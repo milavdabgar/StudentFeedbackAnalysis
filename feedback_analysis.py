@@ -11,143 +11,51 @@ def calculate_average(scores):
     return sum(scores) / len(scores)
 
 def analyze_feedback(file_content):
-    data = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
-    
-    csv_data = StringIO(file_content)
-    csv_reader = csv.DictReader(csv_data)
-    
-    for row in csv_reader:
-        year_term = f"{row['Odd_Even']} - {row['Year']}"
-        branch = row['Branch']
-        semester = f"{branch} - Sem {row['Sem']}"
-        subject = f"{row['Subject_ShortForm']} ({row['Subject_Code']})"
-        faculty = row['Faculty_Name']
-        
-        scores = [int(row[f'Q{i}']) for i in range(1, 13)]
-        data[year_term][branch][semester][subject].append((faculty, scores))
-    
-    analysis = {}
-    
-    # Faculty Analysis
-    analysis['Faculty Analysis'] = {}
-    for year_term in data:
-        for branch in data[year_term]:
-            for semester in data[year_term][branch]:
-                for subject, faculty_scores in data[year_term][branch][semester].items():
-                    for faculty, scores in faculty_scores:
-                        if faculty not in analysis['Faculty Analysis']:
-                            analysis['Faculty Analysis'][faculty] = {'Subjects': {}, 'Overall average': 0}
-                        analysis['Faculty Analysis'][faculty]['Subjects'][subject] = calculate_average(scores)
-    
-    for faculty in analysis['Faculty Analysis']:
-        subject_averages = list(analysis['Faculty Analysis'][faculty]['Subjects'].values())
-        analysis['Faculty Analysis'][faculty]['Overall average'] = calculate_average(subject_averages)
-    
-    # Subject Analysis
-    analysis['Subject Analysis'] = {}
-    for year_term in data:
-        for branch in data[year_term]:
-            for semester in data[year_term][branch]:
-                for subject, faculty_scores in data[year_term][branch][semester].items():
-                    if subject not in analysis['Subject Analysis']:
-                        analysis['Subject Analysis'][subject] = {'Faculties': {}, 'Overall average': 0}
-                    for faculty, scores in faculty_scores:
-                        analysis['Subject Analysis'][subject]['Faculties'][faculty] = calculate_average(scores)
-    
-    for subject in analysis['Subject Analysis']:
-        faculty_averages = list(analysis['Subject Analysis'][subject]['Faculties'].values())
-        analysis['Subject Analysis'][subject]['Overall average'] = calculate_average(faculty_averages)
-    
-    # Semester Analysis
-    analysis['Semester Analysis'] = {}
-    for year_term in data:
-        for branch in data[year_term]:
-            for semester in data[year_term][branch]:
-                if semester not in analysis['Semester Analysis']:
-                    analysis['Semester Analysis'][semester] = []
-                for subject, faculty_scores in data[year_term][branch][semester].items():
-                    for _, scores in faculty_scores:
-                        analysis['Semester Analysis'][semester].extend(scores)
-    
-    for semester in analysis['Semester Analysis']:
-        analysis['Semester Analysis'][semester] = calculate_average(analysis['Semester Analysis'][semester])
-    
-    # Branch Analysis
-    analysis['Branch Analysis'] = {}
-    for year_term in data:
-        for branch in data[year_term]:
-            if branch not in analysis['Branch Analysis']:
-                analysis['Branch Analysis'][branch] = []
-            for semester in data[year_term][branch]:
-                for subject, faculty_scores in data[year_term][branch][semester].items():
-                    for _, scores in faculty_scores:
-                        analysis['Branch Analysis'][branch].extend(scores)
-    
-    for branch in analysis['Branch Analysis']:
-        analysis['Branch Analysis'][branch] = calculate_average(analysis['Branch Analysis'][branch])
-    
-    return analysis
+    # Read the CSV data into a pandas DataFrame
+    data = pd.read_csv(StringIO(file_content))
 
-def generate_charts(analysis_result, output_dir):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    
-    # Faculty Analysis Chart
-    faculty_labels = list(analysis_result['Faculty Analysis'].keys())
-    faculty_averages = [data['Overall average'] for data in analysis_result['Faculty Analysis'].values()]
-    
-    plt.figure(figsize=(10, 6))
-    plt.bar(faculty_labels, faculty_averages)
-    plt.xlabel('Faculty')
-    plt.ylabel('Overall Average Score')
-    plt.title('Faculty Analysis')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, 'faculty_analysis.png'))
-    plt.close()
-    
-    # Subject Analysis Chart
-    subject_labels = list(analysis_result['Subject Analysis'].keys())
-    subject_averages = [data['Overall average'] for data in analysis_result['Subject Analysis'].values()]
-    
-    plt.figure(figsize=(10, 6))
-    plt.bar(subject_labels, subject_averages)
-    plt.xlabel('Subject')
-    plt.ylabel('Overall Average Score')
-    plt.title('Subject Analysis')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, 'subject_analysis.png'))
-    plt.close()
-    
-    # Semester Analysis Chart
-    semester_labels = list(analysis_result['Semester Analysis'].keys())
-    semester_averages = list(analysis_result['Semester Analysis'].values())
-    
-    plt.figure(figsize=(10, 6))
-    plt.bar(semester_labels, semester_averages)
-    plt.xlabel('Semester')
-    plt.ylabel('Average Score')
-    plt.title('Semester Analysis')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, 'semester_analysis.png'))
-    plt.close()
-    
-    # Branch Analysis Chart
-    branch_labels = list(analysis_result['Branch Analysis'].keys())
-    branch_averages = list(analysis_result['Branch Analysis'].values())
-    
-    plt.figure(figsize=(10, 6))
-    plt.bar(branch_labels, branch_averages)
-    plt.xlabel('Branch')
-    plt.ylabel('Average Score')
-    plt.title('Branch Analysis')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, 'branch_analysis.png'))
-    plt.close()
-          
+    # Calculate subject scores (faculty-wise)
+    subject_scores_faculty = data.groupby(['Subject_Code', 'Faculty_Name'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean(axis=1).reset_index()
+    subject_scores_faculty.columns = ['Subject_Code', 'Faculty_Name', 'Average_Score']
+
+    # Calculate subject scores (overall)
+    subject_scores_overall = subject_scores_faculty.groupby('Subject_Code')['Average_Score'].mean().reset_index()
+    subject_scores_overall.columns = ['Subject_Code', 'Overall_Average']
+
+    # Calculate faculty scores (subject-wise)
+    faculty_scores_subject = subject_scores_faculty.groupby(['Faculty_Name', 'Subject_Code'])['Average_Score'].mean().reset_index()
+    faculty_scores_subject.columns = ['Faculty_Name', 'Subject_Code', 'Average_Score']
+
+    # Calculate faculty scores (overall)
+    faculty_scores_overall = faculty_scores_subject.groupby('Faculty_Name')['Average_Score'].mean().reset_index()
+    faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
+
+    # Calculate semester scores
+    semester_scores = data.groupby(['Year', 'Odd_Even', 'Branch', 'Sem'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean(axis=1).reset_index()
+    semester_scores.columns = ['Year', 'Odd_Even', 'Branch', 'Sem', 'Average_Score']
+    semester_scores['Branch_Semester'] = semester_scores['Branch'] + ' - ' + semester_scores['Sem'].astype(str)
+
+    # Calculate branch scores
+    branch_scores = semester_scores.groupby('Branch')['Average_Score'].mean().reset_index()
+    branch_scores.columns = ['Branch', 'Average_Score']
+
+    # Calculate term-year scores
+    term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])['Average_Score'].mean().reset_index()
+    term_year_scores.columns = ['Year', 'Odd_Even', 'Average_Score']
+
+    # Prepare the analysis results
+    analysis_result = {
+        'subject_scores_faculty': subject_scores_faculty,
+        'subject_scores_overall': subject_scores_overall,
+        'faculty_scores_subject': faculty_scores_subject,
+        'faculty_scores_overall': faculty_scores_overall,
+        'semester_scores': semester_scores,
+        'branch_scores': branch_scores,
+        'term_year_scores': term_year_scores
+    }
+
+    return analysis_result
+
 def generate_excel_report(analysis_result, output_file, original_data):
     writer = pd.ExcelWriter(output_file, engine='xlsxwriter')
     
@@ -155,89 +63,88 @@ def generate_excel_report(analysis_result, output_file, original_data):
     original_df.to_excel(writer, sheet_name='Original Data', index=False)
     
     for sheet_name, data in analysis_result.items():
-        if sheet_name == 'Faculty Analysis':
-            df = pd.DataFrame.from_dict({faculty: {subject: score for subject, score in faculty_data['Subjects'].items()} for faculty, faculty_data in data.items()}, orient='index')
-            df['Overall Average'] = [faculty_data['Overall average'] for faculty_data in data.values()]
-        elif sheet_name == 'Subject Analysis':
-            df = pd.DataFrame.from_dict({subject: {faculty: score for faculty, score in subject_data['Faculties'].items()} for subject, subject_data in data.items()}, orient='index')
-            df['Overall Average'] = [subject_data['Overall average'] for subject_data in data.values()]
-        elif sheet_name == 'Semester Analysis':
-            df = pd.Series(data).to_frame(name='Average Score')
-        elif sheet_name == 'Branch Analysis':
-            df = pd.Series(data).to_frame(name='Average Score')
-        
-        df.to_excel(writer, sheet_name=sheet_name)
+        df = pd.DataFrame(data)
+        df.to_excel(writer, sheet_name=sheet_name, index=False)
     
     writer._save()
 
-def generate_markdown_report(analysis_result, output_file):
-    with open(output_file, 'w') as file:
-        file.write("# Student Feedback Analysis Report\n\n")
-        
-        file.write("## Assessment Parameters & Rating Scale\n\n")
-        file.write("### Assessment Parameters\n\n")
-        file.write("- **Q1 Syllabus Coverage:** Has the Teacher covered entire Syllabus as prescribed by University/ College/ Board?\n")
-        file.write("- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus?\n")
-        file.write("- **Q3 Pace of Teaching:** Pace on which contents were covered?\n")
-        file.write("- **Q4 Practical Demo:** Support for the development of Student's skill (Practical demonstration)\n")
-        file.write("- **Q5 Hands-on Training:** Support for the development of Student's skill (Hands-on training)\n")
-        file.write("- **Q6 Technical Skills of Teacher:** Effectiveness of Teacher in terms of: Technical Skills\n")
-        file.write("- **Q7 Communication Skills of Teacher:** Effectiveness of Teacher in terms of: Communication Skills\n")
-        file.write("- **Q8 Doubt Clarification:** Clarity of expectations of students\n")
-        file.write("- **Q9 Use of Teaching Tools:** Effectiveness of Teacher in terms of: Use of teaching aids\n")
-        file.write("- **Q10 Motivation:** Motivation and inspiration for students to learn\n")
-        file.write("- **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students\n")
-        file.write("- **Q12 Student Progress Feedback:** Feedback provided on Student's progress\n\n")
+def generate_markdown_report(analysis_result, markdown_file):
+    subject_scores_faculty = analysis_result['subject_scores_faculty']
+    subject_scores_overall = analysis_result['subject_scores_overall']
+    faculty_scores_subject = analysis_result['faculty_scores_subject']
+    faculty_scores_overall = analysis_result['faculty_scores_overall']
+    semester_scores = analysis_result['semester_scores']
+    branch_scores = analysis_result['branch_scores']
+    term_year_scores = analysis_result['term_year_scores']
 
-        file.write("### Rating Scale\n\n")        
-        file.write("Rating | Description\n")
-        file.write("-------|------------\n")
-        file.write("1      | Very Poor\n")
-        file.write("2      | Poor\n")
-        file.write("3      | Average\n")
-        file.write("4      | Good\n")
-        file.write("5      | Very Good\n\n")        
+    report = "## Feedback Analysis\n\n"
 
-        file.write("## Feedback Analysis\n\n")            
-        
-        file.write("## Faculty Analysis\n\n")
-        file.write("![Faculty Analysis](static/images/charts/faculty_analysis.png)\n\n")        
-        for faculty, data in analysis_result['Faculty Analysis'].items():
-            file.write(f"### {faculty}\n\n")
-            file.write(f"- Overall Average: {data['Overall average']:.2f}\n\n")
-            file.write("| Subject | Average Score |\n")
-            file.write("|---------|---------------|\n")
-            for subject, average in data['Subjects'].items():
-                file.write(f"| {subject} | {average:.2f} |\n")
-            file.write("\n")
-        
-        file.write("## Subject Analysis\n\n")
-        file.write("![Subject Analysis](static/images/charts/subject_analysis.png)\n\n")        
-        for subject, data in analysis_result['Subject Analysis'].items():
-            file.write(f"### {subject}\n\n")
-            file.write(f"- Overall Average: {data['Overall average']:.2f}\n\n")
-            file.write("| Faculty | Average Score |\n")
-            file.write("|---------|---------------|\n")
-            for faculty, average in data['Faculties'].items():
-                file.write(f"| {faculty} | {average:.2f} |\n")
-            file.write("\n")
-        
-        file.write("## Semester Analysis\n\n")
-        file.write("![Semester Analysis](static/images/charts/semester_analysis.png)\n\n")        
-        file.write("| Semester | Average Score |\n")
-        file.write("|----------|---------------|\n")
-        for semester, average in analysis_result['Semester Analysis'].items():
-            file.write(f"| {semester} | {average:.2f} |\n")
-        file.write("\n")
-        
-        file.write("## Branch Analysis\n\n")
-        file.write("![Branch Analysis](static/images/charts/branch_analysis.png)\n\n")        
-        file.write("| Branch | Average Score |\n")
-        file.write("|--------|---------------|\n")
-        for branch, average in analysis_result['Branch Analysis'].items():
-            file.write(f"| {branch} | {average:.2f} |\n")
-        file.write("\n")
-    
+    report += "## Overall Feedback Analysis\n\n"
+    report += "| Branch Score | Term-Year Score | Semester Score | Subject Score |\n"
+    report += "| --- | --- | --- | --- |\n"
+    report += f"| {branch_scores['Average_Score'].mean():.2f} | {term_year_scores['Average_Score'].mean():.2f} | {semester_scores['Average_Score'].mean():.2f} | {subject_scores_overall['Overall_Average'].mean():.2f} |\n\n"
+
+    report += "### Branch Analysis (overall)\n\n"
+    report += "| Branch | Average Score |\n"
+    report += "|--------|---------------|\n"
+    for _, row in branch_scores.iterrows():
+        report += f"| {row['Branch']} | {row['Average_Score']:.2f} |\n"
+    report += "\n"
+
+    report += "### Term-Year Analysis (overall)\n\n"
+    report += "| Term-Year | Overall |\n"
+    report += "| --- | --- |\n"
+    for _, row in term_year_scores.iterrows():
+        report += f"| {row['Year']}-{row['Odd_Even']} | {row['Average_Score']:.2f} |\n"
+    report += "\n"
+
+    report += "### Semester Analysis (overall)\n\n"
+    report += "| Branch - Semester | Average Score |\n"
+    report += "|----------|---------------|\n"
+    for _, row in semester_scores.iterrows():
+        report += f"| {row['Branch_Semester']} | {row['Average_Score']:.2f} |\n"
+    report += "\n"
+
+    report += "### Subject Analysis (overall)\n\n"
+    report += "| Subject | Overall Average |\n"
+    report += "|---------|------------------|\n"
+    for _, row in subject_scores_overall.iterrows():
+        report += f"| {row['Subject_Code']} | {row['Overall_Average']:.2f} |\n"
+    report += "\n"
+
+    report += "### Faculty Analysis (Overall)\n\n"
+    report += "| Faculty | Overall Average |\n"
+    report += "|---------|------------------|\n"
+    for _, row in faculty_scores_overall.iterrows():
+        report += f"| {row['Faculty_Name']} | {row['Overall_Average']:.2f} |\n"
+    report += "\n"
+
+    report += "## Misc Feedback Analysis\n\n"
+
+    report += "### Subject Analysis (Faculty-wise)\n\n"
+    for subject_code, subject_data in subject_scores_faculty.groupby('Subject_Code'):
+        report += f"#### {subject_code}\n\n"
+        report += f"- Overall Average: {subject_data['Average_Score'].mean():.2f}\n\n"
+        report += "| Faculty | Average Score |\n"
+        report += "|---------|---------------|\n"
+        for _, row in subject_data.iterrows():
+            report += f"| {row['Faculty_Name']} | {row['Average_Score']:.2f} |\n"
+        report += "\n"
+
+    report += "### Faculty Analysis (Subject-wise)\n\n"
+    for faculty_name, faculty_data in faculty_scores_subject.groupby('Faculty_Name'):
+        report += f"#### {faculty_name}\n\n"
+        report += f"- Overall Average: {faculty_data['Average_Score'].mean():.2f}\n\n"
+        report += "| Subject | Average Score |\n"
+        report += "|---------|---------------|\n"
+        for _, row in faculty_data.iterrows():
+            report += f"| {row['Subject_Code']} | {row['Average_Score']:.2f} |\n"
+        report += "\n"
+
+    # Save the report to a markdown file
+    with open(markdown_file, 'w') as file:
+        file.write(report)
+ 
 def generate_pdf_wkhtml(markdown_file):
     yaml_front_matter = '''---
 title: Student Feedback Analysis Report
@@ -292,7 +199,7 @@ toc: True
 
 def generate_report(analysis_result, original_data):
     output_dir = 'static/images/charts'
-    generate_charts(analysis_result, output_dir)
+    # generate_charts(analysis_result, output_dir)
     
     markdown_file = 'feedback_report.md'
     generate_markdown_report(analysis_result, markdown_file)
@@ -311,4 +218,4 @@ def generate_report(analysis_result, original_data):
         zip_file.write(pdf_latex)
         for root, dirs, files in os.walk(output_dir):
             for file in files:
-                zip_file.write(os.path.join(root, file))
+                zip_file.write(os.path.join(root, file))    

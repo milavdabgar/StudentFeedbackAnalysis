@@ -1,236 +1,188 @@
-# Student Feedback Analysis Report
-
-## Assessment Parameters & Rating Scale
-
-### Assessment Parameters
-
-- **Q1 Syllabus Coverage:** Has the Teacher covered entire Syllabus as prescribed by University/ College/ Board?
-- **Q2 Topics Beyond Syllabus:** Has the Teacher covered relevant topics beyond syllabus?
-- **Q3 Pace of Teaching:** Pace on which contents were covered?
-- **Q4 Practical Demo:** Support for the development of Student's skill (Practical demonstration)
-- **Q5 Hands-on Training:** Support for the development of Student's skill (Hands-on training)
-- **Q6 Technical Skills of Teacher:** Effectiveness of Teacher in terms of: Technical Skills
-- **Q7 Communication Skills of Teacher:** Effectiveness of Teacher in terms of: Communication Skills
-- **Q8 Doubt Clarification:** Clarity of expectations of students
-- **Q9 Use of Teaching Tools:** Effectiveness of Teacher in terms of: Use of teaching aids
-- **Q10 Motivation:** Motivation and inspiration for students to learn
-- **Q11 Helpfulness of Teacher:** Willingness to offer help and advice to students
-- **Q12 Student Progress Feedback:** Feedback provided on Student's progress
-
-### Rating Scale
-
-Rating | Description
--------|------------
-1      | Very Poor
-2      | Poor
-3      | Average
-4      | Good
-5      | Very Good
-
 ## Feedback Analysis
 
-## Faculty Analysis
+## Overall Feedback Analysis
 
-![Faculty Analysis](static/images/charts/faculty_analysis.png)
+| Branch Score | Term-Year Score | Semester Score | Subject Score |
+| --- | --- | --- | --- |
+| 4.22 | 4.28 | 4.28 | 4.41 |
 
-### Mr. S P Joshiara
+### Branch Analysis (overall)
 
-- Overall Average: 4.27
+| Branch | Average Score |
+|--------|---------------|
+| EC | 4.53 |
+| ICT | 3.93 |
+| IT | 4.19 |
 
-| Subject | Average Score |
-|---------|---------------|
-| E&S (4300021) | 5.00 |
-| EMI (4331102) | 3.25 |
-| FICT (1313201) | 3.83 |
-| S&Y (4300015) | 5.00 |
+### Term-Year Analysis (overall)
 
-### Ms. M K Pedhadiya
+| Term-Year | Overall |
+| --- | --- |
+| 2023-Odd | 4.28 |
 
-- Overall Average: 4.27
+### Semester Analysis (overall)
 
-| Subject | Average Score |
-|---------|---------------|
-| ES (4351102) | 5.00 |
-| PC (4331105) | 3.42 |
-| DBMS (1333204) | 3.75 |
-| WDP (1313203) | 4.92 |
+| Branch - Semester | Average Score |
+|----------|---------------|
+| EC - 1 | 4.35 |
+| EC - 3 | 4.26 |
+| EC - 5 | 4.99 |
+| ICT - 1 | 3.56 |
+| ICT - 3 | 4.30 |
+| IT - 1 | 4.19 |
 
-### Mr. R C Parmar
+### Subject Analysis (overall)
 
-- Overall Average: 4.52
+| Subject | Overall Average |
+|---------|------------------|
+| 1313201.0 | 3.40 |
+| 1313202.0 | 3.94 |
+| 1313203.0 | 3.64 |
+| 1333201.0 | 4.09 |
+| 1333202.0 | 4.15 |
+| 1333203.0 | 4.33 |
+| 1333204.0 | 4.35 |
+| 1333205.0 | 4.58 |
+| 4300010.0 | 3.93 |
+| 4300015.0 | 3.80 |
+| 4300021.0 | 4.97 |
+| 4311101.0 | 4.94 |
+| 4311102.0 | 4.92 |
+| 4311601.0 | 4.43 |
+| 4311602.0 | 4.02 |
+| 4311603.0 | 4.36 |
+| 4331101.0 | 4.52 |
+| 4331102.0 | 3.78 |
+| 4331103.0 | 4.19 |
+| 4331104.0 | 4.61 |
+| 4331105.0 | 4.19 |
+| 4351102.0 | 5.00 |
+| 4351103.0 | 4.98 |
+| 4351104.0 | 5.00 |
+| 4351105.0 | 5.00 |
+| 4351107.0 | 5.00 |
+| 4351108.0 | 5.00 |
 
-| Subject | Average Score |
-|---------|---------------|
-| MWR (4351103) | 5.00 |
-| IE (4331103) | 3.25 |
-| WDP (1313203) | 4.83 |
-| SWD (4311603) | 5.00 |
+### Faculty Analysis (Overall)
 
-### Mr. L K Patel
+| Faculty | Overall Average |
+|---------|------------------|
+| Mr. L K Patel | 4.83 |
+| Mr. M J Dabgar | 4.59 |
+| Mr. M J Vadhwania | 3.42 |
+| Mr. N J Chauhan | 4.31 |
+| Mr. R C Parmar | 4.25 |
+| Mr. R N Patel | 4.36 |
+| Mr. S J Chauhan | 4.35 |
+| Mr. S P Joshiara | 3.88 |
+| Ms. M K Pedhadiya | 4.34 |
 
-- Overall Average: 4.70
+## Misc Feedback Analysis
 
-| Subject | Average Score |
-|---------|---------------|
-| M&WC (4351104) | 5.00 |
-| OPP (4351108) | 5.00 |
-| FE (4311102) | 4.92 |
-| OSA (1333205) | 3.58 |
-| IIS (4311602) | 5.00 |
+### Subject Analysis (Faculty-wise)
 
-### Mr. R N Patel
+#### 1313201
 
-- Overall Average: 4.62
-
-| Subject | Average Score |
-|---------|---------------|
-| SP (4351105) | 5.00 |
-| ECN (4331101) | 4.08 |
-| BICT (4300010) | 4.92 |
-| EEE (1313202) | 4.83 |
-| FICT (1313201) | 4.25 |
-
-### Mr. M J Dabgar
-
-- Overall Average: 4.50
-
-| Subject | Average Score |
-|---------|---------------|
-| PR1 (4351107) | 5.00 |
-| DSA (1333203) | 3.50 |
-| PP (4311601) | 5.00 |
-
-### Mr. S J Chauhan
-
-- Overall Average: 3.46
-
-| Subject | Average Score |
-|---------|---------------|
-| PEC (4331104) | 3.08 |
-| CE (1333201) | 3.83 |
-
-### Mr. N J Chauhan
-
-- Overall Average: 4.38
-
-| Subject | Average Score |
-|---------|---------------|
-| FEE (4311101) | 4.92 |
-| MPMC (1333202) | 3.50 |
-| S&Y (4300015) | 4.08 |
-| IIS (4311602) | 5.00 |
-
-### Mr. M J Vadhwania
-
-- Overall Average: 3.56
-
-| Subject | Average Score |
-|---------|---------------|
-| BICT (4300010) | 1.58 |
-| S&Y (4300015) | 4.08 |
-| IIS (4311602) | 5.00 |
-
-## Subject Analysis
-
-![Subject Analysis](static/images/charts/subject_analysis.png)
-
-### E&S (4300021)
-
-- Overall Average: 5.00
+- Overall Average: 3.40
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. S P Joshiara | 5.00 |
+| Mr. R N Patel | 3.65 |
+| Mr. S P Joshiara | 3.14 |
 
-### ES (4351102)
+#### 1313202
 
-- Overall Average: 5.00
-
-| Faculty | Average Score |
-|---------|---------------|
-| Ms. M K Pedhadiya | 5.00 |
-
-### MWR (4351103)
-
-- Overall Average: 5.00
+- Overall Average: 3.94
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. R C Parmar | 5.00 |
+| Mr. R N Patel | 3.94 |
 
-### M&WC (4351104)
+#### 1313203
 
-- Overall Average: 5.00
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. L K Patel | 5.00 |
-
-### SP (4351105)
-
-- Overall Average: 5.00
+- Overall Average: 3.64
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. R N Patel | 5.00 |
+| Mr. R C Parmar | 3.47 |
+| Ms. M K Pedhadiya | 3.82 |
 
-### OPP (4351108)
+#### 1333201
 
-- Overall Average: 5.00
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. L K Patel | 5.00 |
-
-### PR1 (4351107)
-
-- Overall Average: 5.00
+- Overall Average: 4.09
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. M J Dabgar | 5.00 |
+| Mr. S J Chauhan | 4.09 |
 
-### ECN (4331101)
+#### 1333202
 
-- Overall Average: 4.08
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. R N Patel | 4.08 |
-
-### EMI (4331102)
-
-- Overall Average: 3.25
+- Overall Average: 4.15
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. S P Joshiara | 3.25 |
+| Mr. N J Chauhan | 4.15 |
 
-### IE (4331103)
+#### 1333203
 
-- Overall Average: 3.25
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. R C Parmar | 3.25 |
-
-### PEC (4331104)
-
-- Overall Average: 3.08
+- Overall Average: 4.33
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. S J Chauhan | 3.08 |
+| Mr. M J Dabgar | 4.33 |
 
-### PC (4331105)
+#### 1333204
 
-- Overall Average: 3.42
+- Overall Average: 4.35
 
 | Faculty | Average Score |
 |---------|---------------|
-| Ms. M K Pedhadiya | 3.42 |
+| Ms. M K Pedhadiya | 4.35 |
 
-### FE (4311102)
+#### 1333205
+
+- Overall Average: 4.58
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. L K Patel | 4.58 |
+
+#### 4300010
+
+- Overall Average: 3.93
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. M J Vadhwania | 3.19 |
+| Mr. R N Patel | 4.67 |
+
+#### 4300015
+
+- Overall Average: 3.80
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. M J Vadhwania | 4.03 |
+| Mr. N J Chauhan | 3.75 |
+| Mr. S P Joshiara | 3.62 |
+
+#### 4300021
+
+- Overall Average: 4.97
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. S P Joshiara | 4.97 |
+
+#### 4311101
+
+- Overall Average: 4.94
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. N J Chauhan | 4.94 |
+
+#### 4311102
 
 - Overall Average: 4.92
 
@@ -238,100 +190,105 @@ Rating | Description
 |---------|---------------|
 | Mr. L K Patel | 4.92 |
 
-### FEE (4311101)
+#### 4311601
 
-- Overall Average: 4.92
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. N J Chauhan | 4.92 |
-
-### BICT (4300010)
-
-- Overall Average: 3.25
+- Overall Average: 4.43
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. R N Patel | 4.92 |
-| Mr. M J Vadhwania | 1.58 |
+| Mr. M J Dabgar | 4.43 |
 
-### S&Y (4300015)
+#### 4311602
 
-- Overall Average: 4.39
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. M J Vadhwania | 4.08 |
-| Mr. N J Chauhan | 4.08 |
-| Mr. S P Joshiara | 5.00 |
-
-### CE (1333201)
-
-- Overall Average: 3.83
+- Overall Average: 4.02
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. S J Chauhan | 3.83 |
+| Mr. L K Patel | 4.63 |
+| Mr. M J Vadhwania | 3.03 |
+| Mr. N J Chauhan | 4.41 |
 
-### MPMC (1333202)
+#### 4311603
 
-- Overall Average: 3.50
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. N J Chauhan | 3.50 |
-
-### DSA (1333203)
-
-- Overall Average: 3.50
+- Overall Average: 4.36
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. M J Dabgar | 3.50 |
+| Mr. R C Parmar | 4.36 |
 
-### DBMS (1333204)
+#### 4331101
 
-- Overall Average: 3.75
-
-| Faculty | Average Score |
-|---------|---------------|
-| Ms. M K Pedhadiya | 3.75 |
-
-### OSA (1333205)
-
-- Overall Average: 3.58
+- Overall Average: 4.52
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. L K Patel | 3.58 |
+| Mr. R N Patel | 4.52 |
 
-### EEE (1313202)
+#### 4331102
 
-- Overall Average: 4.83
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. R N Patel | 4.83 |
-
-### WDP (1313203)
-
-- Overall Average: 4.88
+- Overall Average: 3.78
 
 | Faculty | Average Score |
 |---------|---------------|
-| Ms. M K Pedhadiya | 4.92 |
-| Mr. R C Parmar | 4.83 |
+| Mr. S P Joshiara | 3.78 |
 
-### FICT (1313201)
+#### 4331103
 
-- Overall Average: 4.04
+- Overall Average: 4.19
 
 | Faculty | Average Score |
 |---------|---------------|
-| Mr. S P Joshiara | 3.83 |
-| Mr. R N Patel | 4.25 |
+| Mr. R C Parmar | 4.19 |
 
-### PP (4311601)
+#### 4331104
+
+- Overall Average: 4.61
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. S J Chauhan | 4.61 |
+
+#### 4331105
+
+- Overall Average: 4.19
+
+| Faculty | Average Score |
+|---------|---------------|
+| Ms. M K Pedhadiya | 4.19 |
+
+#### 4351102
+
+- Overall Average: 5.00
+
+| Faculty | Average Score |
+|---------|---------------|
+| Ms. M K Pedhadiya | 5.00 |
+
+#### 4351103
+
+- Overall Average: 4.98
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. R C Parmar | 4.98 |
+
+#### 4351104
+
+- Overall Average: 5.00
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. L K Patel | 5.00 |
+
+#### 4351105
+
+- Overall Average: 5.00
+
+| Faculty | Average Score |
+|---------|---------------|
+| Mr. R N Patel | 5.00 |
+
+#### 4351107
 
 - Overall Average: 5.00
 
@@ -339,44 +296,110 @@ Rating | Description
 |---------|---------------|
 | Mr. M J Dabgar | 5.00 |
 
-### SWD (4311603)
-
-- Overall Average: 5.00
-
-| Faculty | Average Score |
-|---------|---------------|
-| Mr. R C Parmar | 5.00 |
-
-### IIS (4311602)
+#### 4351108
 
 - Overall Average: 5.00
 
 | Faculty | Average Score |
 |---------|---------------|
 | Mr. L K Patel | 5.00 |
-| Mr. M J Vadhwania | 5.00 |
-| Mr. N J Chauhan | 5.00 |
 
-## Semester Analysis
+### Faculty Analysis (Subject-wise)
 
-![Semester Analysis](static/images/charts/semester_analysis.png)
+#### Mr. L K Patel
 
-| Semester | Average Score |
-|----------|---------------|
-| EC - Sem 5 | 4.99 |
-| EC - Sem 3 | 4.26 |
-| EC - Sem 1 | 4.35 |
-| ICT - Sem 3 | 4.30 |
-| ICT - Sem 1 | 3.56 |
-| IT - Sem 1 | 4.19 |
+- Overall Average: 4.83
 
-## Branch Analysis
+| Subject | Average Score |
+|---------|---------------|
+| 1333205 | 4.58 |
+| 4311102 | 4.92 |
+| 4311602 | 4.63 |
+| 4351104 | 5.00 |
+| 4351108 | 5.00 |
 
-![Branch Analysis](static/images/charts/branch_analysis.png)
+#### Mr. M J Dabgar
 
-| Branch | Average Score |
-|--------|---------------|
-| EC | 4.56 |
-| ICT | 3.73 |
-| IT | 4.19 |
+- Overall Average: 4.59
+
+| Subject | Average Score |
+|---------|---------------|
+| 1333203 | 4.33 |
+| 4311601 | 4.43 |
+| 4351107 | 5.00 |
+
+#### Mr. M J Vadhwania
+
+- Overall Average: 3.42
+
+| Subject | Average Score |
+|---------|---------------|
+| 4300010 | 3.19 |
+| 4300015 | 4.03 |
+| 4311602 | 3.03 |
+
+#### Mr. N J Chauhan
+
+- Overall Average: 4.31
+
+| Subject | Average Score |
+|---------|---------------|
+| 1333202 | 4.15 |
+| 4300015 | 3.75 |
+| 4311101 | 4.94 |
+| 4311602 | 4.41 |
+
+#### Mr. R C Parmar
+
+- Overall Average: 4.25
+
+| Subject | Average Score |
+|---------|---------------|
+| 1313203 | 3.47 |
+| 4311603 | 4.36 |
+| 4331103 | 4.19 |
+| 4351103 | 4.98 |
+
+#### Mr. R N Patel
+
+- Overall Average: 4.36
+
+| Subject | Average Score |
+|---------|---------------|
+| 1313201 | 3.65 |
+| 1313202 | 3.94 |
+| 4300010 | 4.67 |
+| 4331101 | 4.52 |
+| 4351105 | 5.00 |
+
+#### Mr. S J Chauhan
+
+- Overall Average: 4.35
+
+| Subject | Average Score |
+|---------|---------------|
+| 1333201 | 4.09 |
+| 4331104 | 4.61 |
+
+#### Mr. S P Joshiara
+
+- Overall Average: 3.88
+
+| Subject | Average Score |
+|---------|---------------|
+| 1313201 | 3.14 |
+| 4300015 | 3.62 |
+| 4300021 | 4.97 |
+| 4331102 | 3.78 |
+
+#### Ms. M K Pedhadiya
+
+- Overall Average: 4.34
+
+| Subject | Average Score |
+|---------|---------------|
+| 1313203 | 3.82 |
+| 1333204 | 4.35 |
+| 4331105 | 4.19 |
+| 4351102 | 5.00 |
 
