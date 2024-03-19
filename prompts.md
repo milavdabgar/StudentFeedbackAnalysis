@@ -311,3 +311,7 @@ then use branch score to calculate term-year (Odd-2023). term-year score should 
 for calculating any of the scores above, make sure that you create sample having earlier values unique.
 
 e.g. while calculating semester scores. make sure that data[year_term][branch] is unique. dont club semester 3 of EC Branch with semester 3 of ICT Branch. 
+
+
+
+aren't the problem same for Faculty Analysis (Parameter-wise) & Subject Analysis (Parameter-wise) but for one you suggested change is analyze\\\_feedback() methods and for other in generate\\\_markdown\\\_report(). is there any particular reason?

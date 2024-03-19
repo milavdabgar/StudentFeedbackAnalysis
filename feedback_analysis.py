@@ -15,33 +15,56 @@ def analyze_feedback(file_content):
     data = pd.read_csv(StringIO(file_content))
 
     # Calculate subject scores (faculty-wise)
-    subject_scores_faculty = data.groupby(['Subject_Code', 'Faculty_Name'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean(axis=1).reset_index()
-    subject_scores_faculty.columns = ['Subject_Code', 'Faculty_Name', 'Average_Score']
+    subject_scores_faculty = data.groupby(['Subject_Code', 'Subject_ShortForm', 'Faculty_Name']).agg({
+        'Q1': 'mean',
+        'Q2': 'mean',
+        'Q3': 'mean',
+        'Q4': 'mean',
+        'Q5': 'mean',
+        'Q6': 'mean',
+        'Q7': 'mean',
+        'Q8': 'mean',
+        'Q9': 'mean',
+        'Q10': 'mean',
+        'Q11': 'mean',
+        'Q12': 'mean'
+    }).reset_index()
+    subject_scores_faculty['Average_Score'] = subject_scores_faculty[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean(axis=1)
 
     # Calculate subject scores (overall)
-    subject_scores_overall = subject_scores_faculty.groupby('Subject_Code')['Average_Score'].mean().reset_index()
-    subject_scores_overall.columns = ['Subject_Code', 'Overall_Average']
+    subject_scores_overall = subject_scores_faculty.groupby(['Subject_Code', 'Subject_ShortForm'])['Average_Score'].mean().reset_index()
+    subject_scores_overall.columns = ['Subject_Code', 'Subject_ShortForm', 'Overall_Average']
 
     # Calculate faculty scores (subject-wise)
-    faculty_scores_subject = subject_scores_faculty.groupby(['Faculty_Name', 'Subject_Code'])['Average_Score'].mean().reset_index()
-    faculty_scores_subject.columns = ['Faculty_Name', 'Subject_Code', 'Average_Score']
-
+    faculty_scores_subject = subject_scores_faculty.groupby(['Faculty_Name', 'Subject_Code', 'Subject_ShortForm']).agg({
+        'Q1': 'mean',
+        'Q2': 'mean',
+        'Q3': 'mean',
+        'Q4': 'mean',
+        'Q5': 'mean',
+        'Q6': 'mean',
+        'Q7': 'mean',
+        'Q8': 'mean',
+        'Q9': 'mean',
+        'Q10': 'mean',
+        'Q11': 'mean',
+        'Q12': 'mean',
+        'Average_Score': 'mean'
+    }).reset_index()
     # Calculate faculty scores (overall)
+    
     faculty_scores_overall = faculty_scores_subject.groupby('Faculty_Name')['Average_Score'].mean().reset_index()
     faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
 
     # Calculate semester scores
-    semester_scores = data.groupby(['Year', 'Odd_Even', 'Branch', 'Sem'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean(axis=1).reset_index()
-    semester_scores.columns = ['Year', 'Odd_Even', 'Branch', 'Sem', 'Average_Score']
+    semester_scores = data.groupby(['Year', 'Odd_Even', 'Branch', 'Sem'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().reset_index()
     semester_scores['Branch_Semester'] = semester_scores['Branch'] + ' - ' + semester_scores['Sem'].astype(str)
 
     # Calculate branch scores
-    branch_scores = semester_scores.groupby('Branch')['Average_Score'].mean().reset_index()
-    branch_scores.columns = ['Branch', 'Average_Score']
+    branch_scores = semester_scores.groupby('Branch')[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean()
 
     # Calculate term-year scores
-    term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])['Average_Score'].mean().reset_index()
-    term_year_scores.columns = ['Year', 'Odd_Even', 'Average_Score']
+    term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean()
 
     # Prepare the analysis results
     analysis_result = {
@@ -55,6 +78,7 @@ def analyze_feedback(file_content):
     }
 
     return analysis_result
+
 
 def generate_excel_report(analysis_result, output_file, original_data):
     writer = pd.ExcelWriter(output_file, engine='xlsxwriter')
@@ -82,34 +106,34 @@ def generate_markdown_report(analysis_result, markdown_file):
     report += "## Overall Feedback Analysis\n\n"
     report += "| Branch Score | Term-Year Score | Semester Score | Subject Score |\n"
     report += "| --- | --- | --- | --- |\n"
-    report += f"| {branch_scores['Average_Score'].mean():.2f} | {term_year_scores['Average_Score'].mean():.2f} | {semester_scores['Average_Score'].mean():.2f} | {subject_scores_overall['Overall_Average'].mean():.2f} |\n\n"
+    report += f"| {branch_scores.mean().mean():.2f} | {term_year_scores.mean().mean():.2f} | {semester_scores[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean():.2f} | {subject_scores_overall['Overall_Average'].mean():.2f} |\n\n"
 
     report += "### Branch Analysis (overall)\n\n"
     report += "| Branch | Average Score |\n"
     report += "|--------|---------------|\n"
-    for _, row in branch_scores.iterrows():
-        report += f"| {row['Branch']} | {row['Average_Score']:.2f} |\n"
+    for branch, row in branch_scores.iterrows():
+        report += f"| {branch} | {row.mean():.2f} |\n"
     report += "\n"
 
     report += "### Term-Year Analysis (overall)\n\n"
     report += "| Term-Year | Overall |\n"
     report += "| --- | --- |\n"
-    for _, row in term_year_scores.iterrows():
-        report += f"| {row['Year']}-{row['Odd_Even']} | {row['Average_Score']:.2f} |\n"
+    for term_year, row in term_year_scores.iterrows():
+        report += f"| {term_year[0]}-{term_year[1]} | {row.mean():.2f} |\n"
     report += "\n"
 
     report += "### Semester Analysis (overall)\n\n"
     report += "| Branch - Semester | Average Score |\n"
     report += "|----------|---------------|\n"
     for _, row in semester_scores.iterrows():
-        report += f"| {row['Branch_Semester']} | {row['Average_Score']:.2f} |\n"
+        report += f"| {row['Branch_Semester']} | {row[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean():.2f} |\n"
     report += "\n"
 
     report += "### Subject Analysis (overall)\n\n"
     report += "| Subject | Overall Average |\n"
     report += "|---------|------------------|\n"
     for _, row in subject_scores_overall.iterrows():
-        report += f"| {row['Subject_Code']} | {row['Overall_Average']:.2f} |\n"
+        report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Overall_Average']:.2f} |\n"
     report += "\n"
 
     report += "### Faculty Analysis (Overall)\n\n"
@@ -119,11 +143,56 @@ def generate_markdown_report(analysis_result, markdown_file):
         report += f"| {row['Faculty_Name']} | {row['Overall_Average']:.2f} |\n"
     report += "\n"
 
+    report += "## Parameter-wise Feedback Analysis\n\n"
+
+    report += "### Branch Analysis (Parameter-wise)\n\n"
+    report += "| Branch | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|--------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    for branch, row in branch_scores.iterrows():
+        report += f"| {branch} | {row.mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"
+
+    report += "### Term-Year Analysis (Parameter-wise)\n\n"
+    report += "| Term-Year | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|-----------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    for term_year, row in term_year_scores.iterrows():
+        report += f"| {term_year[0]}-{term_year[1]} | {row.mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"
+
+    report += "### Semester Analysis (Parameter-wise)\n\n"
+    report += "| Branch - Semester | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|-------------------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    for _, row in semester_scores.iterrows():
+        report += f"| {row['Branch_Semester']} | {row[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean():.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"
+
+    report += "### Subject Analysis (Parameter-wise)\n\n"
+    report += "| Subject | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    for _, row in subject_scores_faculty.drop_duplicates(['Subject_Code', 'Subject_ShortForm']).iterrows():
+        report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"
+
+    # report += "### Faculty Analysis (Parameter-wise)\n\n"
+    # report += "| Faculty | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    # report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    # for _, row in faculty_scores_subject.drop_duplicates('Faculty_Name').iterrows():
+    #     report += f"| {row['Faculty_Name']} | {row['Average_Score']:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    # report += "\n"    
+    
+    report += "### Faculty Analysis (Parameter-wise)\n\n"
+    report += "| Faculty | Score | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |\n"
+    report += "|---------|-------|---|---|---|---|---|---|---|---|---|---|---|---|\n"
+    faculty_scores_overall_dict = dict(zip(faculty_scores_overall['Faculty_Name'], faculty_scores_overall['Overall_Average']))
+    for _, row in faculty_scores_subject.drop_duplicates('Faculty_Name').iterrows():
+        report += f"| {row['Faculty_Name']} | {faculty_scores_overall_dict[row['Faculty_Name']]:.2f} | {row['Q1']:.2f} | {row['Q2']:.2f} | {row['Q3']:.2f} | {row['Q4']:.2f} | {row['Q5']:.2f} | {row['Q6']:.2f} | {row['Q7']:.2f} | {row['Q8']:.2f} | {row['Q9']:.2f} | {row['Q10']:.2f} | {row['Q11']:.2f} | {row['Q12']:.2f} |\n"
+    report += "\n"    
+
     report += "## Misc Feedback Analysis\n\n"
 
     report += "### Subject Analysis (Faculty-wise)\n\n"
-    for subject_code, subject_data in subject_scores_faculty.groupby('Subject_Code'):
-        report += f"#### {subject_code}\n\n"
+    for subject_code, subject_data in subject_scores_faculty.groupby(['Subject_Code', 'Subject_ShortForm']):
+        report += f"#### {subject_code[0]} ({subject_code[1]})\n\n"
         report += f"- Overall Average: {subject_data['Average_Score'].mean():.2f}\n\n"
         report += "| Faculty | Average Score |\n"
         report += "|---------|---------------|\n"
@@ -138,7 +207,7 @@ def generate_markdown_report(analysis_result, markdown_file):
         report += "| Subject | Average Score |\n"
         report += "|---------|---------------|\n"
         for _, row in faculty_data.iterrows():
-            report += f"| {row['Subject_Code']} | {row['Average_Score']:.2f} |\n"
+            report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} |\n"
         report += "\n"
 
     # Save the report to a markdown file
