@@ -76,8 +76,6 @@ def analyze_feedback(file_content):
     faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
 
     # Calculate correlation matrix
-    # correlation_matrix = faculty_scores_subject.pivot_table(index='Subject_Code', columns='Faculty_Name', values='Average_Score', aggfunc='mean')
-    # Calculate correlation matrix
     correlation_matrix = faculty_scores_subject.pivot_table(index=['Subject_Code', 'Subject_ShortForm'], columns='Faculty_Name', values='Average_Score', aggfunc='mean')
 
     # Fill NaN values with '-'
