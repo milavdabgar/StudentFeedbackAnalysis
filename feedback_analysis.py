@@ -219,7 +219,14 @@ def generate_markdown_report(analysis_result, markdown_file):
 
     # Add correlation matrix to the report
     report += "### Faculty-Subject Correlation Matrix\n\n"
-    report += correlation_matrix.to_markdown()
+    
+    # Prepare the correlation matrix with required formatting
+    formatted_matrix = correlation_matrix.copy()
+    formatted_matrix.columns = formatted_matrix.columns.map(get_faculty_initial)
+    formatted_matrix.index = formatted_matrix.index.map(lambda x: f"{x[0]} ({x[1]})" if isinstance(x, tuple) else str(x))
+    formatted_matrix = formatted_matrix.applymap(lambda x: f"{x:.2f}" if isinstance(x, (int, float)) else x)
+    
+    report += formatted_matrix.to_markdown()
 
     # Save the report to a markdown file
     with open(markdown_file, 'w') as file:
