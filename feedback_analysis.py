@@ -54,8 +54,8 @@ def analyze_feedback(file_content):
         'Q12': 'mean',
         'Average_Score': 'mean'
     }).reset_index()
-    # Calculate faculty scores (overall)
-    
+
+    # Calculate faculty scores (overall)    
     faculty_scores_overall = faculty_scores_subject.groupby('Faculty_Name')['Average_Score'].mean().reset_index()
     faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
 
@@ -68,12 +68,6 @@ def analyze_feedback(file_content):
 
     # Calculate term-year scores
     term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean()
-    
-    
-    # Create 'Faculty_Initial' column from 'Faculty_Name'
-    subject_scores_faculty['Faculty_Initial'] = subject_scores_faculty['Faculty_Name'].apply(get_faculty_initial)
-    faculty_scores_subject['Faculty_Initial'] = faculty_scores_subject['Faculty_Name'].apply(get_faculty_initial)
-    faculty_scores_overall['Faculty_Initial'] = faculty_scores_overall['Faculty_Name'].apply(get_faculty_initial)
 
     # Calculate faculty scores (overall)
     faculty_scores_overall = faculty_scores_subject.groupby('Faculty_Name')['Average_Score'].mean().reset_index()
