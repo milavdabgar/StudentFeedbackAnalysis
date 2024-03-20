@@ -11,7 +11,9 @@ def calculate_average(scores):
     return sum(scores) / len(scores)
 
 def get_faculty_initial(name):
-    return ''.join(word[0].upper() for word in name.split())    
+    # Remove prefixes like "Mr." and "Ms."
+    name = name.replace("Mr. ", "").replace("Ms. ", "")
+    return ''.join(word[0].upper() for word in name.split())  
 
 def analyze_feedback(file_content):
     # Read the CSV data into a pandas DataFrame
@@ -74,7 +76,9 @@ def analyze_feedback(file_content):
     faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
 
     # Calculate correlation matrix
-    correlation_matrix = faculty_scores_subject.pivot_table(index='Subject_Code', columns='Faculty_Name', values='Average_Score', aggfunc='mean')
+    # correlation_matrix = faculty_scores_subject.pivot_table(index='Subject_Code', columns='Faculty_Name', values='Average_Score', aggfunc='mean')
+    # Calculate correlation matrix
+    correlation_matrix = faculty_scores_subject.pivot_table(index=['Subject_Code', 'Subject_ShortForm'], columns='Faculty_Name', values='Average_Score', aggfunc='mean')
 
     # Fill NaN values with '-'
     correlation_matrix = correlation_matrix.fillna('-')
