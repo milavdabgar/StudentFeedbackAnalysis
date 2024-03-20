@@ -78,6 +78,14 @@ def analyze_feedback(file_content):
     # Calculate correlation matrix
     correlation_matrix = faculty_scores_subject.pivot_table(index=['Subject_Code', 'Subject_ShortForm'], columns='Faculty_Name', values='Average_Score', aggfunc='mean')
 
+    # Add 'Faculty Overall' row
+    faculty_overall = faculty_scores_overall.set_index('Faculty_Name')['Overall_Average']
+    correlation_matrix.loc['Faculty Overall'] = faculty_overall
+
+    # Add 'Subject Overall' column
+    subject_overall = subject_scores_overall.set_index(['Subject_Code', 'Subject_ShortForm'])['Overall_Average']
+    correlation_matrix['Subject Overall'] = subject_overall
+
     # Fill NaN values with '-'
     correlation_matrix = correlation_matrix.fillna('-')
 
@@ -198,26 +206,6 @@ def generate_markdown_report(analysis_result, markdown_file):
     report += "\n"
 
     report += "## Misc Feedback Analysis\n\n"
-
-    report += "### Subject Analysis (Faculty-wise)\n\n"
-    for subject_code, subject_data in subject_scores_faculty.groupby(['Subject_Code', 'Subject_ShortForm']):
-        report += f"#### {subject_code[0]} ({subject_code[1]})\n\n"
-        report += f"- Overall Average: {subject_data['Average_Score'].mean():.2f}\n\n"
-        report += "| Faculty | Average Score |\n"
-        report += "|---------|---------------|\n"
-        for _, row in subject_data.iterrows():
-            report += f"| {row['Faculty_Name']} | {row['Average_Score']:.2f} |\n"
-        report += "\n"
-
-    report += "### Faculty Analysis (Subject-wise)\n\n"
-    for faculty_name, faculty_data in faculty_scores_subject.groupby('Faculty_Name'):
-        report += f"#### {faculty_name}\n\n"
-        report += f"- Overall Average: {faculty_data['Average_Score'].mean():.2f}\n\n"
-        report += "| Subject | Average Score |\n"
-        report += "|---------|---------------|\n"
-        for _, row in faculty_data.iterrows():
-            report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} |\n"
-        report += "\n"
 
     # Add correlation matrix to the report
     report += "### Faculty-Subject Correlation Matrix\n\n"
