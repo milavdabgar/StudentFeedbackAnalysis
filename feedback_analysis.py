@@ -10,6 +10,9 @@ import os
 def calculate_average(scores):
     return sum(scores) / len(scores)
 
+def get_faculty_initial(name):
+    return ''.join(word[0].upper() for word in name.split())    
+
 def analyze_feedback(file_content):
     # Read the CSV data into a pandas DataFrame
     data = pd.read_csv(StringIO(file_content))
@@ -65,6 +68,22 @@ def analyze_feedback(file_content):
 
     # Calculate term-year scores
     term_year_scores = semester_scores.groupby(['Year', 'Odd_Even'])[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean()
+    
+    
+    # Create 'Faculty_Initial' column from 'Faculty_Name'
+    subject_scores_faculty['Faculty_Initial'] = subject_scores_faculty['Faculty_Name'].apply(get_faculty_initial)
+    faculty_scores_subject['Faculty_Initial'] = faculty_scores_subject['Faculty_Name'].apply(get_faculty_initial)
+    faculty_scores_overall['Faculty_Initial'] = faculty_scores_overall['Faculty_Name'].apply(get_faculty_initial)
+
+    # Calculate faculty scores (overall)
+    faculty_scores_overall = faculty_scores_subject.groupby('Faculty_Name')['Average_Score'].mean().reset_index()
+    faculty_scores_overall.columns = ['Faculty_Name', 'Overall_Average']
+
+    # Calculate correlation matrix
+    correlation_matrix = faculty_scores_subject.pivot_table(index='Subject_Code', columns='Faculty_Name', values='Average_Score', aggfunc='mean')
+
+    # Fill NaN values with '-'
+    correlation_matrix = correlation_matrix.fillna('-')
 
     # Prepare the analysis results
     analysis_result = {
@@ -74,7 +93,8 @@ def analyze_feedback(file_content):
         'faculty_scores_overall': faculty_scores_overall,
         'semester_scores': semester_scores,
         'branch_scores': branch_scores,
-        'term_year_scores': term_year_scores
+        'term_year_scores': term_year_scores,
+        'correlation_matrix': correlation_matrix
     }
 
     return analysis_result
@@ -100,6 +120,7 @@ def generate_markdown_report(analysis_result, markdown_file):
     semester_scores = analysis_result['semester_scores']
     branch_scores = analysis_result['branch_scores']
     term_year_scores = analysis_result['term_year_scores']
+    correlation_matrix = analysis_result['correlation_matrix']
 
     report = "## Feedback Analysis\n\n"
 
@@ -201,6 +222,10 @@ def generate_markdown_report(analysis_result, markdown_file):
         for _, row in faculty_data.iterrows():
             report += f"| {row['Subject_Code']} ({row['Subject_ShortForm']}) | {row['Average_Score']:.2f} |\n"
         report += "\n"
+
+    # Add correlation matrix to the report
+    report += "### Faculty-Subject Correlation Matrix\n\n"
+    report += correlation_matrix.to_markdown()
 
     # Save the report to a markdown file
     with open(markdown_file, 'w') as file:
