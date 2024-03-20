@@ -128,11 +128,6 @@ def generate_markdown_report(analysis_result, markdown_file):
 
     report = "## Feedback Analysis\n\n"
 
-    report += "## Overall Feedback Analysis\n\n"
-    report += "| Branch Score | Term-Year Score | Semester Score | Subject Score |\n"
-    report += "| --- | --- | --- | --- |\n"
-    report += f"| {branch_scores.mean().mean():.2f} | {term_year_scores.mean().mean():.2f} | {semester_scores[['Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'Q6', 'Q7', 'Q8', 'Q9', 'Q10', 'Q11', 'Q12']].mean().mean():.2f} | {subject_scores_overall['Overall_Average'].mean():.2f} |\n\n"
-
     report += "### Branch Analysis (overall)\n\n"
     report += "| Branch | Average Score |\n"
     report += "|--------|---------------|\n"
@@ -282,8 +277,8 @@ def generate_report(analysis_result, original_data):
     markdown_file = 'feedback_report.md'
     generate_markdown_report(analysis_result, markdown_file)
     
-    # excel_file = 'feedback_report.xlsx'
-    # generate_excel_report(analysis_result, excel_file, original_data)
+    excel_file = 'feedback_report.xlsx'
+    generate_excel_report(analysis_result, excel_file, original_data)
     
     pdf_wkhtml = generate_pdf_wkhtml(markdown_file)
     pdf_latex = generate_pdf_latex(markdown_file)

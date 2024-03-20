@@ -1,11 +1,5 @@
 ## Feedback Analysis
 
-## Overall Feedback Analysis
-
-| Branch Score | Term-Year Score | Semester Score | Subject Score |
-| --- | --- | --- | --- |
-| 4.22 | 4.28 | 4.28 | 4.41 |
-
 ### Branch Analysis (overall)
 
 | Branch | Average Score |

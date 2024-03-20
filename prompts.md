@@ -317,3 +317,101 @@ e.g. while calculating semester scores. make sure that data[year_term][branch] i
 aren't the problem same for Faculty Analysis (Parameter-wise) & Subject Analysis (Parameter-wise) but for one you suggested change is analyze\\\_feedback() methods and for other in generate\\\_markdown\\\_report(). is there any particular reason?
 
 Okay, it now matches with overall scores, but now tallying it with the average of Q1-Q12 is giving a mismatch. in the case of subject-overall analysis and subject-parameterized analysis, there is now such an issue. can't we use the same logic to target this issue with faculty analysis?
+
+## Detailed Analysis
+
+| Year-Term | Branch | Semester | Subject | Faculty |
+|------------|---------|-----------|----------|------------|
+| 2023-Odd | EC (4.53) | | | |
+| | | EC - 5 (4.99) | | |
+| | | | 4300021 (E&S) | Mr. S P Joshiara (5.00) |
+| | | | 4351102 (ES) | Ms. M K Pedhadiya (5.00) |
+| | | | 4351103 (MWR) | Mr. R C Parmar (4.93) |
+| | | | 4351104 (M&WC) | Mr. L K Patel (5.00) |
+| | | | 4351105 (SP) | Mr. R N Patel (5.00) |
+| | | | 4351108 (OPP) | Mr. L K Patel (5.00) |
+| | | | 4351107 (PR1) | Mr. M J Dabgar (5.00) |
+| | | EC - 3 (4.13) | | |
+| | | | 4331101 (ECN) | Mr. R N Patel (4.50) |
+| | | | 4331102 (EMI) | Mr. S P Joshiara (3.75) |
+| | | | 4331103 (IE) | Mr. R C Parmar (4.25) |
+| | | | 4331104 (PEC) | Mr. S J Chauhan (4.38) |
+| | | | 4331105 (PC) | Ms. M K Pedhadiya (4.13) |
+| | | EC - 1 (4.67) | | |
+| | | | 4311102 (FE) | Mr. L K Patel (5.00) |
+| | | | 4311101 (FEE) | Mr. N J Chauhan (5.00) |
+| | | | 4300010 (BICT) | Mr. R N Patel (4.33) |
+| | | | 4300010 (BICT) | Mr. M J Vadhwania (3.00) |
+| | | | 4300015 (S&Y) | Mr. M J Vadhwania (4.00) |
+| 2023-Odd | ICT (3.93) | | | |
+| | | ICT - 3 (4.28) | | |
+| | | | 1333201 (CE) | Mr. S J Chauhan (4.14) |
+| | | | 1333202 (MPMC) | Mr. N J Chauhan (4.14) |
+| | | | 1333203 (DSA) | Mr. M J Dabgar (4.36) |
+| | | | 1333204 (DBMS) | Ms. M K Pedhadiya (4.50) |
+| | | | 1333205 (OSA) | Mr. L K Patel (4.50) |
+| | | ICT - 1 (3.56) | | |
+| | | | 1313202 (EEE) | Mr. R N Patel (4.07) |
+| | | | 1313203 (WDP) | Ms. M K Pedhadiya (4.14) |
+| | | | 1313203 (WDP) | Mr. R C Parmar (3.48) |
+| | | | 1313201 (FICT) | Mr. S P Joshiara (3.36) |
+| | | | 1313201 (FICT) | Mr. R N Patel (4.00) |
+| | | | 4300015 (S&Y) | Mr. N J Chauhan (4.00) |
+| | | | 4300015 (S&Y) | Mr. S P Joshiara (3.07) |
+| 2023-Odd | IT (4.19) | | | |
+| | | IT - 1 (4.19) | | |
+| | | | 4311601 (PP) | Mr. M J Dabgar (4.39) |
+| | | | 4311603 (SWD) | Mr. R C Parmar (4.13) |
+| | | | 4311602 (IIS) | Mr. L K Patel (4.83) |
+| | | | 4311602 (IIS) | Mr. M J Vadhwania (3.52) |
+| | | | 4311602 (IIS) | Mr. N J Chauhan (4.70) |
+| | | | 4300015 (S&Y) | Mr. S P Joshiara (4.39) |
+
+
+## Detailed Analysis
+
+Year-Term    Branch        Semester      Subject                    Faculty
+2023-Odd     EC (4.53)                   
+                           EC - 5 (4.99)
+                                         4300021 (E&S)              Mr. S P Joshiara (5.00)
+                                         4351102 (ES)               Ms. M K Pedhadiya (5.00)
+                                         4351103 (MWR)              Mr. R C Parmar (4.93)
+                                         4351104 (M&WC)             Mr. L K Patel (5.00)
+                                         4351105 (SP)               Mr. R N Patel (5.00)
+                                         4351108 (OPP)              Mr. L K Patel (5.00)
+                                         4351107 (PR1)              Mr. M J Dabgar (5.00)
+                           EC - 3 (4.13)
+                                         4331101 (ECN)              Mr. R N Patel (4.50)
+                                         4331102 (EMI)              Mr. S P Joshiara (3.75)
+                                         4331103 (IE)               Mr. R C Parmar (4.25)
+                                         4331104 (PEC)              Mr. S J Chauhan (4.38)
+                                         4331105 (PC)               Ms. M K Pedhadiya (4.13)
+                           EC - 1 (4.67)
+                                         4311102 (FE)               Mr. L K Patel (5.00)
+                                         4311101 (FEE)              Mr. N J Chauhan (5.00)
+                                         4300010 (BICT)             Mr. R N Patel (4.33)
+                                         4300010 (BICT)             Mr. M J Vadhwania (3.00)
+                                         4300015 (S&Y)              Mr. M J Vadhwania (4.00)
+2023-Odd     ICT (3.93)                  
+                           ICT - 3 (4.28)
+                                         1333201 (CE)               Mr. S J Chauhan (4.14)
+                                         1333202 (MPMC)             Mr. N J Chauhan (4.14)
+                                         1333203 (DSA)              Mr. M J Dabgar (4.36)
+                                         1333204 (DBMS)             Ms. M K Pedhadiya (4.50)
+                                         1333205 (OSA)              Mr. L K Patel (4.50)
+                           ICT - 1 (3.56)
+                                         1313202 (EEE)              Mr. R N Patel (4.07)
+                                         1313203 (WDP)              Ms. M K Pedhadiya (4.14)
+                                         1313203 (WDP)              Mr. R C Parmar (3.48)
+                                         1313201 (FICT)             Mr. S P Joshiara (3.36)
+                                         1313201 (FICT)             Mr. R N Patel (4.00)
+                                         4300015 (S&Y)              Mr. N J Chauhan (4.00)
+                                         4300015 (S&Y)              Mr. S P Joshiara (3.07)
+2023-Odd     IT (4.19)                   
+                           IT - 1 (4.19)
+                                         4311601 (PP)               Mr. M J Dabgar (4.39)
+                                         4311603 (SWD)              Mr. R C Parmar (4.13)
+                                         4311602 (IIS)              Mr. L K Patel (4.83)
+                                         4311602 (IIS)              Mr. M J Vadhwania (3.52)
+                                         4311602 (IIS)              Mr. N J Chauhan (4.70)
+                                         4300015 (S&Y)              Mr. S P Joshiara (4.39)
