@@ -11,7 +11,7 @@ def analyze_feedback(file_content):
     exclude_words = ['of', 'and', 'in', 'to', 'the', 'for', '&', 'a', 'an']  # Add more words if needed
     data['Subject_ShortForm'] = data['Subject_FullName'].apply(lambda x: ''.join(word[0].upper() for word in x.split() if word.lower() not in exclude_words))    
 
-    subject_scores = data.groupby(['Subject_Code', 'Subject_ShortForm', 'Faculty_Name', 'Subject_FullName']).agg({
+    subject_scores = data.groupby(['Subject_Code', 'Subject_ShortForm', 'Faculty_Name']).agg({
         **{f'Q{i}': 'mean' for i in range(1, 13)}, 'Subject_FullName': 'first'
     }).reset_index()
     subject_scores['Score'] = subject_scores[list(f'Q{i}' for i in range(1, 13))].mean(axis=1)
@@ -85,9 +85,7 @@ def generate_markdown_report(analysis_result):
 
     report += "### Subject Analysis (overall)\n\n"
     subject_scores_overall = analysis_result['subject_scores'].groupby(['Subject_Code', 'Subject_ShortForm'])['Score'].mean().reset_index()
-    subject_scores_overall = subject_scores_overall.merge(analysis_result['subject_scores'][['Subject_Code', 'Subject_FullName']].drop_duplicates(), on='Subject_Code')
-    subject_scores_overall = subject_scores_overall[['Subject_Code', 'Subject_ShortForm', 'Subject_FullName', 'Score']]
-    subject_scores_overall.columns = ['Subject Code', 'Subject Short Form', 'Subject Full Name', 'Score']
+    subject_scores_overall.columns = ['Subject Code', 'Subject Short Form', 'Score']
     report += subject_scores_overall.apply(format_float).to_markdown(index=False)
     report += "\n\n"
 
@@ -111,8 +109,8 @@ def generate_markdown_report(analysis_result):
     report += "\n\n"
 
     report += "### Subject Analysis (Parameter-wise)\n\n"
-    subject_scores_param = analysis_result['subject_scores'].drop(columns=['Faculty_Name']).apply(format_float)
-    subject_scores_param.columns = ['Subject Code', 'Subject Short Form'] + [f'Q{i}' for i in range(1, 13)] + ['Score']
+    subject_scores_param = analysis_result['subject_scores'].apply(format_float)
+    subject_scores_param.columns = ['Subject Code', 'Subject Short Form', 'Faculty Name', 'Subject Full Name'] + [f'Q{i}' for i in range(1, 13)] + ['Score']
     report += subject_scores_param.to_markdown(index=False)
     report += "\n\n"
 
