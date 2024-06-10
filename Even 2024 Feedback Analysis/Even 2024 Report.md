@@ -1,4 +1,47 @@
-## Feedback Analysis
+---
+title: Student Feedback Analysis Report (Even - 2024)
+subtitle: EC Dept, Government Polytechnic Palanpur
+margin-left: 2.5cm
+margin-right: 2.5cm
+margin-top: 2cm
+margin-bottom: 2cm
+toc: True
+---
+
+# Student Feedback Analysis Report (Even - 2024)
+
+## Assessment Parameters & Rating Scale
+
+### Assessment Parameters
+
+- **Q1 Syllabus Coverage**: Has the Teacher covered the entire syllabus as prescribed by University/College/Board?
+- **Q2 Topics Beyond Syllabus**: Has the Teacher covered relevant topics beyond the syllabus?
+- **Q3 Pace of Teaching**: Pace at which contents were covered?
+- **Q4 Practical Demo**: Support for the development of student's skill (Practical demonstration)
+- **Q5 Hands-on Training**: Support for the development of student's skill (Hands-on training)
+- **Q6 Technical Skills of Teacher**: Effectiveness of Teacher in terms of: Technical skills
+- **Q7 Communication Skills of Teacher**: Effectiveness of Teacher in terms of: Communication skills
+- **Q8 Doubt Clarification**: Clarity of expectations of students
+- **Q9 Use of Teaching Tools**: Effectiveness of Teacher in terms of: Use of teaching aids
+- **Q10 Motivation**: Motivation and inspiration for students to learn
+- **Q11 Helpfulness of Teacher**: Willingness to offer help and advice to students
+- **Q12 Student Progress Feedback**: Feedback provided on student's progress
+
+### Rating Scale
+
+| Rating | Description |
+|--------|-------------|
+| 1      | Very Poor   |
+| 2      | Poor        |
+| 3      | Average     |
+| 4      | Good        |
+| 5      | Very Good   |
+
+## Feedback Analysis (Even - 2024)
+
+**Term duration:**
+- Semester 6: 05/01/24 to 30/04/24
+- Semester 2 & 4: 01/02/24 to 25/05/24
 
 ### Branch Analysis (overall)
 
