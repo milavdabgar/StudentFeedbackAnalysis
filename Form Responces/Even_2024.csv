@@ -1,0 +1,504 @@
+Year,Term,Branch,Sem,Responce_Count,Term_Start,Term_End,Subject_Code,Subject_ShortForm,Subject_FullName,Faculty_Initial,Faculty_Name,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12
+2024,Even,EC,6,5,05/01/24,30/04/24,4361101,CNDC,Computer Networks & Data Communication,SPJ,Mr. S P Joshiara,5,5,4,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361101,CNDC,Computer Networks & Data Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361101,CNDC,Computer Networks & Data Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361101,CNDC,Computer Networks & Data Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361101,CNDC,Computer Networks & Data Communication,SPJ,Mr. S P Joshiara,5,5,4,5,5,5,5,4,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361102,VLSI,VLSI,MKP,Ms. M K Pedhadiya,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361102,VLSI,VLSI,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361102,VLSI,VLSI,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361102,VLSI,VLSI,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361102,VLSI,VLSI,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361103,Project-II,Electronics & Communication Engineering Project-II,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361103,Project-II,Electronics & Communication Engineering Project-II,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361103,Project-II,Electronics & Communication Engineering Project-II,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361103,Project-II,Electronics & Communication Engineering Project-II,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361103,Project-II,Electronics & Communication Engineering Project-II,MJD,Mr. M J Dabgar,5,5,5,5,4,5,5,5,5,4,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361104,AAD,Android App Development,MJD,Mr. M J Dabgar,5,5,4,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361104,AAD,Android App Development,MJD,Mr. M J Dabgar,5,5,5,1,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361104,AAD,Android App Development,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361104,AAD,Android App Development,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361104,AAD,Android App Development,MJD,Mr. M J Dabgar,5,4,5,5,5,5,5,4,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,SJC,Mr. S J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,1,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,SJC,Mr. S J Chauhan,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,NJC,Mr. N J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,6,5,05/01/24,30/04/24,4361106,REETE,Renewable Energy & Emerging Trends in Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,MKP,Ms. M K Pedhadiya,4,3,4,3,2,4,3,4,4,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,MKP,Ms. M K Pedhadiya,3,3,3,1,1,1,5,2,4,5,3,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,MKP,Ms. M K Pedhadiya,3,5,5,5,5,4,3,5,4,4,5,4
+2024,Even,EC,4,5,01/02/24,25/05/24,4341101,MPMC,Microprocessor & Microcontroller,MJD,Mr. M J Dabgar,5,5,5,4,5,5,4,4,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341101,MPMC,Microprocessor & Microcontroller,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341101,MPMC,Microprocessor & Microcontroller,MJD,Mr. M J Dabgar,4,5,4,4,4,5,3,3,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341101,MPMC,Microprocessor & Microcontroller,MJD,Mr. M J Dabgar,5,4,5,4,5,4,5,4,5,5,4,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341101,MPMC,Microprocessor & Microcontroller,MJD,Mr. M J Dabgar,3,3,2,4,3,2,3,4,3,2,3,4
+2024,Even,EC,4,5,01/02/24,25/05/24,4341102,DCOM,Digital Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341102,DCOM,Digital Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341102,DCOM,Digital Communication,RNP,Mr. R N Patel,5,4,5,5,5,4,5,5,5,4,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341102,DCOM,Digital Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341102,DCOM,Digital Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341104,CDT,Circuit Design Tools,MKP,Ms. M K Pedhadiya,4,4,4,4,3,4,3,4,4,4,4,4
+2024,Even,EC,4,5,01/02/24,25/05/24,4341104,CDT,Circuit Design Tools,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341104,CDT,Circuit Design Tools,MKP,Ms. M K Pedhadiya,3,3,1,1,1,3,5,1,3,1,2,1
+2024,Even,EC,4,5,01/02/24,25/05/24,4341104,CDT,Circuit Design Tools,MKP,Ms. M K Pedhadiya,3,2,2,2,2,3,3,2,2,2,3,2
+2024,Even,EC,4,5,01/02/24,25/05/24,4341104,CDT,Circuit Design Tools,MKP,Ms. M K Pedhadiya,2,3,3,2,2,2,3,3,3,3,3,3
+2024,Even,EC,4,5,01/02/24,25/05/24,4341105,LIC,Linear Integrated Circuit,RCP,Mr. R C Parmar,4,4,4,3,4,4,4,4,4,4,3,4
+2024,Even,EC,4,5,01/02/24,25/05/24,4341105,LIC,Linear Integrated Circuit,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341105,LIC,Linear Integrated Circuit,RCP,Mr. R C Parmar,3,1,1,1,5,5,5,5,4,3,4,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341105,LIC,Linear Integrated Circuit,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341105,LIC,Linear Integrated Circuit,RCP,Mr. R C Parmar,5,5,5,4,4,3,5,5,4,5,5,4
+2024,Even,EC,4,5,01/02/24,25/05/24,4341106,AWP,Antenna & Wave Propagation,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341106,AWP,Antenna & Wave Propagation,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341106,AWP,Antenna & Wave Propagation,RNP,Mr. R N Patel,5,5,4,4,5,5,3,5,5,5,4,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341106,AWP,Antenna & Wave Propagation,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341106,AWP,Antenna & Wave Propagation,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341107,CEM,Consumer Electronics & Maintanance,SJC,Mr. S J Chauhan,4,5,5,5,4,4,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341107,CEM,Consumer Electronics & Maintanance,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341107,CEM,Consumer Electronics & Maintanance,SJC,Mr. S J Chauhan,5,5,4,5,5,4,5,5,3,5,5,5
+2024,Even,EC,4,5,01/02/24,25/05/24,4341107,CEM,Consumer Electronics & Maintanance,SJC,Mr. S J Chauhan,5,4,4,4,3,4,3,4,4,4,4,3
+2024,Even,EC,4,5,01/02/24,25/05/24,4341107,CEM,Consumer Electronics & Maintanance,SJC,Mr. S J Chauhan,3,3,2,2,3,1,3,3,3,2,2,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,5,4,5,4,5,5,4,5,5,4,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,5,5,4,5,5,5,5,4,5,3,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,4,5,4,4,5,4,5,4,5,4,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,4,4,4,4,5,4,4,4,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,5,4,3,3,3,2,5,4,5,5,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4340003,IPDC,Integrated Personality Development Course,LKP,Mr. L K Patel,5,4,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,4,4,3,5,4,5,4,3,3,3,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,5,5,5,4,5,5,4,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,2,2,1,2,2,1,2,2,2,2,2,2
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,4,3,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,3,3,3,3,3,3,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,3,4,4,4,5,4,5,5,4,4,3,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,5,4,5,5,4,4,5,5,5,5,5,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343201,DDC,Digital & Data Communication,RNP,Mr. R N Patel,5,4,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,1,3,3,1,2,3,3,4,2,2,3,2
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,5,5,5,4,4,4,5,4,4,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,5,5,4,4,4,5,5,5,4,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,3,4,3,3,3,2,4,3,3,2,2,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,CN,Computer Networking,SPJ,Mr. S P Joshiara,5,5,5,5,4,5,5,4,5,4,4,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,5,4,5,4,5,4,5,5,5,4,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,5,5,5,4,5,5,5,4,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,4,4,5,4,4,5,4,5,4,5,4,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,5,5,5,4,4,4,5,4,3,4,2
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,3,3,3,3,3,3,3,3,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,4,5,5,5,5,4,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,4,5,5,5,4,5,5,5,5,4,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343202,JP,Java Programming,MJD,Mr. M J Dabgar,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,4,5,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,4,4,5,5,5,5,4,5,4,5,5,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,1,2,3,4,5,5,3,3,4,5,4,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,4,5,5,5,5,5,5,4,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343204,ES,Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,4,5,5,4,5,5,5,5,5,4,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,3,2,2,2,3,2,2,1,2,2,3,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,5,4,4,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,3,3,2,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,5,5,5,4,3,4,3,3,3,2,2,2
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,4,11,01/02/24,25/05/24,4343205,WT,Web Technologies,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,5,4,5,4,5,5,4,5,5,5,5,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,5,5,4,4,4,4,4,4,4,4,4,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,4,5,2,4,4,4,3,5,4,5,4,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,5,5,5,5,4,2,3,5,3,5,2,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,1,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MMS,Ms. M M Shah,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,5,5,5,4,2,4,5,4,5,5,5,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,5,5,5,4,5,5,5,4,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,JVK,Mr. J V Kureshi,5,5,4,4,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,5,4,5,5,5,4,5,5,5,4,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,4,3,4,5,4,4,4,5,4,4,5,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,2,2,2,2,2,2,2,2,2,2,2,3
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,RLC,Mr. R L Chaudhary,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,5,5,4,3,3,4,3,4,5,4,3,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4300012,CAD,Engineering Drawing and Computer Aided Design,DPJ,Mr. D P Judal,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,4,5,4,5,5,5,5,5,5,5,4
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,4,4,5,4,5,4,5,5,5,4,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,5,4,4,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,4,5,5,4,5,5,4,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,3,3,2,3,3,3,3,3,3,3,3,3
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,3,4,3,3,4,4,2,4,5,3,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,4,4,4,5,4,5,5,5,4,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,4,4,4,4,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,EC,2,6,01/02/24,25/05/24,4321101,EW,Electronics Workshop,RNP,Mr. R N Patel,5,5,4,4,4,5,5,4,5,4,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,4,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,4,5,4,4,5,3,3,4,4,4,3,3
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,2,2,2,2,2,2,2,2,1,1,1,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,2,2,2,2,1,2,1,1,1,1,1,1
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,1,2,2,2,1,2,2,2,1,2,1,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,EC,2,6,01/02/24,25/05/24,4321103,ECA,Electronic Circuits & Applications,RCP,Mr. R C Parmar,5,5,5,5,4,5,5,4,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,4,4,4,4,5,5,5,4,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,4,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,3,4,5,4,4,4,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,4,4,5,5,4,4,4,5,3,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,5,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,5,4,4,5,4,4,4,5,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,3,3,3,3,2,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,4,3,3,3,4,4,5,3,4,3,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,4,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,4,5,5,3,5,4,3,5,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323201,EWICT,Electronics Workshop for ICT,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,2,3,2,3,2,3,2,3,2,3,2,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,3,3,3,3,2,3,3,2,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,4,3,4,5,4,5,4,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,4,4,5,5,4,4,5,3,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,4,4,4,4,4,4,5,5,5,4,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,4,4,5,4,4,4,5,5,5,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,4,3,4,4,3,3,3,4,4,3,4,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,4,5,5,3,5,4,3,5,2,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323202,EDC,Electronics Devices & Circuits,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,4,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,3,3,3,3,3,3,2,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,4,4,4,4,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,4,3,4,5,4,5,4,5,5,4,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,4,5,4,5,4,5,4,5,4,5,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,4,4,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,4,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,3,3,3,3,3,3,3,3,3,3,3,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,4,5,4,4,5,4,4,5,4,4,5,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,3,3,3,2,3,3,4,3,5,4,5,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,1323203,PP,Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,4,3,3,3,4,4,4,4,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,2,2,2,2,2,2,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,3,3,4,4,3,3,3,3,3,5,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,3,4,4,4,5,4,5,4,5,5,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,5,4,4,5,5,5,4,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,5,5,5,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,4,4,4,4,4,3,4,4,4,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,3,3,2,3,3,3,2,2,3,3,2,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,4,3,3,4,3,3,4,4,3,3,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,2,3,2,3,2,3,2,3,2,3,2,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,KAP,Ms. K A Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,3,4,4,4,5,4,5,4,5,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,4,5,4,5,4,5,4,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,5,5,4,5,5,4,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,4,5,5,5,5,5,4,4,4,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,3,3,3,3,3,3,3,3,3,3,2,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,3,4,4,3,3,3,4,4,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,5,5,4,5,4,5,5,4,5,5,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4300016,IC,Indian Constitution,CSP,Mr. C S Pandya,4,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,4,5,4,5,4,5,4,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,4,3,5,4,4,5,4,5,4,4,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,4,4,5,5,5,4,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,4,5,4,5,5,5,5,4,5,5,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,4,4,4,4,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,3,3,2,3,3,2,3,2,3,3,3,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,4,5,4,4,5,4,5,4,5,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,3,2,3,1,2,1,1,3,3,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,4,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,4,3,4,5,4,5,4,4,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,4,4,4,4,4,4,4,3,3,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,4,4,4,4,4,4,5,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,4,5,5,4,4,4,4,5,5,5,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,3,3,3,3,2,2,3,3,3,2,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,4,4,3,3,4,4,3,3,3,3,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,3,3,3,3,2,1,2,1,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4320001,AM,Applied Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,4,5,4,5,4,5,4,5,5,5,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,4,5,4,5,4,5,4,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,4,4,5,5,5,4,4,5,5,4,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,4,5,5,5,4,4,4,4,4,4,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,4,5,5,5,5,4,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,3,3,3,3,2,3,3,2,3,3,3,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,2,3,2,2,2,3,2,2,2,3,2,2
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,4,3,3,3,4,2,2,2,1,1,4
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,ICT,2,19,01/02/24,25/05/24,4321102,DE,Digital Electronics,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,3,3,3,3,3,4,4,4,4,4,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,3,5,5,2,4,2,3,3,1,5,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,4,4,3,3,3,3,3,3,4,4,4,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,4,5,5,4,4,5,4,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,4,3,4,3,3,3,1,2,2,2,1,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,4,4,4,3,3,4,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,3,4,3,4,3,1,2,2,2,2,2,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4300003,E&S,Environment and Sustainability,MJV,Mr. M J Vadhwania,3,3,4,3,4,3,4,4,4,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,4,5,4,5,4,5,4,5,4,5,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,4,4,4,4,5,5,5,5,5,5,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4300005,PHY,Physics,BBM,Mr. B B Mor,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,3,5,4,5,3,3,3,5,4,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,4,4,4,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,4,5,5,5,4,4,4,4,4,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,4,4,4,4,4,4,5,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,4,5,5,5,5,5,5,5,5,5,4,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,CPG,Mr. C P Gehlot,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,4,5,5,4,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,4,4,4,4,4,4,4,3,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,4,4,4,4,4,4,4,3,4,5,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4320002,Maths,Engineering Mathematics,IJC,Mr. I J Chauhan,4,4,4,4,4,5,3,3,4,3,3,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,3,3,2,3,2,3,2,3,2,3,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,3,5,4,3,4,5,5,5,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,3,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,2,3,2,3,2,3,2,3,2,3,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,3,3,4,3,2,3,3,3,4,3,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,3,3,3,3,3,3,3,3,3,3,3,2
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,4,3,4,3,4,3,4,3,4,3,4,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321601,BE,Basic Electronics,JVK,Mr. J V Kureshi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,3,5,5,5,4,5,4,5,4,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,4,5,4,4,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,4,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,4,4,4,4,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,LKP,Mr. L K Patel,4,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,4,5,5,5,4,5,4,5,5,5,4,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,4,5,4,5,5,5,4,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,3,4,3,4,3,4,3,4,3,4,3,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,4,4,5,5,5,5,5,5,4,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,4,3,4,4,4,4,3,4,5,5,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321602,APP,Advanced Python Programming,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,4,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,5,5,5,5,4,5,4,3,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,4,4,3,4,3,4,3,4,3,5,4,4
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,4,5,5,4,5,5,4,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Even,IT,2,20,01/02/24,25/05/24,4321603,ISA,Information Security Awareness,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
