@@ -1,3 +1,32 @@
+# Student Feedback Analysis Report
+
+## Assessment Parameters & Rating Scale
+
+### Assessment Parameters
+
+- **Q1 Syllabus Coverage**: Has the Teacher covered the entire syllabus as prescribed by University/College/Board?
+- **Q2 Topics Beyond Syllabus**: Has the Teacher covered relevant topics beyond the syllabus?
+- **Q3 Pace of Teaching**: Pace at which contents were covered?
+- **Q4 Practical Demo**: Support for the development of student's skill (Practical demonstration)
+- **Q5 Hands-on Training**: Support for the development of student's skill (Hands-on training)
+- **Q6 Technical Skills of Teacher**: Effectiveness of Teacher in terms of: Technical skills
+- **Q7 Communication Skills of Teacher**: Effectiveness of Teacher in terms of: Communication skills
+- **Q8 Doubt Clarification**: Clarity of expectations of students
+- **Q9 Use of Teaching Tools**: Effectiveness of Teacher in terms of: Use of teaching aids
+- **Q10 Motivation**: Motivation and inspiration for students to learn
+- **Q11 Helpfulness of Teacher**: Willingness to offer help and advice to students
+- **Q12 Student Progress Feedback**: Feedback provided on student's progress
+
+### Rating Scale
+
+| Rating | Description |
+|--------|-------------|
+| 1      | Very Poor   |
+| 2      | Poor        |
+| 3      | Average     |
+| 4      | Good        |
+| 5      | Very Good   |
+
 ## Feedback Analysis
 
 ### Branch Analysis (overall)
@@ -8,6 +37,10 @@
 | ICT      |    4.47 |
 
 ### Term-Year Analysis (overall)
+
+**Term duration:**
+- Semester 2: 24/01/25,10/05/25
+- Semester 4 & 6: 18/12/24,28/04/25
 
 |   Year | Term   |   Score |
 |-------:|:-------|--------:|
@@ -25,29 +58,29 @@
 
 ### Subject Analysis (overall)
 
-| Subject Code   | Subject Short Form   |   Score |
-|:---------------|:---------------------|--------:|
-| 4340003        | IPDC                 |    4.54 |
-| 4340304        | ES                   |    4.5  |
-| 4341101        | MM                   |    4.99 |
-| 4341102        | DC                   |    4.96 |
-| 4341104        | CDT                  |    4.9  |
-| 4341105        | LICE                 |    4.94 |
-| 4341106        | AWP                  |    4.96 |
-| 4343201        | DDC                  |    4.59 |
-| 4343202        | CN                   |    4.18 |
-| 4343203        | JP                   |    4.84 |
-| 4343204        | WT                   |    4.64 |
-| 4361101        | CNDC                 |    4.62 |
-| 4361102        | V                    |    4.81 |
-| 4361103        | ECEP                 |    4.94 |
-| 4361104        | AAD                  |    4.63 |
-| 4361106        | REETE                |    4.94 |
-| DI02000051     | ES                   |    4.47 |
-| DI02000081     | PDEW                 |    4.38 |
-| DI02000141     | IPDC                 |    4.42 |
-| DI02032011     | PP                   |    4.6  |
-| DIC02011011    | ECA                  |    4.74 |
+| Subject Code   | Subject Short Form   | Subject Full Name                                           |   Score |
+|:---------------|:---------------------|:------------------------------------------------------------|--------:|
+| 4340003        | IPDC                 | Integrated Personality Development Course                   |    4.54 |
+| 4340304        | ES                   | Embedded System                                             |    4.5  |
+| 4341101        | MM                   | Microprocessor & Microcontroller                            |    4.99 |
+| 4341102        | DC                   | Digital Communication                                       |    4.96 |
+| 4341104        | CDT                  | Circuit Design Tools                                        |    4.9  |
+| 4341105        | LICE                 | Linear Integrated Circuit(Analog Electronics)               |    4.94 |
+| 4341106        | AWP                  | Antenna & Wave Propagation                                  |    4.96 |
+| 4343201        | DDC                  | Digital & Data communication                                |    4.59 |
+| 4343202        | CN                   | Computer Networking                                         |    4.18 |
+| 4343203        | JP                   | Java Programming                                            |    4.84 |
+| 4343204        | WT                   | Web Technologies                                            |    4.64 |
+| 4361101        | CNDC                 | Computer Networks & Data Communication                      |    4.62 |
+| 4361102        | V                    | VLSI                                                        |    4.81 |
+| 4361103        | ECEP                 | Electronics & Communication Engineering Project-II          |    4.94 |
+| 4361104        | AAD                  | Android App Development                                     |    4.63 |
+| 4361106        | REETE                | Renewable Energy & Emerging Trends in Electronics(Elective) |    4.94 |
+| DI02000051     | ES                   | Environmental Sustainability                                |    4.47 |
+| DI02000081     | PDEW                 | PCB Designing & Electronics Workshop                        |    4.38 |
+| DI02000141     | IPDC                 | Integrated Personality Development Course                   |    4.42 |
+| DI02032011     | PP                   | Python Programming                                          |    4.6  |
+| DIC02011011    | ECA                  | Electronics Circuit and Application                         |    4.74 |
 
 ### Faculty Analysis (Overall)
 
@@ -88,33 +121,33 @@
 
 ### Subject Analysis (Parameter-wise)
 
-| Subject Code   | Subject Short Form   | Faculty Name      |   Subject Full Name |   Q1 |   Q2 |   Q3 |   Q4 |   Q5 |   Q6 |   Q7 |   Q8 |   Q9 |   Q10 |   Q11 | Q12                                                         |   Score |
-|:---------------|:---------------------|:------------------|--------------------:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|:------------------------------------------------------------|--------:|
-| 4340003        | IPDC                 | Ms. M K Pedhadiya |                4.86 | 4.71 | 5    | 4.43 | 4.71 | 4.57 | 4.14 | 4.43 | 4.29 | 4.43 |  4.71 |  4.14 | Integrated Personality Development Course                   |    4.54 |
-| 4340304        | ES                   | Ms. M K Pedhadiya |                4.43 | 4.48 | 4.43 | 4.52 | 4.43 | 4.57 | 4.39 | 4.48 | 4.52 | 4.48 |  4.65 |  4.57 | Embedded System                                             |    4.5  |
-| 4341101        | MM                   | Mr. M J Dabgar    |                5    | 5    | 5    | 5    | 5    | 5    | 5    | 4.86 | 5    | 5    |  5    |  5    | Microprocessor & Microcontroller                            |    4.99 |
-| 4341102        | DC                   | Mr. R N Patel     |                5    | 5    | 5    | 5    | 5    | 4.71 | 4.86 | 5    | 5    | 5    |  5    |  5    | Digital Communication                                       |    4.96 |
-| 4341104        | CDT                  | Mr. N J Chauhan   |                5    | 5    | 4.86 | 4.86 | 5    | 4.86 | 4.43 | 4.86 | 5    | 5    |  5    |  5    | Circuit Design Tools                                        |    4.9  |
-| 4341105        | LICE                 | Mr. R C Parmar    |                5    | 5    | 5    | 4.86 | 4.86 | 5    | 4.57 | 5    | 5    | 5    |  5    |  5    | Linear Integrated Circuit(Analog Electronics)               |    4.94 |
-| 4341106        | AWP                  | Mr. R N Patel     |                5    | 5    | 5    | 5    | 5    | 5    | 4.71 | 5    | 5    | 4.86 |  5    |  5    | Antenna & Wave Propagation                                  |    4.96 |
-| 4343201        | DDC                  | Mr. R N Patel     |                4.57 | 4.7  | 4.65 | 4.61 | 4.61 | 4.57 | 4.61 | 4.57 | 4.57 | 4.52 |  4.61 |  4.48 | Digital & Data communication                                |    4.59 |
-| 4343202        | CN                   | Mr. S P Joshiara  |                4.22 | 4.22 | 4.13 | 4.13 | 4.17 | 4.35 | 4.13 | 4.09 | 4.22 | 4.09 |  4.09 |  4.35 | Computer Networking                                         |    4.18 |
-| 4343203        | JP                   | Mr. M J Dabgar    |                4.78 | 4.87 | 4.78 | 4.87 | 4.87 | 4.83 | 4.87 | 4.83 | 4.87 | 4.83 |  4.83 |  4.87 | Java Programming                                            |    4.84 |
-| 4343204        | WT                   | Mr. L K Patel     |                4.83 | 4.87 | 4.83 | 4.87 | 4.78 | 4.87 | 4.83 | 4.83 | 4.87 | 4.83 |  4.83 |  4.83 | Web Technologies                                            |    4.84 |
-| 4343204        | WT                   | Ms. M K Pedhadiya |                4.43 | 4.43 | 4.39 | 4.52 | 4.48 | 4.52 | 4.43 | 4.43 | 4.43 | 4.43 |  4.43 |  4.35 | Web Technologies                                            |    4.44 |
-| 4361101        | CNDC                 | Mr. S P Joshiara  |                4.78 | 4.56 | 4.44 | 4.67 | 4.56 | 4.44 | 4.67 | 4.67 | 4.67 | 4.56 |  4.67 |  4.78 | Computer Networks & Data Communication                      |    4.62 |
-| 4361102        | V                    | Ms. M K Pedhadiya |                4.89 | 4.78 | 4.78 | 4.78 | 4.89 | 4.89 | 4.89 | 4.78 | 4.78 | 4.78 |  4.89 |  4.67 | VLSI                                                        |    4.81 |
-| 4361103        | ECEP                 | Mr. N J Chauhan   |                5    | 5    | 4.89 | 4.89 | 5    | 5    | 4.89 | 4.89 | 5    | 5    |  4.89 |  4.89 | Electronics & Communication Engineering Project-II          |    4.94 |
-| 4361104        | AAD                  | Mr. M J Dabgar    |                4.56 | 4.56 | 4.67 | 4.78 | 4.56 | 4.67 | 4.56 | 4.56 | 4.56 | 4.67 |  4.67 |  4.78 | Android App Development                                     |    4.63 |
-| 4361106        | REETE                | Mr. N J Chauhan   |                5    | 4.89 | 5    | 5    | 5    | 4.89 | 5    | 5    | 4.89 | 4.78 |  4.89 |  4.89 | Renewable Energy & Emerging Trends in Electronics(Elective) |    4.94 |
-| DI02000051     | ES                   | Mr. N J Chauhan   |                4.52 | 4.63 | 4.41 | 4.59 | 4.41 | 4.56 | 4.33 | 4.41 | 4.3  | 4.44 |  4.48 |  4.56 | Environmental Sustainability                                |    4.47 |
-| DI02000081     | PDEW                 | Mr. N J Chauhan   |                4.19 | 4.25 | 4.06 | 4.25 | 4    | 4.25 | 4    | 4.25 | 4.06 | 4.19 |  4.12 |  4.25 | PCB Designing & Electronics Workshop                        |    4.16 |
-| DI02000081     | PDEW                 | Mr. R C Parmar    |                4.38 | 4.38 | 4.44 | 4.5  | 4.44 | 4.38 | 4.25 | 4.38 | 4.31 | 4.38 |  4.31 |  4.44 | PCB Designing & Electronics Workshop                        |    4.38 |
-| DI02000081     | PDEW                 | Mr. S P Joshiara  |                4.45 | 4.55 | 4.64 | 4.55 | 4.55 | 4.64 | 4.64 | 4.64 | 4.73 | 4.64 |  4.64 |  4.64 | PCB Designing & Electronics Workshop                        |    4.61 |
-| DI02000141     | IPDC                 | Mr. L K Patel     |                4.44 | 4.48 | 4.56 | 4.67 | 4.63 | 4.59 | 4.63 | 4.52 | 4.48 | 4.59 |  4.52 |  4.67 | Integrated Personality Development Course                   |    4.56 |
-| DI02000141     | IPDC                 | Mr. R N Patel     |                4.44 | 4.12 | 4.25 | 4.31 | 4.31 | 4.25 | 4.19 | 4.25 | 4.19 | 4.25 |  4.44 |  4.31 | Integrated Personality Development Course                   |    4.28 |
-| DI02032011     | PP                   | Mr. L K Patel     |                4.5  | 4.62 | 4.56 | 4.62 | 4.56 | 4.69 | 4.5  | 4.62 | 4.5  | 4.69 |  4.56 |  4.75 | Python Programming                                          |    4.6  |
-| DIC02011011    | ECA                  | Mr. R C Parmar    |                4.73 | 4.64 | 4.64 | 4.73 | 4.82 | 4.82 | 4.91 | 4.64 | 4.64 | 4.73 |  4.82 |  4.82 | Electronics Circuit and Application                         |    4.74 |
+| Subject Code   | Subject Short Form   | Faculty Initial   |   Q1 |   Q2 |   Q3 |   Q4 |   Q5 |   Q6 |   Q7 |   Q8 |   Q9 |   Q10 |   Q11 |   Q12 |   Score |
+|:---------------|:---------------------|:------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|------:|------:|------:|--------:|
+| 4340003        | IPDC                 | MKP               | 4.86 | 4.71 | 5    | 4.43 | 4.71 | 4.57 | 4.14 | 4.43 | 4.29 |  4.43 |  4.71 |  4.14 |    4.54 |
+| 4340304        | ES                   | MKP               | 4.43 | 4.48 | 4.43 | 4.52 | 4.43 | 4.57 | 4.39 | 4.48 | 4.52 |  4.48 |  4.65 |  4.57 |    4.5  |
+| 4341101        | MM                   | MJD               | 5    | 5    | 5    | 5    | 5    | 5    | 5    | 4.86 | 5    |  5    |  5    |  5    |    4.99 |
+| 4341102        | DC                   | RNP               | 5    | 5    | 5    | 5    | 5    | 4.71 | 4.86 | 5    | 5    |  5    |  5    |  5    |    4.96 |
+| 4341104        | CDT                  | NJC               | 5    | 5    | 4.86 | 4.86 | 5    | 4.86 | 4.43 | 4.86 | 5    |  5    |  5    |  5    |    4.9  |
+| 4341105        | LICE                 | RCP               | 5    | 5    | 5    | 4.86 | 4.86 | 5    | 4.57 | 5    | 5    |  5    |  5    |  5    |    4.94 |
+| 4341106        | AWP                  | RNP               | 5    | 5    | 5    | 5    | 5    | 5    | 4.71 | 5    | 5    |  4.86 |  5    |  5    |    4.96 |
+| 4343201        | DDC                  | RNP               | 4.57 | 4.7  | 4.65 | 4.61 | 4.61 | 4.57 | 4.61 | 4.57 | 4.57 |  4.52 |  4.61 |  4.48 |    4.59 |
+| 4343202        | CN                   | SPJ               | 4.22 | 4.22 | 4.13 | 4.13 | 4.17 | 4.35 | 4.13 | 4.09 | 4.22 |  4.09 |  4.09 |  4.35 |    4.18 |
+| 4343203        | JP                   | MJD               | 4.78 | 4.87 | 4.78 | 4.87 | 4.87 | 4.83 | 4.87 | 4.83 | 4.87 |  4.83 |  4.83 |  4.87 |    4.84 |
+| 4343204        | WT                   | LKP               | 4.83 | 4.87 | 4.83 | 4.87 | 4.78 | 4.87 | 4.83 | 4.83 | 4.87 |  4.83 |  4.83 |  4.83 |    4.84 |
+| 4343204        | WT                   | MKP               | 4.43 | 4.43 | 4.39 | 4.52 | 4.48 | 4.52 | 4.43 | 4.43 | 4.43 |  4.43 |  4.43 |  4.35 |    4.44 |
+| 4361101        | CNDC                 | SPJ               | 4.78 | 4.56 | 4.44 | 4.67 | 4.56 | 4.44 | 4.67 | 4.67 | 4.67 |  4.56 |  4.67 |  4.78 |    4.62 |
+| 4361102        | V                    | MKP               | 4.89 | 4.78 | 4.78 | 4.78 | 4.89 | 4.89 | 4.89 | 4.78 | 4.78 |  4.78 |  4.89 |  4.67 |    4.81 |
+| 4361103        | ECEP                 | NJC               | 5    | 5    | 4.89 | 4.89 | 5    | 5    | 4.89 | 4.89 | 5    |  5    |  4.89 |  4.89 |    4.94 |
+| 4361104        | AAD                  | MJD               | 4.56 | 4.56 | 4.67 | 4.78 | 4.56 | 4.67 | 4.56 | 4.56 | 4.56 |  4.67 |  4.67 |  4.78 |    4.63 |
+| 4361106        | REETE                | NJC               | 5    | 4.89 | 5    | 5    | 5    | 4.89 | 5    | 5    | 4.89 |  4.78 |  4.89 |  4.89 |    4.94 |
+| DI02000051     | ES                   | NJC               | 4.52 | 4.63 | 4.41 | 4.59 | 4.41 | 4.56 | 4.33 | 4.41 | 4.3  |  4.44 |  4.48 |  4.56 |    4.47 |
+| DI02000081     | PDEW                 | NJC               | 4.19 | 4.25 | 4.06 | 4.25 | 4    | 4.25 | 4    | 4.25 | 4.06 |  4.19 |  4.12 |  4.25 |    4.16 |
+| DI02000081     | PDEW                 | RCP               | 4.38 | 4.38 | 4.44 | 4.5  | 4.44 | 4.38 | 4.25 | 4.38 | 4.31 |  4.38 |  4.31 |  4.44 |    4.38 |
+| DI02000081     | PDEW                 | SPJ               | 4.45 | 4.55 | 4.64 | 4.55 | 4.55 | 4.64 | 4.64 | 4.64 | 4.73 |  4.64 |  4.64 |  4.64 |    4.61 |
+| DI02000141     | IPDC                 | LKP               | 4.44 | 4.48 | 4.56 | 4.67 | 4.63 | 4.59 | 4.63 | 4.52 | 4.48 |  4.59 |  4.52 |  4.67 |    4.56 |
+| DI02000141     | IPDC                 | RNP               | 4.44 | 4.12 | 4.25 | 4.31 | 4.31 | 4.25 | 4.19 | 4.25 | 4.19 |  4.25 |  4.44 |  4.31 |    4.28 |
+| DI02032011     | PP                   | LKP               | 4.5  | 4.62 | 4.56 | 4.62 | 4.56 | 4.69 | 4.5  | 4.62 | 4.5  |  4.69 |  4.56 |  4.75 |    4.6  |
+| DIC02011011    | ECA                  | RCP               | 4.73 | 4.64 | 4.64 | 4.73 | 4.82 | 4.82 | 4.91 | 4.64 | 4.64 |  4.73 |  4.82 |  4.82 |    4.74 |
 
 ### Faculty Analysis (Parameter-wise)
 

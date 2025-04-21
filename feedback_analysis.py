@@ -69,13 +69,43 @@ def generate_markdown_report(analysis_result):
         else:
             return f"{x:.2f}" if pd.notna(x) and isinstance(x, (int, float)) else x
 
-    report = "## Feedback Analysis\n\n"
+    report = "# Student Feedback Analysis Report\n\n"
+    
+    report += "## Assessment Parameters & Rating Scale\n\n"
+
+    report += "### Assessment Parameters\n\n"
+    report += "- **Q1 Syllabus Coverage**: Has the Teacher covered the entire syllabus as prescribed by University/College/Board?\n"
+    report += "- **Q2 Topics Beyond Syllabus**: Has the Teacher covered relevant topics beyond the syllabus?\n"
+    report += "- **Q3 Pace of Teaching**: Pace at which contents were covered?\n"
+    report += "- **Q4 Practical Demo**: Support for the development of student's skill (Practical demonstration)\n"
+    report += "- **Q5 Hands-on Training**: Support for the development of student's skill (Hands-on training)\n"
+    report += "- **Q6 Technical Skills of Teacher**: Effectiveness of Teacher in terms of: Technical skills\n"
+    report += "- **Q7 Communication Skills of Teacher**: Effectiveness of Teacher in terms of: Communication skills\n"
+    report += "- **Q8 Doubt Clarification**: Clarity of expectations of students\n"
+    report += "- **Q9 Use of Teaching Tools**: Effectiveness of Teacher in terms of: Use of teaching aids\n"
+    report += "- **Q10 Motivation**: Motivation and inspiration for students to learn\n"
+    report += "- **Q11 Helpfulness of Teacher**: Willingness to offer help and advice to students\n"
+    report += "- **Q12 Student Progress Feedback**: Feedback provided on student's progress\n\n"
+
+    report += "### Rating Scale\n\n"
+    report += "| Rating | Description |\n"
+    report += "|--------|-------------|"
+    report += "\n| 1      | Very Poor   |"
+    report += "\n| 2      | Poor        |"
+    report += "\n| 3      | Average     |"
+    report += "\n| 4      | Good        |"
+    report += "\n| 5      | Very Good   |\n\n"
+
+    report += "## Feedback Analysis\n\n"
 
     report += "### Branch Analysis (overall)\n\n"
     report += analysis_result['branch_scores'].mean(axis=1).reset_index().rename(columns={0: 'Score'}).apply(format_float).to_markdown(index=False)
     report += "\n\n"
 
     report += "### Term-Year Analysis (overall)\n\n"
+    report += "**Term duration:**\n"
+    report += "- Semester 2: 24/01/25,10/05/25\n"
+    report += "- Semester 4 & 6: 18/12/24,28/04/25\n\n"
     report += analysis_result['term_year_scores'].mean(axis=1).reset_index().rename(columns={0: 'Score'}).apply(format_float).to_markdown(index=False)
     report += "\n\n"
 
@@ -84,8 +114,14 @@ def generate_markdown_report(analysis_result):
     report += "\n\n"
 
     report += "### Subject Analysis (overall)\n\n"
-    subject_scores_overall = analysis_result['subject_scores'].groupby(['Subject_Code', 'Subject_ShortForm'])['Score'].mean().reset_index()
-    subject_scores_overall.columns = ['Subject Code', 'Subject Short Form', 'Score']
+    # Get mean scores and first occurrence of Subject_FullName for each subject
+    subject_scores_overall = analysis_result['subject_scores'].groupby(['Subject_Code', 'Subject_ShortForm']).agg({
+        'Subject_FullName': 'first',  # Changed order to match desired output
+        'Score': 'mean'
+    }).reset_index()
+    # Reorder columns to match desired output
+    subject_scores_overall = subject_scores_overall[['Subject_Code', 'Subject_ShortForm', 'Subject_FullName', 'Score']]
+    subject_scores_overall.columns = ['Subject Code', 'Subject Short Form', 'Subject Full Name', 'Score']
     report += subject_scores_overall.apply(format_float).to_markdown(index=False)
     report += "\n\n"
 
@@ -110,11 +146,13 @@ def generate_markdown_report(analysis_result):
 
     report += "### Subject Analysis (Parameter-wise)\n\n"
     subject_scores_param = analysis_result['subject_scores'].copy()  # Create a copy to avoid modifying original
-    # First format the float values
+    # Add faculty initials
+    subject_scores_param['Faculty_Initial'] = subject_scores_param['Faculty_Name'].apply(get_faculty_initial)
+    # Format float values
     subject_scores_param = subject_scores_param.apply(format_float)
-    # Then reorder and rename the columns
-    subject_scores_param = subject_scores_param[['Subject_Code', 'Subject_ShortForm', 'Faculty_Name', 'Subject_FullName'] + [f'Q{i}' for i in range(1, 13)] + ['Score']]
-    subject_scores_param.columns = ['Subject Code', 'Subject Short Form', 'Faculty Name', 'Subject Full Name'] + [f'Q{i}' for i in range(1, 13)] + ['Score']
+    # Select and rename columns, using Faculty_Initial instead of Faculty_Name
+    subject_scores_param = subject_scores_param[['Subject_Code', 'Subject_ShortForm', 'Faculty_Initial'] + [f'Q{i}' for i in range(1, 13)] + ['Score']]
+    subject_scores_param.columns = ['Subject Code', 'Subject Short Form', 'Faculty Initial'] + [f'Q{i}' for i in range(1, 13)] + ['Score']
     report += subject_scores_param.to_markdown(index=False)
     report += "\n\n"
 
