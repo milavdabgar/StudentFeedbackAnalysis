@@ -109,7 +109,11 @@ def generate_markdown_report(analysis_result):
     report += "\n\n"
 
     report += "### Subject Analysis (Parameter-wise)\n\n"
-    subject_scores_param = analysis_result['subject_scores'].apply(format_float)
+    subject_scores_param = analysis_result['subject_scores'].copy()  # Create a copy to avoid modifying original
+    # First format the float values
+    subject_scores_param = subject_scores_param.apply(format_float)
+    # Then reorder and rename the columns
+    subject_scores_param = subject_scores_param[['Subject_Code', 'Subject_ShortForm', 'Faculty_Name', 'Subject_FullName'] + [f'Q{i}' for i in range(1, 13)] + ['Score']]
     subject_scores_param.columns = ['Subject Code', 'Subject Short Form', 'Faculty Name', 'Subject Full Name'] + [f'Q{i}' for i in range(1, 13)] + ['Score']
     report += subject_scores_param.to_markdown(index=False)
     report += "\n\n"
