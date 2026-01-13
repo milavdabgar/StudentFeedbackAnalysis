@@ -1,0 +1,391 @@
+Year,Term,Branch,Sem,Responce_Count,Term_Start,Term_End,Subject_Code,Subject_ShortForm,Subject_FullName,Faculty_Initial,Faculty_Name,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,3,2,1,3,3,1,2,3,3,3,2,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,1,2,1,1,1,2,1,1,3,3,2,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,2,2,3,3,2,3,3,1,3,1,2,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,5,4,3,5,4,5,5,4,4,5,5,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,1,2,1,1,1,2,2,1,1,1,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,3,3,3,3,3,3,2,3,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,3,4,4,5,5,5,4,4,4,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,2,2,2,2,2,3,2,2,2,1,2,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,1,1,1,2,1,1,2,1,1,1,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,1,2,3,4,5,4,3,2,1,2,3,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000031,CS, Communication Skills in English,CMA,Mr. C M Amin,4,4,4,3,3,3,2,2,3,2,2,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,2,3,2,3,2,3,2,2,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,1,2,2,1,2,1,1,1,2,3,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,3,3,3,2,2,2,1,1,1,2,3,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,1,1,1,2,1,1,1,1,2,2,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,3,3,2,3,3,3,3,3,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,5,4,5,5,5,5,5,5,5,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,3,2,2,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,LKP,Mr. L K Patel,4,5,4,5,5,5,5,4,4,5,5,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,3,2,2,3,3,2,3,2,3,2,3,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,3,1,1,1,2,1,2,1,3,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,2,1,2,2,3,3,3,3,2,3,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,3,4,2,3,5,1,2,3,4,4,3,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,1,2,1,2,1,1,2,1,1,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,3,3,3,3,2,3,3,3,2,3,3,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,4,4,5,5,4,5,4,4,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,2,2,2,2,2,2,2,2,2,2,2,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,2,1,2,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,1,1,1,2,2,2,3,4,4,3,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,2,3,4,4,3,3,4,5,3,3,3,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,1,2,1,2,1,1,1,1,2,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,3,2,3,2,3,2,1,2,1,2,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,1,2,3,1,2,3,1,2,3,1,2,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,1,1,2,2,3,1,1,2,3,1,2,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,5,4,4,4,4,4,4,4,3,3,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,3,2,2,3,3,2,3,2,2,2,2,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,1,2,1,1,1,1,2,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,3,4,5,5,5,5,5,4,4,5,4,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,RNP,Mr. R N Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,2,3,2,2,3,2,3,2,3,2,3,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,1,2,1,1,1,1,1,2,1,3,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,3,3,3,2,2,1,2,3,3,2,2,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,5,5,5,5,5,5,5,4,4,5,4,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,1,1,2,1,1,2,1,1,2,1,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,3,3,3,3,3,3,3,3,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,4,4,4,5,4,4,5,4,4,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,3,2,3,3,3,3,3,2,2,2,2,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,5,5,5,5,4,4,5,5,5,4,5,5
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,AMQ,Mr. A M Quershi,4,4,2,3,3,4,5,3,4,1,4,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,3,2,3,2,3,2,3,2,3,2,3,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,1,2,1,2,2,1,1,1,1,3,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,2,1,3,1,3,3,1,2,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,4,2,4,5,5,3,3,3,4,3,3,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,1,2,1,1,2,1,3,1,2,1,1,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,3,3,3,3,3,3,3,3,3,2,3,3
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,2,2,2,2,2,2,1,2,1,1,2,1
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,1,1,1,1,1,1,1,1,1,1,1,2
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,5,4,5,4,5,4,5,4,5,4,5,4
+2024,Odd,EC,1,12,22/07/24,07/12/24,DI01000101,FEE, Fundamentals of Electrical Engineering,RPC,Mr. R P Chavda,3,3,3,3,3,3,3,4,4,4,4,4
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331101,ECN, Electronic Circuits & Networks,RNP,Mr. R N Patel,3,3,3,3,3,3,3,3,3,2,3,3
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331101,ECN, Electronic Circuits & Networks,RNP,Mr. R N Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331101,ECN, Electronic Circuits & Networks,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331101,ECN, Electronic Circuits & Networks,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331101,ECN, Electronic Circuits & Networks,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331102,EMI, Electronic Measurements & Instruments,SPJ,Mr. S P Joshiara,3,2,2,2,3,2,3,2,3,3,3,3
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331102,EMI, Electronic Measurements & Instruments,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331102,EMI, Electronic Measurements & Instruments,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331102,EMI, Electronic Measurements & Instruments,SPJ,Mr. S P Joshiara,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331102,EMI, Electronic Measurements & Instruments,SPJ,Mr. S P Joshiara,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331103,IE, Industrial Electronics,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331103,IE, Industrial Electronics,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331103,IE, Industrial Electronics,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331103,IE, Industrial Electronics,RCP,Mr. R C Parmar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331103,IE, Industrial Electronics,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331104,PEC, Principle of Electronic Communication,SJC,Mr. S J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331104,PEC, Principle of Electronic Communication,SJC,Mr. S J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331104,PEC, Principle of Electronic Communication,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331104,PEC, Principle of Electronic Communication,SJC,Mr. S J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331104,PEC, Principle of Electronic Communication,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331105,PC, Programming In C,RNP,Mr. R N Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331105,PC, Programming In C,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331105,PC, Programming In C,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331105,PC, Programming In C,RNP,Mr. R N Patel,4,4,4,4,5,5,4,4,5,5,5,5
+2024,Odd,EC,3,5,27/06/24,25/10/24,4331105,PC, Programming In C,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,4,5,5,5,4,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,5,5,5,4,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,4,5,4,5,4,5,4,5,3,4,5,3
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,4,5,5,4,5,3,1,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,4,5,4,5,5,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,4,4,4,3,3,4,3,3,3,2,3,4
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,4,4,5,5,5,5,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,5,5,5,5,5,4,4,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,4,5,5,5,4,5,5,3,3,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,4,5,4,4,5,3,5,5,4,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,4,5,5,5,4,4,5,4,4,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,4,3,4,3,3,4,3,4,4,3,3,3
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,5,5,5,5,5,5,5,4,4,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,4,4,5,5,5,5,4,4,5,3,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,5,5,5,5,5,5,5,5,5,5,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,3,3,2,2,3,3,3,1,3,3,2,3
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,4,5,4,5,4,5,5,5,4,4,4,4
+2024,Odd,EC,5,8,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,TDM,Mr. T D Modi,4,3,3,4,4,3,4,3,3,3,3,3
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,4,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,4,4,4,4,5,5,4,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351101,IOT, Internet of Things,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,4,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,5,4,4,5,5,5,5,5,5,5,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351102,ES, Embedded System,MKP,Ms. M K Pedhadiya,4,4,5,4,4,4,5,5,4,2,3,3
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,4,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,3,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,5,5,5,5,5,5,4,4,4,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351103,MWR, Microwave and Radar Communication,RCP,Mr. R C Parmar,4,4,4,4,4,4,5,3,4,4,4,4
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,5,5,5,4,5,5,5,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,4,5,4,5,5,4,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,4,4,5,5,4,5,5,5,4,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,5,5,5,5,4,5,5,4,5,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351104,MWC, Mobile & Wireless Communication,SPJ,Mr. S P Joshiara,3,3,3,2,3,2,2,3,2,2,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,4,5,5,5,5,5,5,4,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351105,SP, Software Practices,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,5,5,5,4,5,5,5,5,4,5,4,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351107,PR1, Electronics and Communication Engineering Project-I,NJC,Mr. N J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,4,5,5,5,4,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,EC,5,8,27/06/24,25/10/24,4351108,OOPS, OOPS & Python Programming,LKP,Mr. L K Patel,5,4,5,4,4,5,4,5,4,5,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,1,2,1,2,1,2,1,2,1,3,2,2
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,4,5,5,3,5,4,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,5,5,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,3,5,3,4,5,4,3,5,4,3,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,4,5,4,5,4,5,4,5,4,4,5,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,5,3,3,4,3,4,4,3,2,5,3,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,4,4,3,4,5,5,4,5,3,4,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000051,FE, Fundamentals of Electronics,RNP,Mr. R N Patel,2,3,4,4,4,4,3,3,4,2,4,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,2,3,1,2,1,2,2,1,2,1,2,2
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,5,5,4,5,5,3,5,4,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,3,3,3,4,5,5,5,5,4,5,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,5,3,3,5,5,5,4,5,5,4,5,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,3,5,4,5,4,4,5,5,4,5,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,3,4,3,3,4,3,2,3,4,3,2,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,3,4,4,3,5,3,4,3,5,3,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SJC,Mr. S J Chauhan,2,3,4,4,4,3,3,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,2,2,2,3,1,5,4,2,3,4,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,4,5,5,5,4,5,5,5,5,3,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,5,4,5,5,4,5,5,4,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,3,4,5,5,4,4,4,5,4,5,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,2,3,2,3,2,2,3,4,3,5,3,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,4,3,5,4,5,3,4,5,4,3,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01000091,FICT, Fundamentals of Information and Communication Technology,SPJ,Mr. S P Joshiara,2,2,3,2,3,2,3,3,2,3,2,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,2,4,2,4,1,2,4,2,4,3,3,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,3,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,4,4,4,5,5,5,5,5,5,5,3,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,4,5,4,3,4,5,3,5,4,4,5,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,5,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,4,5,4,5,5,4,5,5,4,4,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,4,3,4,3,5,5,3,3,5,3,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,MKP,Ms. M K Pedhadiya,4,4,4,4,3,4,4,4,3,4,3,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,2,4,3,5,3,5,3,4,2,5,3,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,4,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,3,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,3,4,5,3,5,4,4,5,3,5,5,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,4,4,4,4,4,5,4,4,4,4,4,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,4,5,4,3,5,4,4,5,4,5,5,4
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,2,3,3,3,4,4,2,3,3,3,2,3
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,5,4,5,4,5,4,4,5,4,3,5,5
+2024,Odd,ICT,1,14,22/07/24,07/12/24,DI01032011,WDP, Web Development Practice,RCP,Mr. R C Parmar,3,2,2,3,2,3,5,4,3,3,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,4,4,4,4,4,4,4,5,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,1,1,1,1,1,1,1,1,1,1,1,1
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,4,4,4,3,4,4,3,4,3,3,3,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,3,3,4,4,5,4,3,5,5,3,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,4,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,3,3,2,3,4,3,3,2,3,3,3,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,5,4,5,4,5,4,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,4,4,4,3,3,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,5,5,5,4,4,5,4,5,3,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,4,3,3,4,4,3,3,3,3,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333201,CE, Communication Engineering,SJC,Mr. S J Chauhan,5,5,4,4,4,4,5,5,5,5,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,2,1,1,1,1,1,2,2,2,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,4,4,4,5,5,5,5,5,5,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,3,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,4,5,5,4,5,5,4,4,5,4,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,4,4,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,4,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333202,MPMC, Microprocessor & Microcontroller Systems,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,3,2,1,2,3,2,1,2,3,2,1,2
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,4,4,4,4,4,3,3,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,3,4,5,4,4,4,5,5,4,4,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,4,3,4,5,4,5,5,5,4,3,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,4,4,4,5,3,5,5,4,3,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,4,5,5,5,5,5,4,4,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333203,DSA, Data Structure and Application,MJD,Mr. M J Dabgar,5,5,5,4,4,4,4,4,4,4,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,1,2,1,2,1,2,1,2,1,2,1,2
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,3,3,3,3,4,4,3,4,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,4,4,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,4,4,5,4,5,4,5,5,4,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,3,3,4,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,4,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,3,3,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,4,5,3,3,4,4,3,3,3,3,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333204,DBMS, Database Management System,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,4,5,5,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,4,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,2,2,2,3,3,3,3,2,2,2,2,2
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,4,4,4
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,3,3,4,5,5,4,5,4,4,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,4,3,3,5,4,5,5,5,4,4,4,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,3,3,3,3,3,3,3,3,3,3,3,3
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,3,16,27/06/24,25/10/24,1333205,OSA, Operating System Administration,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,5,5,4,5,4,5,4,4,4,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,3,4,3,5,4,5,5,2,2,3,3,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,4,4,3,4,3,3,3,3,3,3,4,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,3,3,4,4,4,4,3,3,3,4,4,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,NVO,Mr. N V Oza,4,4,4,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,5,5,5,5,5,5,5,4,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,4,5,4,5,4,5,4,5,5,4,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,5,4,4,4,3,3,5,4,4,4,3,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,4,4,4,4,4,3,3,3,3,3,3,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,3,3,4,4,3,4,3,3,3,3,3,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,DHD,Mr. D H Desai,4,4,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,5,5,4,4,5,4,3,5,3,5,4,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,3,3,3,3,3,4,5,4,4,5,4,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,3,4,4,4,3,3,3,3,4,4,3,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,3,3,4,4,3,4,3,3,4,4,4,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4300021,E&S, Entrepreneurship and Start-ups,MRZ,Mr. M R Zala,4,4,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,4,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,4,4,5,5,5,5,4,4,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353201,WSN, Wireless Sensor Networks and IoT,NJC,Mr. N J Chauhan,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,4,5,4,3,4,4,5,5,5,4,5,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,4,5,5,5,5,4,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,4,5,4,5,5,5,4,4,5,4,4,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,LKP,Mr. L K Patel,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,5,5,5,5,5,5,5,4,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,4,3,5,4,4,4,4,4,5,5,4,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353202,SE, Software Engineering,RCP,Mr. R C Parmar,5,5,5,4,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,5,5,5,4,5,4,5,4,5,4,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,5,3,4,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,4,4,4,4,4,4,3,4,4,4,4,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,4,4,4,5,5,5,5,5,4,4,4,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353203,MAD, Mobile Application Development,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,4,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,5,5,4,5,4,5,5,5,5,4,5,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,3,4,4,4,4,4,4,4,4,4,4,4
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,3,3,3,3,3,3,3,3,3,3,2,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,2,2,3,2,3,2,3,2,2,3,2,3
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353204,CS, Cyber Security,MJD,Mr. M J Dabgar,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,4,4,5,5,5,5,4,5,4,5,4,5
+2024,Odd,ICT,5,7,27/06/24,25/10/24,4353206,VLSI, VLSI Technology,MKP,Ms. M K Pedhadiya,5,5,5,5,5,5,5,5,5,5,5,5
